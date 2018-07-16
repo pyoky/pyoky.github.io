@@ -72,6 +72,13 @@ blockquote:before {
 	color: #3A4750
 }
 
+/**** project introduction ****/
+
+.project-introduction {
+	background-color: rgba(50,50,50,0.1);
+	padding: .25em 1em .25em 1em
+}
+
 /**** directories ****/
 .directories a {
 	font-size: 16px;
