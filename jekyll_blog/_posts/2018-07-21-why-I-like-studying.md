@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why I like studying"
+title:  "Why You Should like studying"
 date:   2018-07-21 8:58 +0900
 categories:
 ---
