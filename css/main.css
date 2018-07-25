@@ -7,14 +7,15 @@ body {
 	max-width: 700px;
 	line-height: 1.6;
 	font-size: 18px;
-	color: rgba(58, 71, 80, 0.75);
-	padding: 0 30px
+	color: #7A7A7A;
+	padding: 0 30px;
 }
 
 ul {
 	list-style-type: none;
     font-family: 'Helvetica'
 }
+
 
 /**** img ****/
 img.align-left {
@@ -35,15 +36,15 @@ img.medium {
 
 /**** blockquote ****/
 blockquote {
-  background: #f9f9f9;
-  border-left: 4px solid #ccc;
+  background: #A6A6A6;
+  border-left: 4px solid #7A7A7A;
   margin: 1.5em 10px;
   padding: 1em 20px;
   padding-left: 30px;
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  color: #ccc;
+  color: #A6A6A6;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -69,17 +70,18 @@ blockquote:before {
 
 /**** introduction ****/
 .introduction h1 {
-	margin-bottom: 2px
+	margin-bottom: 2px;
 }
 .introduction h1, em {
-	color: #3A4750
+	color: #3A4750;
+
 }
 
 
 /**** project introduction ****/
 
 .project-introduction {
-	background-color: rgba(50,50,50,0.1);
+	background-color: #A6A6A6;
 	padding: .25em 1em .25em 1em
 }
 
@@ -113,7 +115,7 @@ blockquote:before {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: rgba(33, 133, 213, .1);
+	background: rgba(33, 133, 213, .1);/* Curious Blue */
 	-webkit-transform: scaleY(0);
 	transform: scaleY(0);
 	-webkit-transform-origin: 50%;
