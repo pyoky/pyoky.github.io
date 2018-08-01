@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Probability"
-date:   2018-07-31 16:57 +0900
+date:   2018-08-01 21:28 +0900
 categories:
 ---
 
