@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Math and CS"
+title:  "Math and Computer Science"
 date:   2018-06-10 21:00 +0900
 categories:
 ---
 
-*This was part of an application form for a summer college course in Number Theory and Cryptography.*
+*This was part of an essay for a summer college course in Number Theory and Cryptography.*
 
 The discipline of mathematics, I believe, is what describes the very nature of who we are — inevitably, though, as the world itself, in my understanding, may be just a complex application of math. Zooming out, however, cryptography and number theory, but more so mathematics in general, are both subjects of my greatest passion, in their practical application, but more in their elegance and meaning.
 
