@@ -2,7 +2,7 @@
 layout: post
 title:  "Three Days at the YSFH Science Immersion Camp"
 date:   2017-11-02 21:00 +0900
-categories:
+categories: Excerpt
 ---
 
 *This report can also be found on my [school website](https://www.stmaur.ac.jp/news/science/three-days-ysfh-science-immersion-camp.*

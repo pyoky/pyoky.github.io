@@ -2,7 +2,7 @@
 layout: post
 title:  "Math and Computer Science"
 date:   2018-06-10 21:00 +0900
-categories:
+categories: Excerpt
 ---
 
 *This was part of an essay for a summer college course in Number Theory and Cryptography.*

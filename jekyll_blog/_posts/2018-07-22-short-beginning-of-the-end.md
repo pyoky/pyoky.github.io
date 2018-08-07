@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "short - Beginning of the End"
+title:  "Beginning of the End"
 date:   2018-07-22 21:17 +0900
-categories:
+categories: Short
 ---
 
 Each experience in life can be lamented over as a the single, unique, “one-time” experience—each moment, therefore is simultaneously a gift and a curse: the gift of uniqueness and creativity, and a curse of the irreversibility, the irrevocability of the event.
