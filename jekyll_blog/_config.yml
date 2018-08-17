@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Making Sense
 email: pyoky3289@gmail.com
-description: This blog aims to reconcile, organize, and share my thoughts.
+description: This blog aims to reconcile, organize, and share my thoughts. Feel free to email feedback.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://pyoky.me" # the base hostname & protocol for your site, e.g. http://example.com
 
