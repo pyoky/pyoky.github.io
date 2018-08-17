@@ -106,20 +106,39 @@ a {
   color: $brand-color;
   text-decoration: none;
 
-  &:visited {
-    color: darken($brand-color, 15%);
+  // Hover underline animation
+  display: inline;
+  position: relative;
+  overflow: hidden;
+
+  &:after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -2px;
+    background: $brand-color;
+    height: 5%;
+    transition-property: left right;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
   }
 
-  &:hover {
-    color: $text-color;
-    text-decoration: underline;
+  &:hover:after, &:focus:after, &:active:after {
+    right: 0;
+  }
+  
+  // Darken visited links
+  &:visited {
+    color: darken($brand-color, 15%);
   }
 
   .social-media-list &:hover {
     text-decoration: none;
 
     .username {
-      text-decoration: underline;
+      //text-decoration: underline;
     }
   }
 }
@@ -132,8 +151,9 @@ blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
   font-style: italic;
 
   > :last-child {

@@ -5,7 +5,7 @@ date:   2017-11-02 21:00 +0900
 categories: Excerpt
 ---
 
-*This report can also be found on my [school website](https://www.stmaur.ac.jp/news/science/three-days-ysfh-science-immersion-camp.*
+*This report can also be found on my [school website](https://www.stmaur.ac.jp/news/science/three-days-ysfh-science-immersion-camp).*
 
 Despite my interest in science, I have always fulfilled my scientific curiosity in solitude; most of my friends did not have as deep a level of appreciation towards the subject as I did, and my teachers had priorities of teaching everyone together.
 

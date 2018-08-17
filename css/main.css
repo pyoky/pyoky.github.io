@@ -3,12 +3,22 @@
 
 body {
 	font-family: 'Helvetica';
-	margin: 40px auto;
+	font-weight: 300;
+	margin: auto;
+	padding: 10px 10px;
 	max-width: 700px;
 	line-height: 1.6;
 	font-size: 18px;
 	color: #7A7A7A;
-	padding: 0 30px;
+  	-webkit-text-size-adjust: 100%;
+  	-webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+	font-kerning: normal;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 }
 
 ul {
@@ -27,6 +37,11 @@ img.align-right {
   float: right;
   margin-left: 10px;
   padding: 10px 10px 10px 10px;
+  
+  display:block; 
+  width: 100%;
+  height: auto;
+  vertical-align: right;
 }
 img.medium {
   width: 250px;
@@ -71,6 +86,7 @@ blockquote:before {
 /**** introduction ****/
 .introduction h1 {
 	margin-bottom: 2px;
+	font-weight: 500;
 }
 .introduction h1, em {
 	color: #3A4750;
@@ -156,12 +172,11 @@ blockquote:before {
 	animation-delay: .4s;
 	/*border-top: 1px solid rgba(58, 71, 80, 0.2);*/
 	padding: 20px 0;
-	margin-top: 32px;
-	margin-bottom: 32px
+
 }
 .social-media li {
 	display: inline-block;
-	font-size: 15px;
+	font-size: 18px;
 	margin-right: 12px;
 	opacity: .6;
 	transition: 100ms

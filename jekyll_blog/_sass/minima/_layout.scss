@@ -1,26 +1,38 @@
+/*
+Specifies the layouts for specific user-defined classes, on top of elements.
+Only change this file if possible.
+*/
+
+
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+
+  background-image: linear-gradient(to right, $brand-color, lighten($brand-color, 10%));
+  
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: $spacing-unit * 0.5;
 
   // Positioning context for the mobile navigation icon
   position: relative;
 }
 
 .site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
+  @include relative-font-size(2); //default 1.625
+  font-family: $base-title-font-family;
+  font-weight: $base-font-weight;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
+
   margin-bottom: 0;
   float: left;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $grey-color-light;
   }
 }
 
@@ -37,7 +49,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $dark-text-color;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -50,10 +62,10 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
+    background-color: lighten($brand-color,10%);
     border: 1px solid $grey-color-light;
-    border-radius: 5px;
     text-align: right;
+    margin-top: 5px;
 
     label[for="nav-trigger"] {
       display: block;
@@ -70,11 +82,11 @@
       width: 36px;
       height: 26px;
       line-height: 0;
-      padding-top: 10px;
+      padding-top: 0px;
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: $dark-text-color;
       }
     }
 
@@ -98,6 +110,7 @@
       margin-left: 20px;
     }
   }
+
 }
 
 
@@ -106,7 +119,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  background-color: $footer-color;
   padding: $spacing-unit 0;
 }
 
@@ -186,6 +199,7 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  display: none; // Remove the obnoxious "Posts" label
 }
 
 .post-list {
@@ -193,8 +207,10 @@
   list-style: none;
 
   > li {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit;    
   }
+
+  
 }
 
 .post-meta {
@@ -203,8 +219,9 @@
 }
 
 .post-link {
-  display: block;
+  //display: block;
   @include relative-font-size(1.5);
+
 }
 
 
@@ -227,7 +244,9 @@
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit * 0.5;
+  //font-family: Georgia;
+  line-height: 1.6;
 
   h2 {
     @include relative-font-size(2);
@@ -252,4 +271,5 @@
       @include relative-font-size(1.125);
     }
   }
+
 }
