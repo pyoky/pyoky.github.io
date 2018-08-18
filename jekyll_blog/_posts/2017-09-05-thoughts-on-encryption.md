@@ -3,6 +3,7 @@ layout: post
 title:  "Thoughs on Encryption"
 date:   2017-09-05 21:00 +0900
 categories: Excerpt
+comments: true
 ---
 
 *This is an extract from the rational of my research on the Enigma Machine.*
