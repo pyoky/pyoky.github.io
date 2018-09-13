@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thoughs on Encryption"
+title:  "Thoughts on Encryption"
 date:   2017-09-05 21:00 +0900
 categories: Excerpt
 comments: true
