@@ -7,7 +7,7 @@ categories: Excerpt
 
 *This report can also be found on my [school website](https://www.stmaur.ac.jp/news/science/three-days-ysfh-science-immersion-camp).*
 
-Despite my interest in science, I have always fulfilled my scientific curiosity in solitude; most of my friends did not have as deep a level of appreciation towards the subject as I did, and my teachers had priorities of teaching everyone together.
+Despite my interest in science, I have always fulfilled my scientific curiosity in solitude; most of my friends did not have as deep a level of appreciation towards the subject as I did, and my teachers had priorities of teaching everyone altogether.
 
 This is not to say, however, that I did not consider science as a fundamentally collaborative  activity. I am aware most research or studies are done as a team, and even if a person works alone, they would not get too far without advice, or any previous work. As Newton once said, “I am standing on the shoulders of giants;” it is just that I haven’t done really exciting, collaborative, science before.
 

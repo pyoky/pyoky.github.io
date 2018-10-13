@@ -5,7 +5,7 @@ date:   2018-07-21 8:58 +0900
 categories:
 ---
 
-Not many of my fellow classmates understand when I say that one of my favorite hobbies is studying—they know why it’s important, but not how to enjoy it. They often seem to have better things to do, than to sit around and work all day. In their eyes, me, enjoying schoolwork—not just a single subject, but work itself—is an abnormality.
+Not many of my fellow classmates understand when I say that one of my favorite hobbies is studying—they know why it’s important, but not how to enjoy it. They often seem to have better things to do, than to sit around and work all day. In their eyes, me, enjoying schoolwork—not just a single subject, but the work itself—is an abnormality.
 
 A necessary detail is that my school is not subject to most problems plaguing many high schools—our teachers are passionate, insightful, and never decline a request for help. There are no serious social issues, and especially since the school is so small, everyone is part of a tightly-knit group. So some of my observation and experiences might be limited to my own school, and I do not deny that many of these insights are only obtainable in a well-maintained education system. But I still do argue that this is how one should approach learning, regardless of their environment.
 
