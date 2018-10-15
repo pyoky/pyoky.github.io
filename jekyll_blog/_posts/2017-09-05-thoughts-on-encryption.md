@@ -6,7 +6,7 @@ categories: Excerpt
 comments: true
 ---
 
-*This is an extract from the rational of my research on the Enigma Machine.*
+*This is an extract from the rationale of my research on the Enigma Machine.*
 
 Encryption is a crucial part of our lives in this age of information. For all practical purposes, though, encryption may seem to be unneeded; Assuming everybody is well-purposed and are “nice” people, there is no reason to hide information. However, by nature humans desire privacy, and that desire is one of the fundamental principles of our complicated modern society. Whether it is to keep military secrets, or to hide your embarrassing texts with your ex-boyfriend, encryption, I believe, represents a technology solely developed for humans. Our craving for privacy and secrecy is what defines our unique identity, and encryption is what enables us to do so in the digital world.
 
@@ -14,4 +14,4 @@ Another significant fact about the Engima machine is that it was defeated. The f
 
 By understanding the mathematics behind the Enigma and the Bombe, I believe I would gain a better understanding of the fundamental ideas behind encryption; how, but more importantly, why, we design encryption.
 
-Here is the [full research](/projects/Enigma/index.html)
+*Here is the [full research](/projects/Enigma/index.html)*
