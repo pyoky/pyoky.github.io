@@ -11,8 +11,8 @@ img.align-right {
   margin-left: 10px;
   padding: 10px 10px 10px 10px;
   
-  display:block; 
-  width: 100%;
+  // display:block; 
+  // width: 100%;
   height: auto;
   vertical-align: right;
 }
@@ -22,13 +22,29 @@ img.medium {
   padding: 10px 10px 10px 10px;
 }
 
+body {
+	max-width: 90%;
+	width: 700px;
+	padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    img.align-right {
+        float: none;
+        vertical-align: center;
+        padding: 0px 0px 20px 0px;
+    }
+    body {
+    	max-width: 80%;
+    }
+}
 
 /**** classes ****/
 
 /**** context ****/
 .context {
     font-family: 'Helvetica';
-	max-width:650px;
+	max-width:600px;
 	line-height: 1;
 	font-size:14px;
 	color: #a6a6a6;
