@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery>
+  <image imageURL="images/2016SC-PK1.jpg"
+	thumbURL="thumbs/2016SC-PK1.jpg"
+	linkURL="images/2016SC-PK1.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/pyoky/Google Drive (Personal)/손표경 (Insight)/Photos for Website/Speech Contest/2016SC-PK1.jpg"
+
+>
+    <title><![CDATA[PK - Exmtemporaneous]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2016SC-PK2.jpg"
+	thumbURL="thumbs/2016SC-PK2.jpg"
+	linkURL="images/2016SC-PK2.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/pyoky/Google Drive (Personal)/손표경 (Insight)/Photos for Website/Speech Contest/2016SC-PK2.jpg">
+    <title><![CDATA[PK - Exmtemporaneous]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2016SC-Awards5.jpg"
+	thumbURL="thumbs/2016SC-Awards5.jpg"
+	linkURL="images/2016SC-Awards5.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/pyoky/Google Drive (Personal)/손표경 (Insight)/Photos for Website/Speech Contest/2016SC-Awards5.jpg">
+    <title><![CDATA[Awards]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2017 Speech Team.jpg"
+	thumbURL="thumbs/2017 Speech Team.jpg"
+	linkURL="images/2017 Speech Team.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/pyoky/Google Drive (Personal)/손표경 (Insight)/Photos for Website/Speech Contest/2017 Speech Team.jpg">
+    <title><![CDATA[2017 Speech Team]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
