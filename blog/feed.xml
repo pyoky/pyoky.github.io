@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://pyoky.me/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pyoky.me/blog/" rel="alternate" type="text/html" /><updated>2018-11-03T23:28:52+09:00</updated><id>https://pyoky.me/blog/feed.xml</id><title type="html">Making Sense</title><subtitle>This blog aims to reconcile, organize, and share my thoughts. Feel free to email feedback.</subtitle><author><name>Pyokyeong Son</name></author><entry><title type="html">Meaningful Values</title><link href="https://pyoky.me/blog/2018/11/03/Meaningful-Value.html" rel="alternate" type="text/html" title="Meaningful Values" /><published>2018-11-03T23:12:00+09:00</published><updated>2018-11-03T23:12:00+09:00</updated><id>https://pyoky.me/blog/2018/11/03/Meaningful-Value</id><content type="html" xml:base="https://pyoky.me/blog/2018/11/03/Meaningful-Value.html">&lt;p&gt;What does it mean for something to be meaningful? We rarely stop and ponder what it truly means; &lt;em&gt;getting into this college is meaningful to me&lt;/em&gt;—but &lt;em&gt;why&lt;/em&gt;? &lt;em&gt;Maintaining this relationship is meaningful to us&lt;/em&gt;—but &lt;em&gt;why&lt;/em&gt;? Dismissing “&lt;em&gt;meaning”&lt;/em&gt; as some inferior, emotional concept is simple enough, but doesn’t provide any practical advice. And still, since we are, regrettably, humans with monkey brains, emotions exists and is inevitable.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="https://pyoky.me/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pyoky.me/blog/" rel="alternate" type="text/html" /><updated>2018-11-28T08:51:26+09:00</updated><id>https://pyoky.me/blog/feed.xml</id><title type="html">Making Sense</title><subtitle>This blog aims to reconcile, organize, and share my thoughts. Feel free to email feedback.</subtitle><author><name>Pyokyeong Son</name></author><entry><title type="html">Guidelines for Productivity</title><link href="https://pyoky.me/blog/2018/11/27/guidelines-for-productivity.html" rel="alternate" type="text/html" title="Guidelines for Productivity" /><published>2018-11-27T21:00:00+09:00</published><updated>2018-11-27T21:00:00+09:00</updated><id>https://pyoky.me/blog/2018/11/27/guidelines-for-productivity</id><content type="html" xml:base="https://pyoky.me/blog/2018/11/27/guidelines-for-productivity.html">&lt;p&gt;While I talked extensively about &lt;em&gt;why&lt;/em&gt; I use productivity, I haven’t revealed any specifics on how I actually work.
+The following is a short list of guidelines and mindsets that might be useful for being more efficient with work. Most of them are from others, collected and slightly modified for myself.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1-guidelines&quot;&gt;Section 1: Guidelines&lt;/h2&gt;
+
+&lt;h3 id=&quot;i-the-mind-is-for-doing-not-memorizing&quot;&gt;I. The mind is for doing, not memorizing.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Prepare system for capturing every idea or to-do item, anywhere, anytime&lt;/li&gt;
+  &lt;li&gt;When capturing, use verbs at the beginning, e.g. “Go though emails from yesterday,” “Read book for literature class”
+If something needs to be memorized, used spaced repetition (e.g. Anki) or memory techniques (e.g. Method of Loci).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ii-organized-captured-items-regularly&quot;&gt;II. Organized captured items regularly&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;If a task is not clearly specified, recall and confirm what needs to be done, and make sure you know the requirements.&lt;/li&gt;
+  &lt;li&gt;Organize captured items into projects, with clear defer/due dates and tags.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;iii-reduce-mental-overhead-for-managing-the-system&quot;&gt;III. Reduce mental overhead for managing the system.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Capturing to-do items and accessing them should both be simple, almost automatic.&lt;/li&gt;
+  &lt;li&gt;Organizing to-do items must be simple. The system must be malleable and easy to use.&lt;/li&gt;
+  &lt;li&gt;Employ minimalism when designing the system, and choose only the most necessary guidelines.&lt;/li&gt;
+  &lt;li&gt;If using a digital device, use the least possible number of programs/services. Use cloud syncing to simplify multi-device access.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;iv-distinguish-between-tasks-that-are-maintenance-and-development-tasks&quot;&gt;IV. Distinguish between tasks that are “Maintenance” and “Development” tasks.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Maintenance tasks are to-do items that do not require much thinking, and takes less time, e.g. “Take out the trash,” “Go though my emails” “Text my friend I won’t be coming tomorrow”&lt;/li&gt;
+  &lt;li&gt;Development tasks are items that require creativity, critical thinking, or takes a lot of time, e.g. “Finish literature commentary essay,” “Brainstorm ideas for science project”&lt;/li&gt;
+  &lt;li&gt;Maintenance tasks can be done in bulk with entertainment, e.g. music, podcasts, television. Development tasks must be done without any form of entertainment.&lt;/li&gt;
+  &lt;li&gt;Development tasks are easily influenced by location and time. Doing a specific task (e.g. writing essays) at a specific location (e.g. at a cafe) will habitify this, and reduce the motivation required to start a task, and also increase efficiency and productivity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;v-prepare-and-use-the-correct-tools&quot;&gt;V. Prepare and use the correct tools.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Any tool required must be present with their backups. Remember: “One is none, Two is one.” Always make sure to have a backup tool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;for-digital-devices&quot;&gt;For Digital Devices:&lt;/h4&gt;
+&lt;p&gt;Filing:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Do not clutter your desktop with files you are working on now. Looking at these files while doing other tasks will distract you, and make finding files harder.&lt;/li&gt;
+  &lt;li&gt;Develop a file system hierarchy. Habitify saving new files at appropriate locations.&lt;/li&gt;
+  &lt;li&gt;Organized misplaces files regularly. See II.&lt;/li&gt;
+  &lt;li&gt;Files must be accessible through any device, even one that is not your own. Use cloud services (e.g. Google Drive, iCloud Drive) to sync files across devices.&lt;/li&gt;
+  &lt;li&gt;Backup files, or sync them using cloud services.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;using&quot;&gt;Using:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Automate repetitive tasks. Learn keyboard shortcuts and habitify them for every program you use. Write scripts and bind them to keyboard shortcuts, gestures, or voice commands.&lt;/li&gt;
+  &lt;li&gt;Use a program that allows you to search and (i) open a file, (ii) open an application, and (iii) open bookmarks, with a click or a type (e.g. Spotlight, Alfred)&lt;/li&gt;
+  &lt;li&gt;Learn touch-typing. You must be able to look at the screen while typing, to the point where the keyboard disappears from your mind—what you think simply appears on the screen.
+Smartphone-specific:&lt;/li&gt;
+  &lt;li&gt;Turn off all notifications during development tasks. But make sure emergency calls are not silenced (using e.g. VIP passthrough) to ensure peace of mind.&lt;/li&gt;
+  &lt;li&gt;Uninstall an app if it constantly distracts as a last resort. Mercilessly delete SNS/Messaging apps if they are bothersome. But do make sure they are easily accessible.&lt;/li&gt;
+  &lt;li&gt;Use a smartphone as a capture device, and sync it with a computer.&lt;/li&gt;
+  &lt;li&gt;Always have a backup battery, headphones, and smartphone.&lt;/li&gt;
+  &lt;li&gt;Other Recommendations (2018):&lt;/li&gt;
+  &lt;li&gt;Use a computer for a main device, not a tablet or a phone.&lt;/li&gt;
+  &lt;li&gt;Use a mac laptop, with iCloud drive.&lt;/li&gt;
+  &lt;li&gt;App recommendations: Omnifocus, Scapple, Apple Notes, Keynote, Preview, PDFExpert, BetterTouchTool, Alfred, Timing.
+    &lt;h4 id=&quot;for-real-life-tools&quot;&gt;For Real Life Tools:&lt;/h4&gt;
+    &lt;h5 id=&quot;tools&quot;&gt;Tools:&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Always have a (i) pen (ii) eraser (iii) mechanical pencil with enough leads and (iv) yellow highlighter.&lt;/li&gt;
+  &lt;li&gt;Prepare required items at bulk so they are not a hinderance when doing tasks. (Buy, e.g., clear folders, A4 paper, printer ink, pens in bulk, online)&lt;/li&gt;
+  &lt;li&gt;Always have staplers. Small ones that fit in pencil cases are available.&lt;/li&gt;
+  &lt;li&gt;Use post-its for anything you like. But always have them handy.
+    &lt;h5 id=&quot;filing&quot;&gt;Filing:&lt;/h5&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prepare a acordian-style multi-tab folder that is labeled clearly.&lt;/li&gt;
+  &lt;li&gt;Use a smaller folder that holds documents related to tasks that need to be done now. Take this everywhere.&lt;/li&gt;
+  &lt;li&gt;Designate locations for these folders so they need not be searched.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-2-mindset&quot;&gt;Section 2: Mindset&lt;/h2&gt;
+
+&lt;h3 id=&quot;i-discipline&quot;&gt;I. Discipline&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Discomfort: “Learn to front-load your pain.” Nothing can be done if the initial pain to get started is not overcome.
+Read and reference: “Self-Discipline in 10 days: How to Go From Thinking to Doing.”&lt;/li&gt;
+  &lt;li&gt;Control: Remove inefficient systems and guidelines mercilessly. Do not be afraid to refuse appointments and responsibilities. Ask for extensions and exceptions as much as is reasonable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ii-value&quot;&gt;II. Value&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Enjoyment: “Effort beats talent. But Enjoyment beats effort.” Make yourself like what you are doing. Search your own reason for enjoyment.&lt;/li&gt;
+  &lt;li&gt;Discipline: Remember that discipline is difficult, but its results are valuable. But if the results do not seem valuable, do not waste mental effort.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;iii-refusal&quot;&gt;III. Refusal&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Do not use the status quo as evidence for choice. Always look for a better system, a better idea.
+(Reiterating) Refuse appointments if they are not valuable. Use energy wisely, and be strategic with time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;iv-focus&quot;&gt;IV. Focus&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Maximize efficiency by focusing. Do only one development task per time period, and do not switch tasks. (Three time blocks per day of about 3 hours, each focusing on a single development task, is a good rule-of-thumb)&lt;/li&gt;
+  &lt;li&gt;Remove distractions and mental overhead by advice from Section 1: Guidelines; touch-typing, keyboard shortcuts, bulk-buying, - removing notifications. One must be able to fully focus on a task for the full amount of the time block.&lt;/li&gt;
+  &lt;li&gt;When finishing a time block, recall if you were fully focused on the one single task. Track time if necessary. (use apps like Timing)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;v-emotional-stability&quot;&gt;V. Emotional Stability&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;One’s mental state influences productivity, especially creativity, wildly, even if it does not seem like it. One cannot focus fully if one is emotional or sleep-deprived.&lt;/li&gt;
+  &lt;li&gt;Sleep and exercise. See infographic: “Sleep is Awesome!”&lt;/li&gt;
+  &lt;li&gt;Maintain bodily hygiene. An uncomfortable body is distracting.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Pyokyeong Son</name></author><summary type="html">While I talked extensively about why I use productivity, I haven’t revealed any specifics on how I actually work. The following is a short list of guidelines and mindsets that might be useful for being more efficient with work. Most of them are from others, collected and slightly modified for myself.</summary></entry><entry><title type="html">Meaningful Values</title><link href="https://pyoky.me/blog/2018/11/03/Meaningful-Value.html" rel="alternate" type="text/html" title="Meaningful Values" /><published>2018-11-03T23:12:00+09:00</published><updated>2018-11-03T23:12:00+09:00</updated><id>https://pyoky.me/blog/2018/11/03/Meaningful-Value</id><content type="html" xml:base="https://pyoky.me/blog/2018/11/03/Meaningful-Value.html">&lt;p&gt;What does it mean for something to be meaningful? We rarely stop and ponder what it truly means; &lt;em&gt;getting into this college is meaningful to me&lt;/em&gt;—but &lt;em&gt;why&lt;/em&gt;? &lt;em&gt;Maintaining this relationship is meaningful to us&lt;/em&gt;—but &lt;em&gt;why&lt;/em&gt;? Dismissing “&lt;em&gt;meaning”&lt;/em&gt; as some inferior, emotional concept is simple enough, but doesn’t provide any practical advice. And still, since we are, regrettably, humans with monkey brains, emotions exists and is inevitable.&lt;/p&gt;
 
 &lt;p&gt;A few moments of consideration leads to the unavoidable question: Why does anything matter if we are going to die anyways? Everything we hold value to will meet an end—from the point of your death, nothing would matter anymore. (Note, though, that this is equally true when death is eliminated; if we live forever, why would doing anything matter? We have (literally) all the time in the world.)&lt;/p&gt;
 
@@ -132,12 +242,4 @@ and wisdom to know the difference.
 
 &lt;p&gt;Second, was the classes. Though I am lucky to study in a school equipped with various scientific equipments, I have to admit, the facilities in the Science Frontier High school was more advanced. The majority of the classes I took was in the labs, and with practical experiments—many that I only learned in theory. It was fascinating to see results that matched the theories that I had learned. I especially enjoyed the astronomy class, during which we calculated the age of the universe using Hubble’s constant, calculated by spectral data collected from real observations.&lt;/p&gt;
 
-&lt;p&gt;In the closing assembly, one of the guest teachers said that the basis for scientific research is communication, and more and more of that is done in English. I was lucky to participate in this camp which not only taught me, but let me experience those words myself, and shifted my view on how science is done—with communication and collaboration.&lt;/p&gt;</content><author><name>Pyokyeong Son</name></author><summary type="html">This report can also be found on my school website.</summary></entry><entry><title type="html">Thoughts on Encryption</title><link href="https://pyoky.me/blog/excerpt/2017/09/05/thoughts-on-encryption.html" rel="alternate" type="text/html" title="Thoughts on Encryption" /><published>2017-09-05T21:00:00+09:00</published><updated>2017-09-05T21:00:00+09:00</updated><id>https://pyoky.me/blog/excerpt/2017/09/05/thoughts-on-encryption</id><content type="html" xml:base="https://pyoky.me/blog/excerpt/2017/09/05/thoughts-on-encryption.html">&lt;p&gt;&lt;em&gt;This is an extract from the rationale of my research on the Enigma Machine.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Encryption is a crucial part of our lives in this age of information. For all practical purposes, though, encryption may seem to be unneeded; Assuming everybody is well-purposed and are “nice” people, there is no reason to hide information. However, by nature humans desire privacy, and that desire is one of the fundamental principles of our complicated modern society. Whether it is to keep military secrets, or to hide your embarrassing texts with your ex-boyfriend, encryption, I believe, represents a technology solely developed for humans. Our craving for privacy and secrecy is what defines our unique identity, and encryption is what enables us to do so in the digital world.&lt;/p&gt;
-
-&lt;p&gt;Another significant fact about the Engima machine is that it was defeated. The fact that the first encryption device, thought to be unbreakable, was broken, reveals how every encryption method is capable of being exploited, and the designer should always keep that fact in mind. Modern encryption methods, however complicated, is theoretically breakable; the currently widely-used RSA algorithms can be defeated using a quantum algorithm; and there have already been advances in replacement technologies for when quantum computing would become mainstream. This shows the basic incompleteness of encryption, and that there is no “perfect” method, only a better one.&lt;/p&gt;
-
-&lt;p&gt;By understanding the mathematics behind the Enigma and the Bombe, I believe I would gain a better understanding of the fundamental ideas behind encryption; how, but more importantly, why, we design encryption.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Here is the &lt;a href=&quot;/projects/Enigma/index.html&quot;&gt;full research&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>Pyokyeong Son</name></author><summary type="html">This is an extract from the rationale of my research on the Enigma Machine.</summary></entry></feed>
+&lt;p&gt;In the closing assembly, one of the guest teachers said that the basis for scientific research is communication, and more and more of that is done in English. I was lucky to participate in this camp which not only taught me, but let me experience those words myself, and shifted my view on how science is done—with communication and collaboration.&lt;/p&gt;</content><author><name>Pyokyeong Son</name></author><summary type="html">This report can also be found on my school website.</summary></entry></feed>
