@@ -1,4 +1,15 @@
-
+@font-face {
+	font-family: 'BMEULJIRO';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+@font-face { 
+	font-family: 'GyeonggiBatang'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+	 font-weight: normal; 
+	 font-style: normal; 
+	}
 
 html {
 	background-color: #1A1A1A;
@@ -6,7 +17,7 @@ html {
 }
 
 body {
-	font-family: Palatino;
+	font-family: Palatino, "Times New Roman", serif;
 	font-style: italic;
 	color: #F2F2F2;
 	margin: 0 auto;
@@ -30,64 +41,69 @@ a {
 
 
 .navbar {
-	font-family: "Avenir Next";
+	font-family: "Avenir Next", Lato, Sans-serif;
 	font-style: normal;
 	font-variant-caps: all-small-caps;
 	display: flex;
+	flex-wrap: wrap;
 }
 
-	.navbar a {
+	.navbar * {
 		text-decoration: none;
 		letter-spacing: 0.1em;
 		padding-right: 25px;
 		color: #F2F2F2;
 	}
-	.navbar a:before {
-		color: #F2F2F2;
-		background-color: #1A1A1A;
-	}
 
-	.navbar a:hover:before {
-		background-color: #F2F2F2;
-		color: #1A1A1A;
-		
+	/*
+	.navbar .sns-nav {
+		display: none;
 	}
+	.navbar .sns-label:hover ~ .sns-nav {
+		display: block;
+	}
+	.navbar .sns-nav:hover ~ .sns-nav {
+		display: block;
+	}*/
 
 
 .separator {
 	margin-top: 40px; 
 	margin-bottom: 40px; 
-  height: 4px;
-  width: 40px;
-  background-color: #E6E6E6;
+	height: 4px;
+	width: 40px;
+	background-color: #E6E6E6;
 }
-	.separator-writing {
-		margin-top: 40px; 
+.separator-writing {
+	margin-top: 40px; 
 	margin-bottom: 40px; 
-		height: 4px;
-		width: 40px;
-		background-color: #FFE52B;
-	}
+	height: 4px;
+	width: 40px;
+	background-color: #FFE52B;
+}
 
-	.separator-double {
-		margin-top: 40px; 
-		margin-bottom: 40px; 
-		display: flex;
-		height: 4px;
-		width: 80px;
-	}
-	.separator-cs {
-	  height: 100%;
-	  width: 100%;
-	  background-color: #B4D293;
-	}
-	.separator-math {
-	  height: 100%;
-	  width: 100%;
-	  background-color: #0097DB;
-	}
-	
+.separator-double {
+	margin-top: 40px; 
+	margin-bottom: 40px; 
+	display: flex;
+	height: 4px;
+	width: 80px;
+}
+.separator-cs {
+	height: 100%;
+	width: 100%;
+	background-color: #B4D293;
+}
+.separator-math {
+	height: 100%;
+	width: 100%;
+	background-color: #0097DB;
+}
 
+
+.introduction	{
+	padding-top: 10px;
+}
 
 .introduction p {
 	margin: 0;
@@ -99,11 +115,21 @@ a {
 		padding: 0 15px;
 	}
 
+	@media screen and (max-width: 600px) {
+    .introduction h2 .japanese {
+      display: block;
+    }
+    .introduction p {
+    	margin-top: 10px;
+    }
+  }
+
+
 
 
 	.introduction a {
-	  	position: relative;
-	  	text-decoration: none;
+		position: relative;
+		text-decoration: none;
 	}
 
 	.introduction a:before {
@@ -145,28 +171,28 @@ a {
 	}
 
 @keyframes animate-in {
-    0% {
-        box-shadow: inset 0 0 0 0 #31302B;
-        color:#31302B;
-        background: #FFF;
-    }
-    100% {
-        box-shadow: inset 100px 0 0 0 #31302B;
-        color:#FFF;
-        background: #FFF;
-    }
+	0% {
+		box-shadow: inset 0 0 0 0 #31302B;
+		color:#31302B;
+		background: #FFF;
+	}
+	100% {
+		box-shadow: inset 100px 0 0 0 #31302B;
+		color:#FFF;
+		background: #FFF;
+	}
 }
 @keyframes animate-out {
-    0% {
-        box-shadow: inset 0 0 0 0 #FFF; 
-        background: #31302B;
-        color:#FFF;
-    }
-    100% {
-        box-shadow: inset 100px 0 0 0 #FFF; 
-        background: #31302B;
-        color:#31302B;
-    }
+	0% {
+		box-shadow: inset 0 0 0 0 #FFF; 
+		background: #31302B;
+		color:#FFF;
+	}
+	100% {
+		box-shadow: inset 100px 0 0 0 #FFF; 
+		background: #31302B;
+		color:#31302B;
+	}
 }
 
 
@@ -174,53 +200,53 @@ a {
 .project-cs {
 	padding: 25px 0px 25px 10%;
 }
-	.tag {
-		font-family: "Avenir Next";
-		line-height: 0;
-		font-size: 0.9em;
-	}
+.tag {
+	font-family: "Avenir Next", Lato, Sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 0.7em;
+}
 
-	.project-cs h3 {
-		font-weight: normal;
-		margin-top: 0;
-		line-height: 1;
-		font-size: 1.5em;
-	}
+.project-cs h3 {
+	font-weight: normal;
+	margin-top: 0;
+	font-size: 1.5em;
+}
 
-	.project-links {
-		font-family: "Avenir Next";
-		display: flex;
+.project-links {
+	font-family: "Avenir Next", Lato, Sans-serif;
+	display: flex;
 
-	}
+}
 
 
-	.project-links a {
-		margin-right: 20px;
-	}
+.project-links a {
+	margin-right: 20px;
+}
 
-	.project-links a:hover i {
-		transform: translate(0.2em,-0.2em);
-		transition: all 0.1s ease-out;
-		
-	}
+.project-links a:hover i {
+	transform: translate(0.2em,-0.2em);
+	transition: all 0.1s ease-out;
 	
-	
+}
+
+
 .skills-cs {
 	display: flex;
 	flex-wrap: wrap;
 	padding-left: 10%;
 }
 
-	.skill {
-		font-family: "Avenir Next";
-		font-size: 1.4em;
-		margin-right: 20px;
-		padding:0;
-		min-width: 40%;
-	}
-	.skills-cs > p {
-		font-size: 1.4em;
-	}
+.skill {
+	font-family: "Avenir Next", Lato, Sans-serif;
+	font-size: 1.4em;
+	margin-right: 20px;
+	padding:0;
+	min-width: 40%;
+}
+.skills-cs > p {
+	font-size: 1.4em;
+}
 
 
 
@@ -231,68 +257,73 @@ a {
 .essay-writing {
 	padding: 25px 0px 25px 10%;
 }
-	.essay-writing .tag {
-		font-family: "Avenir Next";
-		line-height: 0;
-		font-size: 0.9em;
-	}
+.essay-writing .tag {
+	font-family: "Avenir Next", Lato, Sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 0.7em;
+}
 
-	.essay-writing h3 {
-		font-weight: normal;
-		margin-top: 0;
-		margin-bottom: 0.5em;
-		line-height: 1;
-		font-size: 2.3em;
-	}
+.essay-writing h3 {
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	font-size: 2.3em;
+}
 
-	.essay-links {
-		font-family: "Avenir Next";
-		display: flex;
+.essay-links {
+	font-family: "Avenir Next", Lato, Sans-serif;
+	display: flex;
 
-	}
+}
 
 
-	.essay-links a {
-		margin-right: 20px;
-	}
+.essay-links a {
+	margin-right: 20px;
+}
 
-	.essay-links a:hover i {
-		transform: translate(0.2em,-0.2em);
-		transition: all 0.1s ease-out;
-		
-	}
+.essay-links a:hover i {
+	transform: translate(0.2em,-0.2em);
+	transition: all 0.1s ease-out;
 	
+}
+
 .academic-writing {
 	padding: 25px 0px 25px 10%;
 }
-	.academic-writing .tag {
-		font-family: "Avenir Next";
-		line-height: 0;
-		font-size: 0.9em;
-	}
+.academic-writing .tag {
+	font-family: "Avenir Next", Lato, Sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 0.7em;
+}
 
-	.academic-writing h3 {
-		font-weight: normal;
-		margin-top: 0;
-		margin-bottom: 0.5em;
-		line-height: 1;
-		font-size: 1.5em;
-	}
+.academic-writing h3 {
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	font-size: 1.5em;
+}
 
-	.academic-links {
-		font-family: "Avenir Next";
-		display: flex;
+.academic-links {
+	font-family: "Avenir Next", Lato, Sans-serif;
+	display: flex;
 
-	}
+}
 
 
-	.academic-links a {
-		margin-right: 20px;
-	}
+.academic-links a {
+	margin-right: 20px;
+}
 
-	.academic-links a:hover i {
-		transform: translate(0.2em,-0.2em);
-		transition: all 0.1s ease-out;
-		
-	}
+.academic-links a:hover i {
+	transform: translate(0.2em,-0.2em);
+	transition: all 0.1s ease-out;
+	
+}
 
+
+.back-to-top {
+	font-family: "Avenir Next", Lato, Sans-serif;
+	padding-bottom: 40px;
+}
