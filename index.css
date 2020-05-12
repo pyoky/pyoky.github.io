@@ -232,7 +232,7 @@ a {
 
 
 .skills-cs {
-	display: flex;
+	/*display: flex;*/
 	flex-wrap: wrap;
 	padding-left: 10%;
 }

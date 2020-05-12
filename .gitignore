@@ -2,3 +2,4 @@ build_site.sublime-build
 jekyll_blog/*
 essays/*
 Website\ Design.afdesign 
+.DS_Store
