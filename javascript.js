@@ -2,7 +2,7 @@ $(function() {
 
   // Smooth scrolling to anchors
   $('a[href^="#"]').click(function (event) {
-    event.preventDefault();
+    // event.preventDefault();
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);

@@ -15,7 +15,7 @@ body {
   max-width: 960px;
   margin: auto;
 }
-@media screen and (min-width: 500px) {
+@media only screen and (max-width: 1000px) {
   body {
     max-width: 90%;
     margin-right: 5%;
@@ -40,6 +40,15 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-size: 1.62rem;
+  }
+}
 a {
   font-family: inherit;
   font-style: none;
@@ -198,6 +207,10 @@ a {
   margin-right: 20px;
   width: 40%;
   min-width: 40%;
+}
+
+a.back-top {
+  font-family: "Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*

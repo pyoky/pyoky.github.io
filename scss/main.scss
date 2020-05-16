@@ -44,10 +44,11 @@ body {
 	max-width: 960px;
 	margin: auto;
 
-	@media screen and (min-width: 500px) {
+	@media only screen and (max-width: 1000px) {
 		max-width: 90%;
 		margin-right: 5%;
 		margin-left: 5%;
+
 	}
 }
 
@@ -61,6 +62,8 @@ body {
 
 	text-decoration: none !important;
 	color: $white;
+
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -72,6 +75,12 @@ h1, h2, h3, h4, h5 {
 
 	margin-top: 5px;
 	margin-bottom: 20px;
+
+}
+
+@media only screen and (max-width: 1000px) {
+	body { font-size: $body-font-size * 0.9; }
+	h1, h2, h3, h4, h5 { font-size: $heading-font-size * 0.9; }
 
 }
 
@@ -257,15 +266,19 @@ a {
 
 
 .list-container.skills.cs-math { // for the specific section for cs and math skills list
-		display: flex;
-		flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 
-		div {
-			margin-right: 20px;
-			width: 40%;
-			min-width: 40%;
-		}
+	div {
+		margin-right: 20px;
+		width: 40%;
+		min-width: 40%;
 	}
+}
+
+a.back-top {
+	font-family: $font-family-sans-serif;
+}
 
 
 
