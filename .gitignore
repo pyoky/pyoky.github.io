@@ -1,6 +1,4 @@
-build_site.sublime-build
-jekyll_blog/*
-essays/*
+*.sublime-project
+*.sublime-workspace
 Website\ Design.afdesign 
 .DS_Store
-bootstrap-sass/*

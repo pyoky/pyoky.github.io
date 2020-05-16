@@ -1,5 +1,5 @@
 /*
- * Font Settings
+ * Font Variables
  */
 @font-face {
   font-family: "GyeonggiBatang";
@@ -8,7 +8,7 @@
   font-style: normal;
 }
 /*
- * Color Settings
+ * Color Variables
  */
 body {
   background-color: #1A1A1A;
@@ -23,6 +23,9 @@ body {
   }
 }
 
+/*
+ * Default font styling through the whole document
+ */
 body {
   font-family: Palatino, "Times New Roman", Times, serif;
   font-style: italic;
@@ -81,6 +84,9 @@ a {
   padding-right: 25px;
 }
 
+/*
+ * Separator line properties
+ */
 .separator {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -110,7 +116,7 @@ a {
   background-color: #0097DB;
 }
 
-/**
+/*
  * Introduction Section
  */
 .introduction {
@@ -154,14 +160,14 @@ a {
   background-color: #FFE52B;
 }
 .introduction .saint-maur:hover {
-  background: linear-gradient(45deg, #f3ec78, #af4261);
+  background: linear-gradient(45deg, red, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
 .introduction .duke-univ:hover {
-  background: linear-gradient(45deg, blue, grey);
+  background: linear-gradient(45deg, grey, blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
@@ -199,6 +205,9 @@ a {
   font-size: 0.9rem;
 }
 
+/*
+ * Settings specific to a part of a section
+ */
 .list-container.skills.cs-math {
   display: flex;
   flex-wrap: wrap;
@@ -234,7 +243,7 @@ $container-max-widths: (
 	xl: 960px
 	);
 
-@import "../bootstrap";
+@import "../bootstrap/scss/bootstrap";
 
 */
 
