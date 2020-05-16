@@ -5,186 +5,226 @@
 
   <title>Pyokyeong Son</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="application-name" content="Pyokyeong Son's Website">
 
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="scss/output/main.css">
   <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	<script type="text/javascript" src="javascript.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	
+  
+ <script type="text/javascript" src="javascript.js"></script>
 	<script src="https://kit.fontawesome.com/41b7efd9e7.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-	<div class="navbar">
-		<a href="assets/2020_01_Resume.pdf" target="_blank">Resume</a>
-		<a href="blog/" target="_blank">Blog</a>
-		<a href="gallery/brain-bowl-2018/" target="_blank">Gallery</a>
-<!--     <div href="" class="sns-label">More</div>
- -->    
-    <a href="https://www.linkedin.com/in/pk-son/" target="_blank" class="sns-nav">LinkedIn</a>
-    <a href="https://github.com/pyoky" target="_blank" class="sns-nav">GitHub</a>
-    <a href="https://www.facebook.com/pyoky.son" target="_blank" class="sns-nav">FB</a>
-    <a href="https://www.instagram.com/pyoky/" target="_blank" class="sns-nav">IG</a>
+	<!-- div including all elements of body -->
+	<div class="container">
 
-	</div>
+		<!-- Navigation Bar -->
+		<div class="navbar container">
+			<a class="col-sm" href="assets/2020_01_Resume.pdf" target="_blank">Resume</a>
+			<a class="col-sm" href="blog/" target="_blank">Blog</a>
+			<a class="col-sm" href="gallery/brain-bowl-2018/" target="_blank">Gallery</a>
+	<!--     <div href="" class="sns-label">More</div>
+	 -->    
+	    <a href="https://www.linkedin.com/in/pk-son/" target="_blank" class="sns-nav">LinkedIn</a>
+	    <a href="https://github.com/pyoky" target="_blank" class="sns-nav">GitHub</a>
+	    <a href="https://www.facebook.com/pyoky.son" target="_blank" class="sns-nav">FB</a>
+	    <a href="https://www.instagsram.com/pyoky/" target="_blank" class="sns-nav">IG</a>
 
-	<div class="content">
-
-		<section class="introduction">
-			<h2>
-				<span style="padding-left: 0;">Pyokyeong Son</span>/
-				<span class="korean" style="font-family: 'GyeonggiBatang'; font-style: normal;">손표경</span>/
-				<span class="japanese" style="font-family: 'Kokoro'; font-style: normal; letter-spacing: -0.2em">ソン・ピョギョン</span>
-			</h2>          
-
-			<div class="separator"></div>
-
-			<p style="padding-bottom: 20px;">Korean, in Japan, studying at America.</p>
-			<p>Undergraduate with academic interest 
-				<a class="hover-cs" href="#cs-math" style="color: #B4D293;">Computer Science</a>, Economics.
-			</p>
-			<p>Hobbies in 
-				<a class="hover-gd" href="#graphic-design" style="color: #D53F77;">Graphic Design</a>,
-				<a class="hover-mh" href="#cs-math" style="color: #0097DB;">Math</a>, and 
-				<a class="hover-wr" href="#writing" style="color: #FFE52B;">Writing</a>.
-			</p>
-
-			<div class="separator"></div>
-
-			<p><a class="saint-maur" href="https://www.stmaur.ac.jp" target="_blank">Saint Maur Int'l School</a> — Yokohama, Japan — Class of 2019</p>
-			<p><a class="duke-univ" href="https://www.duke.edu" target="_blank">Duke University</a> — Durham, NC — Class of 2019</p>
-
-		</section>
+		</div>
+		<!-- END navigation bar -->
 
 
-		<section id="cs-math" class="cs-math">
+		<!-- Introduction section -->
+		<div>
+			<!-- Container for introduction section -->
+			<section class="introduction container">
 
-			<div class="separator-double">
-				<div class="separator-cs"></div>
-				<div class="separator-math"></div>
-			</div>
+				<!-- Name in different languages -->
+				<h2>
+					<span style="padding-left: 0;">Pyokyeong Son</span>/
+					<span class="korean">손표경</span>/
+					<span class="japanese">ソン・ピョギョン</span>
+				</h2>          
 
-			<h2><span style="color: #B4D293;">Computer Science</span> <span style="color: #0097DB;">& Math</span> | Projects</h2>
+				<!-- Separator -->
+				<div class="separator"></div>
 
-			<div class="project-cs">
-				<p class="tag"><i class="fa fa-tag"></i>&nbsp;&nbsp;Computational Mathematics, Automated Theorem Proving</p>
-				<h3>Exploration of Fundamental Mathematics via Implementation of Common Axiom Systems and Proof Generation</h3>
+				<!-- Self-introduction -->
+				<p style="padding-bottom: 20px;">Korean, in Japan, studying at America.</p>
+				<p>Undergraduate with academic interest 
+					<a class="cs" href="#cs-math" style="color: #B4D293;">Computer Science</a>, Economics.
+				</p>
+				<p>Hobbies in 
+					<a class="gd" href="#graphic-design" style="color: #D53F77;">Graphic Design</a>,
+					<a class="mh" href="#cs-math" style="color: #0097DB;">Math</a>, and 
+					<a class="wr" href="#writing" style="color: #FFE52B;">Writing</a>.
+				</p>
 
-				<div class="project-links">
-					<a href="https://community.wolfram.com/groups/-/m/t/1382544" target="_blank">Computational Essay&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+				<!-- Separator -->
+				<div class="separator"></div>
+
+				<!-- List of attended/attending schools -->
+				<p><a class="saint-maur" href="https://www.stmaur.ac.jp" target="_blank">Saint Maur Int'l School</a> — Yokohama, Japan — Class of 2019</p>
+				<p><a class="duke-univ" href="https://www.duke.edu" target="_blank">Duke University</a> — Durham, NC — Class of 2019</p>
+
+			</section>
+			<!-- END introduction section -->
+
+			<!-- CS and Math Section -->
+			<section id="cs-math" class="cs-math">
+
+				<!-- Separator -->
+				<div class="separator double">
+					<div class="separator cs"></div>
+					<div class="separator math"></div>
+				</div>
+
+				<!-- Section Title -->
+				<h2><span style="color: #B4D293;">Computer Science</span> <span style="color: #0097DB;">& Math</span> | Projects</h2>
+
+				<!-- List of Projects -->
+				<div class="list-container">
+					<div class="list-element project cs-math">
+						<p class="tags"><i class="fa fa-tags"></i>&nbsp;&nbsp;Computational Mathematics, Automated Theorem Proving</p>
+						<h3>Exploration of Fundamental Mathematics via Implementation of Common Axiom Systems and Proof Generation</h3>
+
+						<div class="links">
+							<a href="https://community.wolfram.com/groups/-/m/t/1382544" target="_blank">Computational Essay&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+						</div>
+					</div>
+
+					<div class="list-element project cs-math">
+						<p class="tags"><i class="fa fa-tags"></i>&nbsp;&nbsp;Machine Learning, Optimization</p>
+						<h3>Evaluation of Optimization Algorithms for Machine Learning Applications</h3>
+
+						<div class="links">
+							<a href="https://github.com/pyoky/nn-optimization-visualization" target="_blank">Code&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+							<a href="assets/Evaluation_of_Optimization_Algorithms_for_Machine_Learning_Applications.pdf" target="_blank">Paper&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+
+						</div>
+					</div>
+
+					<div class="list-element project cs-math">
+						<p class="tags"><i class="fa fa-tags"></i>&nbsp;&nbsp;Cryptography</p>
+						<h3>Mathematics of Deciphering the Enigma Machine</h3>
+
+						<div class="links">
+							<a href="https://github.com/pyoky/enigma-python" target="_blank">Code&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+							<a href="assets/The_Mathematics_of_Deciphering_the_Enigma_Machine.pdf" target="_blank">Paper&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- End list of projects -->
+
+				<h2><span style="color: #B4D293;">Computer Science</span> <span style="color: #0097DB;">& Math</span> | Skills</h2>
+				
+
+				<!-- List of skills -->
+				<div class="list-container skills cs-math">
+					<div class="skill"><h3>Swift & iOS <br />App Development</h3></div>
+					<div class="skill"><h3>HTML & CSS <br />Front-End Web Dev</h3></div>
+					<div class="skill"><h3>Wolfram <br />Mathematica <br />& Language</h3></div>
+					<div class="skill"><h3>Linux  System <br />Administration</h3></div>
+				</div>
+
+				<div class="more-skills cs">
+					<h3>C, Java, Python, Wolfram Language, Swift, HTML & CSS, Bash</h3>
+				</div>
+				<!-- End list of skills -->
+
+		</section> 
+		<!-- End cs and math section -->
+
+		<!-- Writing section -->
+		<section id="writing" class="writing">
+
+			<!-- Section Separator -->
+			<div class="separator writing"></div>
+
+			<!-- Section Title -->
+			<h2><span style="color: #FFE52B;">Writing</span> | Essays</h2>
+
+			<!-- List of Essays -->
+			<div class="list-container">
+				<div class="list-element essay">
+					<p class="tags">2019.09.  Application for Duke Chronicle</p>
+					<h3>Intermission</h3>
+
+					<div class="essay links">
+						<a href="assets/Intermission.pdf" target="_blank">PDF&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+
+
+				<div class="list-element essay">
+					<p class="tags">2018.11.  Private Tutoring</p>
+					<h3>Guidelines and Mindsets <br />for Efficiency and Productivity</h3>
+		      <div class="essay links">
+						<a href="assets/Guidelines_and_Mindsets_for_Productivity.pdf" target="_blank">PDF
+							&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+					</div>
 				</div>
 			</div>
-		</section>
-
-		<div class="project-cs">
-			<p class="tag"><i class="fa fa-tag"></i>&nbsp;&nbsp;Machine Learning, Optimization</p>
-			<h3>Evaluation of Optimization Algorithms for Machine Learning Applications</h3>
-
-			<div class="project-links">
-				<a href="https://github.com/pyoky/nn-optimization-visualization" target="_blank">Code&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-				<a href="assets/Evaluation_of_Optimization_Algorithms_for_Machine_Learning_Applications.pdf" target="_blank">Paper&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-
-			</div>
-		</div>
-
-		<div class="project-cs">
-			<p class="tag"><i class="fa fa-tag"></i>&nbsp;&nbsp;Cryptography</p>
-			<h3>Mathematics of Deciphering the Enigma Machine</h3>
-
-			<div class="project-links">
-				<a href="https://github.com/pyoky/enigma-python" target="_blank">Code&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-				<a href="assets/The_Mathematics_of_Deciphering_the_Enigma_Machine.pdf" target="_blank">Paper&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-			</div>
-		</div>
-
-		<h2><span style="color: #B4D293;">Computer Science</span> <span style="color: #0097DB;">& Math</span> | Skills</h2>
-
-		<div class="skills-cs row">
-			<div class="skill col-md-6"><p>Swift & iOS <br />App Development</p></div>
-			<div class="skill col-md-6"><p>HTML & CSS <br />Front-End Web Dev</p></div>
-			<div class="skill col-md-6"><p>Wolfram <br />Mathematica <br />& Language</p></div>
-			<div class="skill col-md-6"><p>Linux  System <br />Administration</p></div>
-		</div>
-
-		<div class="skills-cs">
-			<p>C, Java, Python, Wolfram Language, Swift, HTML & CSS, Bash</p>
-		</div>
-
-	</section>
-
-
-	<section id="writing" class="writing">
-
-		<div class="separator-writing"></div>
-
-		<h2><span style="color: #FFE52B;">Writing</span> | Essays</h2>
-
-		<div class="essay-writing">
-			<p class="tag">2019.09.  Application for Duke Chronicle</p>
-			<h3>Intermission</h3>
-
-			<div class="essay-links">
-				<a href="assets/Intermission.pdf" target="_blank">PDF&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-			</div>
-		</div>
-
-
-		<div class="essay-writing">
-			<p class="tag">2018.11.  Private Tutoring</p>
-			<h3>Guidelines and Mindsets <br />for Efficiency and Productivity</h3>
-      <div class="essay-links">
-				<a href="assets/Guidelines_and_Mindsets_for_Productivity.pdf" target="_blank">PDF
-					&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
-				</div>
-			</div>
+			<!-- END List of Essays -->
 
 			<h2><span style="color: #FFE52B;">Writing</span> | Academic</h2>
 
-			<div class="academic-writing">
-				<p class="tag">2019.12. Focus 195FS — Music, Medicine and Natural Science</p>
-				<h3>The Reflection of Renaissance Humanism in East Asian Philosophy from an Artistic, Medical, and Musical Perspective of Korea</h3>
+			<!-- List of Academic Writings -->
+			<div class="list-container">
+				<div class="list-element academic">
+					<p class="tags">2019.12. Focus 195FS — Music, Medicine and Natural Science</p>
+					<h3>The Reflection of Renaissance Humanism in East Asian Philosophy from an Artistic, Medical, and Musical Perspective of Korea</h3>
 
-				<div class="essay-links">
-					<a href="assets/The_Reflection_of_Renaissance_Humanism_in_East_Asian_Philosophy_from_an_Artistic_ Medical_and_Musical_Perspective_of_Korea.pdf" target="_blank">PDF&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+					<div class="essay links">
+						<a href="assets/The_Reflection_of_Renaissance_Humanism_in_East_Asian_Philosophy_from_an_Artistic_ Medical_and_Musical_Perspective_of_Korea.pdf" target="_blank">PDF&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+
+				<div class="list-element academic">
+					<p class="tags">2020.04. Writing 101 — Myth of Meritocracy</p>
+					<h3>The Myth of Meritocracy and False Hope in Korean College Admissions and Preparation</h3>
+
+					<div class="essay links">
+						<a href="assets/The_Myth_of_Meritocracy_and_False_Hope_in_Korean_College_Admissions_and_Preparation.pdf" target="_blank">PDF
+							&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
+	          </a>
+					</div>
+				</div>
+
+				<div class="list-element academic">
+					<p class="tags">2019.07. IB Japanese Language and Literature</p>
+					<h3>羅生門 Alt.</h3>
+
+					<div class="essay links">
+						<a href="assets/Rashomon_Alt.pdf" target="_blank">PDF
+							&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
+	          </a>
+					</div>
 				</div>
 			</div>
+			<!-- END List of Academic Writings -->
 
-
-			<div class="academic-writing">
-				<p class="tag">2020.04. Writing 101 — Myth of Meritocracy</p>
-				<h3>The Myth of Meritocracy and False Hope in Korean College Admissions and Preparation</h3>
-
-				<div class="essay-links">
-					<a href="assets/The_Myth_of_Meritocracy_and_False_Hope_in_Korean_College_Admissions_and_Preparation.pdf" target="_blank">PDF
-						&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
-          </a>
-				</div>
-			</div>
-
-			<div class="academic-writing">
-				<p class="tag">2019.07. IB Japanese Language and Literature</p>
-				<h3>羅生門 Alt.</h3>
-
-				<div class="essay-links">
-					<a href="assets/Rashomon_Alt.pdf" target="_blank">PDF
-						&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
-          </a>
-				</div>
-			</div>
 		</section>
+		<!-- END Writing section -->
 
+
+		<!-- back to top button -->
     <div style="margin-bottom: 10px;" class="separator"></div>
 
     <a class="back-to-top" href="#top">Back to top</a>
+    <!-- END back to top button -->
+
+
 
 	</div>
 </body>

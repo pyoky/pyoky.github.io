@@ -1,0 +1,295 @@
+
+/*
+ * Font Settings
+ */
+
+@font-face { 
+	font-family: 'GyeonggiBatang'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+	font-weight: normal; 
+	font-style: normal; 
+}
+
+// Font Family Settings
+$font-family-sans-serif:  	"Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       	Palatino, "Times New Roman", Times, serif;
+
+// Specialized Font Stack for Korean and Japanese
+$kor-font-stack:						'GyeonggiBatang', serif;
+$jap-font-stack:						'Kokoro', serif;
+
+// Font size settings
+$heading-font-size: 				1.8rem;
+$body-font-size:						1.0rem;
+
+/*
+ * Color Settings
+ */
+
+$yellow:										#FFE52B;
+$green:											#B4D293;
+$blue:											#0097DB;
+$red:												#D53F77;
+$black:											#1A1A1A;
+$white:											#F2F2F2;
+
+
+// Separator rectangle properties
+$separator-height:					4px;
+$separator-width:						40px;
+
+// default variables applying to the whole body
+body {
+	background-color:	$black; // background color to black
+	max-width: 960px;
+	margin: auto;
+
+	@media screen and (min-width: 500px) {
+		max-width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+}
+
+
+
+// Default font styling through the whole document
+body {
+	font-family: $font-family-serif;
+	font-style: italic;
+	font-size: $body-font-size;
+
+	text-decoration: none !important;
+	color: $white;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+	font-size: $heading-font-size;
+
+	text-decoration: none !important;
+	color: $white;
+
+	margin-top: 5px;
+	margin-bottom: 20px;
+
+}
+
+
+a {
+	font-family: inherit;
+	font-style: none;
+	font-size: inherit;
+
+	text-decoration: none !important;
+	color: $white;
+}
+
+.korean {
+	font-family: $kor-font-stack;
+	font-style: normal;
+}
+
+.japanese {
+	font-family: $jap-font-stack;
+	font-style: normal;
+	letter-spacing: -0.2em;
+}
+
+
+
+/* 
+ * Top navigation bar properties
+ */
+
+.navbar {
+	font-family: $font-family-sans-serif;
+	font-style: normal;
+
+	a { // The links in the navigation bars
+		font-variant-caps: all-small-caps;
+		letter-spacing: 0.1rem; // increase space of letters
+		padding-right: 25px; // space each other out
+	}
+}
+
+.separator {
+	margin-top: 40px; // some margins in top and bottom
+	margin-bottom: 40px; 
+
+	height: $separator-height;
+	width: $separator-width;
+
+	background-color: $white;
+
+	&.writing {
+		background-color: $yellow;
+	}
+
+	&.double {
+		width: $separator-width * 2;
+		display: flex;
+	}
+
+	&.cs {
+		margin-top: 0; 
+		margin-bottom: 0; 
+		height: 100%;
+		width: 100%;
+		background-color: $green;
+	}
+
+	&.math {
+		margin-top: 0;
+		margin-bottom: 0;
+		height: 100%;
+		width: 100%;
+		background-color: $blue;
+	}
+
+}
+
+/**
+ * Introduction Section
+ */
+
+.introduction	{
+	padding-top: 10px;
+
+	p {
+		margin: 0;
+		padding-bottom: 0;
+		font-size: $body-font-size * 1.5; // slightly bigger font size b/c it's introduction
+	}
+
+	h2 span { // have some space between the slash and names in languages
+		padding: 0 15px;
+	}
+
+// Hovering animation for links to topics
+
+	a {
+		position: relative;
+		text-decoration: none !important;
+
+		&:before {
+			content: "";
+			position: absolute;
+			width: 0;
+			bottom: 0;
+			height: 2px;
+
+		}
+
+		&:hover:before 
+		{
+			left: 0;
+			right: auto;
+			width: 100%;
+			transition: width 0.3s ease-out;
+		}
+		
+		&.cs:before 						{ background-color: $green; }
+		&.graphic-design:before { background-color: $red; }
+		&.math:before 					{ background-color: $blue; }
+		&.writing:before 				{ background-color: $yellow; }
+	}
+
+// Hovering animation for links to school websites
+
+	.saint-maur:hover {
+		background: linear-gradient(45deg, #f3ec78, #af4261);
+
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent; 
+		-moz-background-clip: text;
+		-moz-text-fill-color: transparent;
+	}
+	.duke-univ:hover {
+		background: linear-gradient(45deg, blue, grey);
+
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent; 
+		-moz-background-clip: text;
+		-moz-text-fill-color: transparent;
+	}
+}
+
+/* 
+ * Settings common to all sections (CS, Writing, etc.)
+ */
+
+// container for the projects, essays, etc.
+.list-container {
+	padding-left: 10%; // indent everything slightly to the left;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+
+// links inside the essays, projects, etc.
+.links {
+	font-family: $font-family-sans-serif;
+	display: flex;
+
+	a {
+		margin-right: 20px;
+
+		&:hover i {
+			transform: translate(0.2em,-0.2em);
+			transition: all 0.1s ease-out;
+			
+		}
+	}
+}
+
+.list-element  {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.tags {
+	font-family: $font-family-sans-serif;
+	font-size: $body-font-size * 0.9;
+}
+
+
+
+
+.list-container.skills.cs-math { // for the specific section for cs and math skills list
+		display: flex;
+		flex-wrap: wrap;
+
+		div {
+			margin-right: 20px;
+			width: 40%;
+			min-width: 40%;
+		}
+	}
+
+
+
+/*
+
+// Bootstrap variables override
+$body-bg: 									#1A1A1A;
+$text-color: 								#F2F2F2;
+
+// Fonts - bootstrap override
+$font-family-sans-serif:  	"Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       	Palatino, "Times New Roman", Times, serif;
+$headings-font-family:    	$font-family-serif;
+
+
+
+// Bootstrap container width customization
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 960px
+	);
+
+@import "../bootstrap";
+
+*/

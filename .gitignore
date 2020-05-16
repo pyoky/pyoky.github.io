@@ -3,3 +3,4 @@ jekyll_blog/*
 essays/*
 Website\ Design.afdesign 
 .DS_Store
+bootstrap-sass/*

@@ -1,0 +1,228 @@
+/*
+ * Font Settings
+ */
+@font-face {
+  font-family: "GyeonggiBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+ * Color Settings
+ */
+body {
+  background-color: #1A1A1A;
+  max-width: 960px;
+  margin: auto;
+}
+@media screen and (min-width: 500px) {
+  body {
+    max-width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+
+body {
+  font-family: Palatino, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1rem;
+  text-decoration: none !important;
+  color: #F2F2F2;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+  font-size: 1.8rem;
+  text-decoration: none !important;
+  color: #F2F2F2;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+a {
+  font-family: inherit;
+  font-style: none;
+  font-size: inherit;
+  text-decoration: none !important;
+  color: #F2F2F2;
+}
+
+.korean {
+  font-family: "GyeonggiBatang", serif;
+  font-style: normal;
+}
+
+.japanese {
+  font-family: "Kokoro", serif;
+  font-style: normal;
+  letter-spacing: -0.2em;
+}
+
+/* 
+ * Top navigation bar properties
+ */
+.navbar {
+  font-family: "Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+}
+.navbar a {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.1rem;
+  padding-right: 25px;
+}
+
+.separator {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 4px;
+  width: 40px;
+  background-color: #F2F2F2;
+}
+.separator.writing {
+  background-color: #FFE52B;
+}
+.separator.double {
+  width: 80px;
+  display: flex;
+}
+.separator.cs {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #B4D293;
+}
+.separator.math {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0097DB;
+}
+
+/**
+ * Introduction Section
+ */
+.introduction {
+  padding-top: 10px;
+}
+.introduction p {
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 1.5rem;
+}
+.introduction h2 span {
+  padding: 0 15px;
+}
+.introduction a {
+  position: relative;
+  text-decoration: none !important;
+}
+.introduction a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  bottom: 0;
+  height: 2px;
+}
+.introduction a:hover:before {
+  left: 0;
+  right: auto;
+  width: 100%;
+  transition: width 0.3s ease-out;
+}
+.introduction a.cs:before {
+  background-color: #B4D293;
+}
+.introduction a.graphic-design:before {
+  background-color: #D53F77;
+}
+.introduction a.math:before {
+  background-color: #0097DB;
+}
+.introduction a.writing:before {
+  background-color: #FFE52B;
+}
+.introduction .saint-maur:hover {
+  background: linear-gradient(45deg, #f3ec78, #af4261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.introduction .duke-univ:hover {
+  background: linear-gradient(45deg, blue, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+/* 
+ * Settings common to all sections (CS, Writing, etc.)
+ */
+.list-container {
+  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.links {
+  font-family: "Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+}
+.links a {
+  margin-right: 20px;
+}
+.links a:hover i {
+  transform: translate(0.2em, -0.2em);
+  transition: all 0.1s ease-out;
+}
+
+.list-element {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.tags {
+  font-family: "Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+.list-container.skills.cs-math {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-container.skills.cs-math div {
+  margin-right: 20px;
+  width: 40%;
+  min-width: 40%;
+}
+
+/*
+
+// Bootstrap variables override
+$body-bg: 									#1A1A1A;
+$text-color: 								#F2F2F2;
+
+// Fonts - bootstrap override
+$font-family-sans-serif:  	"Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       	Palatino, "Times New Roman", Times, serif;
+$headings-font-family:    	$font-family-serif;
+
+
+
+// Bootstrap container width customization
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 960px
+	);
+
+@import "../bootstrap";
+
+*/
+
+/*# sourceMappingURL=main.css.map */
