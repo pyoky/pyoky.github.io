@@ -39,6 +39,8 @@ $white:											#F2F2F2;
 $separator-height:					4px;
 $separator-width:						40px;
 
+$body-side-margin-small:					10px;
+
 // default variables applying to the whole body
 body {
 	background-color:	$black; // background color to black
@@ -46,10 +48,8 @@ body {
 	margin: auto;
 
 	@media only screen and (max-width: 1000px) {
-		max-width: 90%;
-		margin-right: 5%;
-		margin-left: 5%;
-
+		margin-right: $body-side-margin-small;
+		margin-left: $body-side-margin-small;
 	}
 }
 
@@ -59,17 +59,18 @@ body {
  */
 
 body {
-	font-family: $font-family-serif;
-	font-style: italic;
+	font-family: $font-family-sans-serif;
+	font-style: normal;
 	font-size: $body-font-size;
 
 	text-decoration: none !important;
 	color: $white;
 
-	
+
 }
 
 h1, h2, h3, h4, h5 {
+	font-family: $font-family-sans-serif;
 	font-weight: normal;
 	font-size: $heading-font-size;
 
@@ -81,9 +82,14 @@ h1, h2, h3, h4, h5 {
 
 }
 
+h3 {
+	font-family: $font-family-serif;
+}
+
+
 @media only screen and (max-width: 1000px) {
-	body { font-size: $body-font-size * 0.9; }
-	h1, h2, h3, h4, h5 { font-size: $heading-font-size * 0.9; }
+	body { font-size: $body-font-size * 0.8; }
+	h1, h2, h3, h4, h5 { font-size: $heading-font-size * 0.8; }
 
 }
 
@@ -108,7 +114,7 @@ a {
 	letter-spacing: -0.2em;
 }
 
-/* 
+/*
  * Top navigation bar properties
  */
 
@@ -116,11 +122,21 @@ a {
 	font-family: $font-family-sans-serif;
 	font-style: normal;
 
-	a { // The links in the navigation bars
+	.sns-nav { // The links in the navigation bars
 		font-variant-caps: all-small-caps;
 		letter-spacing: 0.1rem; // increase space of letters
 		padding-right: 25px; // space each other out
+
+		@media only screen and (max-width: 1000px) {
+			letter-spacing: 0.05; // increase space of letters
+
+			padding-right: 5px; // space each other out
+
+		}
+
 	}
+
+
 }
 
 /*
@@ -129,7 +145,7 @@ a {
 
 .separator {
 	margin-top: 40px; // some margins in top and bottom
-	margin-bottom: 40px; 
+	margin-bottom: 40px;
 
 	height: $separator-height;
 	width: $separator-width;
@@ -146,8 +162,8 @@ a {
 	}
 
 	&.cs {
-		margin-top: 0; 
-		margin-bottom: 0; 
+		margin-top: 0;
+		margin-bottom: 0;
 		height: 100%;
 		width: 100%;
 		background-color: $green;
@@ -159,6 +175,10 @@ a {
 		height: 100%;
 		width: 100%;
 		background-color: $blue;
+	}
+
+	&.graphic-design {
+		background-color: $red;
 	}
 
 }
@@ -173,7 +193,7 @@ a {
 	p {
 		margin: 0;
 		padding-bottom: 0;
-		font-size: $body-font-size * 1.5; // slightly bigger font size b/c it's introduction
+		font-size: $body-font-size * 1.2; // slightly bigger font size b/c it's introduction
 	}
 
 	h2 span { // have some space between the slash and names in languages
@@ -195,14 +215,14 @@ a {
 
 		}
 
-		&:hover:before 
+		&:hover:before
 		{
 			left: 0;
 			right: auto;
 			width: 100%;
 			transition: width 0.3s ease-out;
 		}
-		
+
 		&.cs:before 						{ background-color: $green; }
 		&.graphic-design:before { background-color: $red; }
 		&.math:before 					{ background-color: $blue; }
@@ -214,7 +234,7 @@ a {
 		background: linear-gradient(45deg, red, yellow);
 
 		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent; 
+		-webkit-text-fill-color: transparent;
 		-moz-background-clip: text;
 		-moz-text-fill-color: transparent;
 	}
@@ -222,13 +242,13 @@ a {
 		background: linear-gradient(45deg, grey, blue);
 
 		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent; 
+		-webkit-text-fill-color: transparent;
 		-moz-background-clip: text;
 		-moz-text-fill-color: transparent;
 	}
 }
 
-/* 
+/*
  * Settings common to all sections (CS, Writing, etc.)
  */
 
@@ -251,7 +271,7 @@ a {
 		&:hover i {
 			transform: translate(0.2em,-0.2em);
 			transition: all 0.1s ease-out;
-			
+
 		}
 	}
 }
@@ -282,12 +302,76 @@ a {
 	}
 }
 
+.graphic-design-big-image {
+	display: block;
+	margin: auto;
+	width: 1000px;
+
+	@media only screen and (max-width: 700px) {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.graphic-design-images-container {
+	margin: auto;
+	padding: 20px 0;
+	width: 1000px;
+	display: grid;
+	grid-template-columns: auto auto;
+	//grid-row-gap: 10px;
+	//grid-column-gap: 10px;
+
+	@media only screen and (max-width: 700px) {
+
+		padding: 0;
+		width: 100%;
+		grid-template-columns: 100%;
+		margin: 0;
+	}
+}
+
+.graphic-design-grid-element {
+	width: 100%;
+	opacity: 1;
+}
+
+.graphic-design-label {
+}
+
 
 // Back to top link
 a.back-top {
 	font-family: $font-family-sans-serif;
 }
 
+.toBeFadedIn {
+	visibility: hidden;
+}
+
+.layered-image {
+	position: relative;
+	top: 0;
+	left:0;
+}
+
+.overlay-image {
+	position: absolute;
+	top: 0;
+	left:0;
+}
+
+.fadeIn {
+	-webkit-animation: animat_show 0.8s;
+	animation: animat_show 0.8s;
+	visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+	0%{opacity:0}
+	100%{opacity:1}
+}
 
 /*
 

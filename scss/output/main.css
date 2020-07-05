@@ -17,9 +17,8 @@ body {
 }
 @media only screen and (max-width: 1000px) {
   body {
-    max-width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 
@@ -27,14 +26,15 @@ body {
  * Default font styling through the whole document
  */
 body {
-  font-family: Palatino, "Times New Roman", Times, serif;
-  font-style: italic;
+  font-family: "Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
   font-size: 1rem;
   text-decoration: none !important;
   color: #F2F2F2;
 }
 
 h1, h2, h3, h4, h5 {
+  font-family: "Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 1.8rem;
   text-decoration: none !important;
@@ -43,13 +43,17 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 20px;
 }
 
+h3 {
+  font-family: Palatino, "Times New Roman", Times, serif;
+}
+
 @media only screen and (max-width: 1000px) {
   body {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   h1, h2, h3, h4, h5 {
-    font-size: 1.62rem;
+    font-size: 1.44rem;
   }
 }
 a {
@@ -71,17 +75,23 @@ a {
   letter-spacing: -0.2em;
 }
 
-/* 
+/*
  * Top navigation bar properties
  */
 .navbar {
   font-family: "Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
 }
-.navbar a {
+.navbar .sns-nav {
   font-variant-caps: all-small-caps;
   letter-spacing: 0.1rem;
   padding-right: 25px;
+}
+@media only screen and (max-width: 1000px) {
+  .navbar .sns-nav {
+    letter-spacing: 0.05;
+    padding-right: 5px;
+  }
 }
 
 /*
@@ -115,6 +125,9 @@ a {
   width: 100%;
   background-color: #0097DB;
 }
+.separator.graphic-design {
+  background-color: #D53F77;
+}
 
 /*
  * Introduction Section
@@ -125,7 +138,7 @@ a {
 .introduction p {
   margin: 0;
   padding-bottom: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .introduction h2 span {
   padding: 0 15px;
@@ -174,7 +187,7 @@ a {
   -moz-text-fill-color: transparent;
 }
 
-/* 
+/*
  * Settings common to all sections (CS, Writing, etc.)
  */
 .list-container {
@@ -218,10 +231,74 @@ a {
   min-width: 40%;
 }
 
+.graphic-design-big-image {
+  display: block;
+  margin: auto;
+  width: 1000px;
+}
+@media only screen and (max-width: 700px) {
+  .graphic-design-big-image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.graphic-design-images-container {
+  margin: auto;
+  padding: 20px 0;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+@media only screen and (max-width: 700px) {
+  .graphic-design-images-container {
+    padding: 0;
+    width: 100%;
+    grid-template-columns: 100%;
+    margin: 0;
+  }
+}
+
+.graphic-design-grid-element {
+  width: 100%;
+  opacity: 1;
+}
+
 a.back-top {
   font-family: "Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.toBeFadedIn {
+  visibility: hidden;
+}
+
+.layered-image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fadeIn {
+  -webkit-animation: animat_show 0.8s;
+  animation: animat_show 0.8s;
+  visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*
 
 // Bootstrap variables override
