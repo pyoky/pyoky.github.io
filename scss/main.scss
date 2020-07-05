@@ -15,7 +15,7 @@ $font-family-sans-serif:  	"Avenir Next", Lato, "Helvetica Neue", Helvetica, Ari
 $font-family-serif:       	Palatino, "Times New Roman", Times, serif;
 
 // Specialized Font Stack for Korean and Japanese
-$kor-font-stack:						'GyeonggiBatang', serif;
+$kor-font-stack:						serif;
 $jap-font-stack:						'Kokoro', serif;
 
 // Font size settings
@@ -197,7 +197,7 @@ a {
 	}
 
 	h2 span { // have some space between the slash and names in languages
-		padding: 0 15px;
+		padding-right: 0 15px 0 0;
 	}
 
 // Hovering animation for links to topics

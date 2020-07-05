@@ -65,7 +65,7 @@ a {
 }
 
 .korean {
-  font-family: "GyeonggiBatang", serif;
+  font-family: serif;
   font-style: normal;
 }
 
@@ -141,7 +141,7 @@ a {
   font-size: 1.2rem;
 }
 .introduction h2 span {
-  padding: 0 15px;
+  padding-right: 0 15px 0 0;
 }
 .introduction a {
   position: relative;
