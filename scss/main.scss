@@ -3,19 +3,32 @@
  * Font Variables
  */
 
-@font-face { 
-	font-family: 'GyeonggiBatang'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
-	font-weight: normal; 
-	font-style: normal; 
+
+
+@font-face {
+  font-family: 'SeoulHangangM';
+  src:
+    url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SeoulNamsanM';
+  src: 
+    url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') 
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 // Font Family Settings
-$font-family-sans-serif:  	"Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-serif:       	Palatino, "Times New Roman", Times, serif;
+$font-family-sans-serif:  	"Avenir Next", Lato, Helvetica, 'SeoulNamsanM', Arial, sans-serif;
+$font-family-serif:       	Palatino, "Times New Roman", Times, 'SeoulHangangM', serif;
 
 // Specialized Font Stack for Korean and Japanese
-$kor-font-stack:						serif;
+$kor-font-stack:						'SeoulNamsanM', serif;
 $jap-font-stack:						'Kokoro', serif;
 
 // Font size settings

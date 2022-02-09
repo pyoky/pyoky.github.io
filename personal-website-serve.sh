@@ -1,5 +1,4 @@
 #!/bin/zsh
 
-cd ~/source/personal_website/;
-python -m SimpleHTTPServer 8000;
-open http://localhost:8000;
+python -m SimpleHTTPServer 8008;
+open http://localhost:8008;
