@@ -1,4 +1,3 @@
 #!/bin/zsh
 
-python -m SimpleHTTPServer 8008;
-open http://localhost:8008;
+python -m SimpleHTTPServer 5000;

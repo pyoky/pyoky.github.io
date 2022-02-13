@@ -52,15 +52,16 @@ $white:											#F2F2F2;
 $separator-height:					4px;
 $separator-width:						40px;
 
-$body-side-margin-small:					10px;
+$body-side-margin-small:		10px;
 
+$mobile-size:               700px;
 // default variables applying to the whole body
 body {
 	background-color:	$black; // background color to black
-	max-width: 960px;
+	max-width: 700px;
 	margin: auto;
 
-	@media only screen and (max-width: 1000px) {
+	@media only screen and (max-width: $mobile-size) {
 		margin-right: $body-side-margin-small;
 		margin-left: $body-side-margin-small;
 	}
@@ -100,7 +101,7 @@ h3 {
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: $mobile-size) {
 	body { font-size: $body-font-size * 0.8; }
 	h1, h2, h3, h4, h5 { font-size: $heading-font-size * 0.8; }
 
@@ -137,6 +138,11 @@ a {
 
 	.sns-nav { // The links in the navigation bars
 		font-variant-caps: all-small-caps;
+    font-size: $body-font-size;
+    &.korean {
+      font-size: $body-font-size * 1.1;
+    }
+
 		letter-spacing: 0.1rem; // increase space of letters
 		padding-right: 25px; // space each other out
 
@@ -200,10 +206,16 @@ a {
  * Introduction Section
  */
 
+
 .introduction	{
 	padding-top: 10px;
 
-	p {
+  .intro-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+ 	p {
 		margin: 0;
 		padding-bottom: 0;
 		font-size: $body-font-size * 1.2; // slightly bigger font size b/c it's introduction

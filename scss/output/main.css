@@ -16,9 +16,9 @@
  */
 body {
   background-color: #1A1A1A;
-  max-width: 960px;
+  max-width: 700px;
   margin: auto; }
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 700px) {
     body {
       margin-right: 10px;
       margin-left: 10px; } }
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5 {
 h3 {
   font-family: Palatino, "Times New Roman", Times, "SeoulHangangM", serif; }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
   body {
     font-size: 0.8rem; }
 
@@ -75,8 +75,11 @@ a {
   font-style: normal; }
   .navbar .sns-nav {
     font-variant-caps: all-small-caps;
+    font-size: 1rem;
     letter-spacing: 0.1rem;
     padding-right: 25px; }
+    .navbar .sns-nav.korean {
+      font-size: 1.1rem; }
     @media only screen and (max-width: 1000px) {
       .navbar .sns-nav {
         letter-spacing: 0.05;
@@ -116,6 +119,10 @@ a {
  */
 .introduction {
   padding-top: 10px; }
+  .introduction .intro-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
   .introduction p {
     margin: 0;
     padding-bottom: 0;

@@ -16,13 +16,10 @@
 	<link href="//fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet" type="text/css">
 	<!-- The GyeonggiBatang font face for Korean text is in main.css -->
 
-	<!-- Dependencies for Bootstrap -->
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script src="//cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/41b7efd9e7.js" crossorigin="anonymous"></script>
 	<!-- Custom Javascript -->
@@ -36,15 +33,12 @@
 
 	<!-- Navigation Bar -->
 	<div class="navbar container">
-		<a class="col-sm sns-nav" href="assets/Pyokyeong_Son_Resume_Korean.pdf" target="_blank">이력서 </a>
-		<a class="col-sm sns-nav" href="gallery/brain-bowl-2018/" target="_blank">갤러리</a>
-		<!--     <div href="" class="sns-label">More</div>
-         -->
-		<a href="//medium.com/@pyoky3289" target="_blank" class="sns-nav">블로그</a>
-		<a href="//www.linkedin.com/in/pk-son/" target="_blank" class="sns-nav">링크드인</a>
-		<a href="//github.com/pyoky" target="_blank" class="sns-nav">깃헙</a>
-		<a href="//www.facebook.com/pyoky.son" target="_blank" class="sns-nav">페이스북</a>
-		<a href="//www.instagsram.com/pyoky/" target="_blank" class="sns-nav">인스타</a>
+		<a class="col-sm sns-nav korean" href="assets/Pyokyeong_Son_Resume_Korean.pdf" target="_blank">이력서 </a>
+		<a class="col-sm sns-nav korean" href="//medium.com/@pyoky3289" target="_blank" class="sns-nav">블로그</a>
+		<a class="col-sm sns-nav korean" href="//www.linkedin.com/in/pk-son/" target="_blank" class="sns-nav">링크드인</a>
+		<a class="col-sm sns-nav korean" href="//github.com/pyoky" target="_blank" class="sns-nav">깃헙</a>
+		<a class="col-sm sns-nav korean" href="//www.facebook.com/pyoky.son" target="_blank" class="sns-nav">페이스북</a>
+		<a class="col-sm sns-nav korean" href="//www.instagsram.com/pyoky/" target="_blank" class="sns-nav">인스타</a>
 
 
 
@@ -55,37 +49,44 @@
 	<!-- Introduction section -->
 	<div>
 		<!-- Container for introduction section -->
-		<section class="introduction container">
+		<section class="introduction">
+              <!-- Name in different languages -->
+        <h2>
+          <span class="korean" style="font-weight: bold; font-size: 2rem">손표경</span> &nbsp;
+          <span style="padding-left: 0; font-size: 1.2rem" >Pyokyeong Son</span>
+        </h2>
+        <a href="index.html" style="float: right;"><img src="assets/uk.svg" style=" display: inline-block; vertical-align: -5px; height: 22px;"></img> &nbsp; English </a>
+        <div class="intro-container">
+          <div class="intro-element">
 
-			<!-- Name in different languages -->
-			<h2>
-				<span class="korean" style="font-size: 2rem">손표경</span> &nbsp;
-				<span style="padding-left: 0; font-size: 1.2rem" >Pyokyeong Son</span>
-			</h2>
-			<a href="index.html" style="float: right;"><img src="assets/uk.svg" style=" display: inline-block; vertical-align: -5px; height: 22px;"></img> &nbsp; English </a>
+            <!-- Separator -->
+            <div class="separator"></div>
 
+            <!-- Self-introduction -->
+            <p style="padding-bottom: 20px;">일본에서 자란 한국인 미국 유학생.</p>
+            <p><span class="tags">전공_ &nbsp;</span>
+              <a class="cs" href="#cs-math" style="color: #B4D293;">컴퓨터공학 <i class="fa fa-angle-double-down fa-xs"></i></a> 경제학.
+            </p>
+            <p><span class="tags">취미_ &nbsp;</span>
+              <a class="graphic-design" href="#graphic-design" style="color: #D53F77;">디자인 <i class="fa fa-angle-double-down fa-xs"></i> </a>
+              <a class="math" href="#cs-math" style="color: #0097DB;">수학 <i class="fa fa-angle-double-down fa-xs"></i></a>
+              <a class="writing" href="#writing" style="color: #FFE52B;">작문<i class="fa fa-angle-double-down fa-xs"></i></a>.
+            </p>
+          </div>
+          <div class="intro-element">
+            <!-- Separator -->
+            <div class="separator"></div>
 
-			<!-- Separator -->
-			<div class="separator"></div>
-
-			<!-- Self-introduction -->
-			<p style="padding-bottom: 20px;">일본에서 자란 한국인 미국 유학생.</p>
-			<p>전공_ &nbsp;
-				<a class="cs" href="#cs-math" style="color: #B4D293;">컴퓨터공학 <i class="fa fa-angle-double-down fa-xs"></i></a> 경제학.
-			</p>
-			<p>취미_ &nbsp;
-				<a class="graphic-design" href="#graphic-design" style="color: #D53F77;">그래픽디자인 <i class="fa fa-angle-double-down fa-xs"></i> </a>
-				<a class="math" href="#cs-math" style="color: #0097DB;">수학 <i class="fa fa-angle-double-down fa-xs"></i></a>
-				<a class="writing" href="#writing" style="color: #FFE52B;">작문<i class="fa fa-angle-double-down fa-xs"></i></a>.
-			</p>
-
-			<!-- Separator -->
-			<div class="separator"></div>
-
-			<!-- List of attended/attending schools -->
-			<p><a class="saint-maur" href="https://www.stmaur.ac.jp" target="_blank">세인트 모어 국제학교</a> — 일본, 요코하마 — 2019년 졸업</p>
-			<p><a class="duke-univ" href="https://www.duke.edu" target="_blank">듀크 대학교</a> — 더럼, 노스캐롤라이나 주 — 2023년 졸업 예정</p>
-
+            <!-- List of attended/attending schools -->
+            <p><a class="saint-maur" href="https://www.stmaur.ac.jp"
+                         target="_blank">세인트 모어 국제학교&nbsp;<i style="font-size: 0.5em;
+                vertical-align: middle;"class="fas fa-external-link-alt fa-xs"></i>
+            </a><span class="tags">&nbsp;&nbsp;2019년 졸업</span></p>
+            <p><a class="duke-univ" href="https://www.duke.edu" target="_blank">듀크 대학교&nbsp;<i style="font-size: 0.5em;
+                vertical-align: middle;"class="fas fa-external-link-alt fa-xs"></i>
+            </a><span class="tags">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2023년 졸업 예정</span></p>
+          </div>
+        </div>
 		</section>
 		<!-- END introduction section -->
 
@@ -147,7 +148,7 @@
 			</div>
 
 			<div class="more-skills cs">
-				<h3>C, Java, Python, Wolfram Language, Swift, HTML & CSS, Bash</h3>
+        <p>기타 C, Java, Python, Wolfram Language, Swift, HTML & CSS, Bash</p>
 			</div>
 			<!-- End list of skills -->
 
@@ -215,7 +216,7 @@
 		<section id="graphic-design">
 
 			<div class="separator graphic-design"></div>
-			<h2><span style="color: #D53F77;">그래픽 디자인</span></h2>
+			<h2><span style="color: #D53F77;">디자인</span></h2>
 
 			<div style="position: relative; left: 0; top: 0;">
 				<img class="graphic-design-big-image layered-image" src="assets/sprout-images/sprout-1.png" />
