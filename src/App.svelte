@@ -1,0 +1,272 @@
+<script lang="ts">
+	export let name: string;
+</script>
+
+<svelte:head>
+	<script src="https://kit.fontawesome.com/41b7efd9e7.js" crossorigin="anonymous"></script>
+</svelte:head>
+
+<main>
+	<div class="container">
+
+	<!-- Navigation Bar -->
+	<div class="navbar container">
+		<a class="sns-nav" href="assets/Pyokyeong_Son_Resume.pdf" target="_blank">Resume</a>
+		<a href="//medium.com/@pyoky3289" target="_blank" class="sns-nav">Medium</a>
+		<a href="//www.linkedin.com/in/pk-son/" target="_blank" class="sns-nav">LinkedIn</a>
+		<a href="//github.com/pyoky" target="_blank" class="sns-nav">GitHub</a>
+	<a href="//www.facebook.com/pyoky.son" target="_blank"
+		class="sns-nav">FB</a>
+
+
+	</div>
+
+	<!-- END navigation bar -->
+
+
+	<!-- Introduction section -->
+	<div>
+		<!-- Container for introduction section -->
+		<section class="introduction container">
+
+			<!-- Name in different languages -->
+			<h2>
+				<span style="font-weight: 500; font-size: 1.8rem; padding-left: 0;">Pyokyeong Son</span> &nbsp;
+				<span class="korean" style="font-size: 1.2rem">손표경</span>
+			</h2>
+			<a href="index-korean.html" style="float: right;"><img src="assets/kor.svg" style=" display: inline-block; vertical-align: -5px; height: 22px;" /> &nbsp; 한국어 사이트 </a>
+
+		<div class="intro-container">
+		<div class="intro-element">
+			<!-- Separator -->
+			<div class="separator"></div>
+			<!-- Self-introduction -->
+			<p style="padding-bottom: 20px;">Korean, from Japan, in America.</p>
+			<div class="intro-details">
+			<p><span class="tags">Majoring&nbsp; </span> 
+			<a class="cs" href="#cs-math" style="color: #B4D293;">Comp. Sci. <i
+											class="fa fa-angle-double-down
+											fa-xs"></i></a> <span style="color:
+										#cfcfcf">Economics</span>
+			</p>
+			<p><span class="tags">Interests&nbsp;</span> 
+			<a class="graphic-design" href="#graphic-design" style="color:
+				#D53F77;">Design <i class="fa fa-angle-double-down fa-xs"></i> </a>
+			<a class="math" href="#cs-math" style="color: #0097DB;">Math <i class="fa fa-angle-double-down fa-xs"></i></a> 
+			<a class="writing" href="#writing" style="color: #FFE52B;">Writing <i class="fa fa-angle-double-down fa-xs"></i></a>
+			</p>
+			</div>
+		</div>
+		<div class="intro-element">
+			<!-- Separator -->
+			<div class="separator"></div>
+
+			<!-- List of attended/attending schools -->
+
+			<p><a class="saint-maur" href="https://www.stmaur.ac.jp"
+			target="_blank">Saint Maur Int'l&nbsp;<i style="font-size: 0.5em;
+				vertical-align: middle;"class="fas fa-external-link-alt fa-xs"></i>
+	</a><span class="tags"> &nbsp;&nbsp;Class of
+			2019</span></p>
+			<p><a class="duke-univ" href="https://www.duke.edu" target="_blank">Duke
+			University&nbsp;<i style="font-size: 0.5em;
+				vertical-align: middle;"class="fas fa-external-link-alt fa-xs"></i>
+	</a> <span class="tags">&nbsp;&nbsp;Class of 2025</span>
+			</p>
+		</div>
+
+		</section>
+		<!-- END introduction section -->
+
+		<!-- CS and Math Section -->
+		<section id="cs-math" class="cs-math">
+
+			<!-- Separator -->
+			<div class="separator double">
+				<div class="separator cs"></div>
+				<div class="separator math"></div>
+			</div>
+
+			<!-- Section Title -->
+			<h2><span style="color: #B4D293;">CS</span> <span style="color: #0097DB;">& Math</span> | Projects</h2>
+
+			<!-- List of Projects -->
+			<div class="list-container">
+				<div class="list-element project cs-math">
+					<p class="tags"><i class="fa fa-tags"></i>&nbsp;&nbsp;Computational Mathematics, Automated Theorem Proving</p>
+					<h3>Exploration of Fundamental Mathematics via Implementation of Common Axiom Systems and Proof Generation</h3>
+
+					<div class="links">
+						<a href="https://community.wolfram.com/groups/-/m/t/1382544" target="_blank">Computational Essay&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+
+				<div class="list-element project cs-math">
+					<p class="tags"><i class="fa fa-tags"></i>&nbsp;&nbsp;Machine Learning, Optimization</p>
+					<h3>Evaluation of Optimization Algorithms for Machine Learning Applications</h3>
+
+					<div class="links">
+						<a href="https://github.com/pyoky/nn-optimization-visualization" target="_blank">Code&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+						<a href="assets/Evaluation_of_Optimization_Algorithms_for_Machine_Learning_Applications.pdf" target="_blank">Paper&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+
+					</div>
+				</div>
+
+				<div class="list-element project cs-math">
+					<p class="tags"><i class="fa fa-tags"></i>&nbsp;&nbsp;Cryptography</p>
+					<h3>Mathematics of Deciphering the Enigma Machine</h3>
+
+					<div class="links">
+						<a href="https://github.com/pyoky/enigma-python" target="_blank">Code&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+						<a href="assets/The_Mathematics_of_Deciphering_the_Enigma_Machine.pdf" target="_blank">Paper&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- End list of projects -->
+
+			<h2><span style="color: #B4D293;">CS</span> <span style="color: #0097DB;">& Math</span> | Skills</h2>
+
+
+			<!-- List of skills -->
+			<div class="list-container skills cs-math">
+				<div class="skill"><h3>Swift & iOS<br />App Development</h3></div>
+				<div class="skill"><h3>HTML & CSS<br />Front-End Web Dev</h3></div>
+				<div class="skill"><h3>Wolfram <br />Mathematica <br />& Language</h3></div>
+				<div class="skill"><h3>Linux System <br />Administration</h3></div>
+			</div>
+
+			<div class="more-skills cs">
+				<p>C, Java, Python, Wolfram Language, Swift, HTML & CSS, Bash</p>
+			</div>
+			<!-- End list of skills -->
+
+		</section>
+		<!-- End cs and math section -->
+
+		<!-- Writing section -->
+		<section id="writing" class="writing">
+
+			<!-- Section Separator -->
+			<div class="separator writing"></div>
+
+
+			<h2><span style="color: #FFE52B;">Writing</span> | Academic</h2>
+
+			<!-- List of Academic Writings -->
+			<div class="list-container">
+				<div class="list-element academic">
+					<p class="tags">2019.12. Focus 195FS — Music, Medicine and Natural Science</p>
+					<h3>The Reflection of Renaissance Humanism in East Asian Philosophy from an Artistic, Medical, and Musical Perspective of Korea</h3>
+
+					<div class="essay links">
+						<a href="assets/The_Reflection_of_Renaissance_Humanism_in_East_Asian_Philosophy_from_an_Artistic_ Medical_and_Musical_Perspective_of_Korea.pdf" target="_blank">PDF&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+
+				<div class="list-element academic">
+					<p class="tags">2020.04. Writing 101 — Myth of Meritocracy</p>
+					<h3>The Myth of Meritocracy and False Hope in Korean College Admissions and Preparation</h3>
+
+					<div class="essay links">
+						<a href="assets/The_Myth_of_Meritocracy_and_False_Hope_in_Korean_College_Admissions_and_Preparation.pdf" target="_blank">PDF
+							&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="list-element academic">
+					<p class="tags">2019.07. IB Japanese Language and Literature</p>
+					<h3>羅生門 Alt.</h3>
+
+					<div class="essay links">
+						<a href="assets/Rashomon_Alt.pdf" target="_blank">PDF
+							&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i>
+						</a>
+					</div>
+				</div>
+
+
+			</div>
+			<p style="font-size-adjust: 0.5" class="links" >
+				More casual writing can be found at &nbsp;
+				<a href="//medium.com/@pyoky3289" target="_blank" >
+					Medium
+					<i class="fas fa-external-link-alt"></i>
+				</a>
+			</p>
+
+			<!-- END List of Academic Writings -->
+
+		</section>
+
+		<!-- END Writing section -->
+
+		<section id="graphic-design">
+
+			<div class="separator graphic-design"></div>
+			<h2><span style="color: #D53F77;">Design</span></h2>
+
+			<div style="position: relative; left: 0; top: 0;">
+				<img class="graphic-design-big-image layered-image" src="assets/sprout-images/sprout-1.png" />
+				<img class="graphic-design-big-image toBeFadedIn overlay-image" src="assets/sprout-images/sprout-2.png" />
+			</div>
+
+			<div class="list-container">
+				<div class="list-element">
+					<p class="tags">2019 Summer Internship</p>
+
+					<h3>
+						Sprout Email Newsletter - Web Design & Branding
+					</h3>
+
+				</div>
+			</div>
+
+			<p class="graphic-design-label" >Design Guide</p>
+
+
+			<div class="graphic-design-images-container">
+				<img class="graphic-design-grid-element toBeFadedIn" src="assets/sprout-images/sprout-3.png" />
+				<img class="graphic-design-grid-element toBeFadedIn" src="assets/sprout-images/sprout-5.png" />
+				<img class="graphic-design-grid-element toBeFadedIn" src="assets/sprout-images/sprout-6.png" />
+				<img class="graphic-design-grid-element toBeFadedIn" src="assets/sprout-images/sprout-4.png" />
+			</div>
+
+
+
+
+			<p class="graphic-design-label">Newsletter Design</p>
+
+			<img class="graphic-design-big-image toBeFadedIn" src="assets/sprout-images/sprout-7.png" />
+			<img class="graphic-design-big-image toBeFadedIn" src="assets/sprout-images/sprout-8.png" />
+
+
+			<div class="graphic-design-images-container"  style="grid-column-gap: 10px;">
+				<div>
+					<p class="graphic-design-label" >Before</p>
+					<img class="graphic-design-grid-element toBeFadedIn" src="assets/sprout-images/sprout-before.png" />
+				</div>
+				<div>
+					<p class="graphic-design-label" >After</p>
+					<img class="graphic-design-grid-element toBeFadedIn" src="assets/sprout-images/sprout-after.png" />
+				</div>
+			</div>
+
+
+
+		</section>
+
+
+		<!-- back to top button -->
+		<div style="margin-bottom: 10px;" class="separator"></div>
+
+		<!-- END back to top button -->
+		<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+	</div>
+</main>
+
+<style type="text/scss">
+  @import './styles/main';
+	
+</style>

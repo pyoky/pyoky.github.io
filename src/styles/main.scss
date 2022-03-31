@@ -1,0 +1,426 @@
+
+/*
+ * Font Variables
+ */
+
+
+
+ @font-face {
+    font-family: 'SeoulHangangM';
+    src:
+      url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff')
+      format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'SeoulNamsanM';
+    src: 
+      url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') 
+      format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  // Font Family Settings
+  $font-family-sans-serif:  	"Avenir Next", Lato, Helvetica, 'SeoulNamsanM', Arial, sans-serif;
+  $font-family-serif:       	Palatino, "Times New Roman", Times, 'SeoulHangangM', serif;
+  
+  // Specialized Font Stack for Korean and Japanese
+  $kor-font-stack:						'SeoulNamsanM', serif;
+  $jap-font-stack:						'Kokoro', serif;
+  
+  // Font size settings
+  $heading-font-size: 				1.8rem;
+  $body-font-size:						1.0rem;
+  
+  /*
+   * Color Variables
+   */
+  
+  $yellow:										#FFE52B;
+  $green:											#B4D293;
+  $blue:											#0097DB;
+  $red:												#D53F77;
+  $black:											#1A1A1A;
+  $white:											#F2F2F2;
+  
+  
+  
+  // Separator rectangle properties
+  $separator-height:					4px;
+  $separator-width:						40px;
+  
+  $body-side-margin-small:		10px;
+  
+  $mobile-size:               700px;
+  // default variables applying to the whole body
+  :global(body) {
+      background-color:	$black; // background color to black
+      max-width: 700px;
+      margin: auto;
+  
+      @media only screen and (max-width: $mobile-size) {
+          margin-right: $body-side-margin-small;
+          margin-left: $body-side-margin-small;
+      }
+  }
+  
+  
+  /*
+   * Default font styling through the whole document
+   */
+  
+  :global(body) {
+      font-family: $font-family-sans-serif;
+      font-style: normal;
+      font-size: $body-font-size;
+  
+      text-decoration: none !important;
+      color: $white;
+  
+  
+  }
+  
+  h1, h2, h3, h4, h5 {
+      font-family: $font-family-sans-serif;
+      font-weight: normal;
+      font-size: $heading-font-size;
+  
+      text-decoration: none !important;
+      color: $white;
+  
+      margin-top: 5px;
+      margin-bottom: 20px;
+  
+  }
+  
+  h3 {
+      font-family: $font-family-serif;
+  }
+  
+  
+  @media only screen and (max-width: $mobile-size) {
+      body { font-size: $body-font-size * 0.8; }
+      h1, h2, h3, h4, h5 { font-size: $heading-font-size * 0.8; }
+  
+  }
+  
+  
+  a {
+      font-family: inherit;
+      font-style: none;
+      font-size: inherit;
+  
+      text-decoration: none !important;
+      color: $white;
+  }
+  
+  .korean {
+      font-family: $kor-font-stack;
+      font-style: normal;
+  }
+  
+  .japanese {
+      font-family: $jap-font-stack;
+      font-style: normal;
+      letter-spacing: -0.2em;
+  }
+  
+  /*
+   * Top navigation bar properties
+   */
+  
+  .navbar {
+      font-family: $font-family-sans-serif;
+      font-style: normal;
+  
+      .sns-nav { // The links in the navigation bars
+          font-variant-caps: all-small-caps;
+      font-size: $body-font-size;
+      &.korean {
+        font-size: $body-font-size * 1.1;
+      }
+  
+          letter-spacing: 0.1rem; // increase space of letters
+          padding-right: 25px; // space each other out
+  
+          @media only screen and (max-width: 1000px) {
+              letter-spacing: 0.05; // increase space of letters
+  
+              padding-right: 5px; // space each other out
+  
+          }
+  
+      }
+  
+  
+  }
+  
+  /*
+   * Separator line properties
+   */
+  
+  .separator {
+      margin-top: 40px; // some margins in top and bottom
+      margin-bottom: 40px;
+  
+      height: $separator-height;
+      width: $separator-width;
+  
+      background-color: $white;
+  
+      &.writing {
+          background-color: $yellow;
+      }
+  
+      &.double {
+          width: $separator-width * 2;
+          display: flex;
+      }
+  
+      &.cs {
+          margin-top: 0;
+          margin-bottom: 0;
+          height: 100%;
+          width: 100%;
+          background-color: $green;
+      }
+  
+      &.math {
+          margin-top: 0;
+          margin-bottom: 0;
+          height: 100%;
+          width: 100%;
+          background-color: $blue;
+      }
+  
+      &.graphic-design {
+          background-color: $red;
+      }
+  
+  }
+  
+  /*
+   * Introduction Section
+   */
+  
+  
+  .introduction	{
+      padding-top: 10px;
+  
+    .intro-container {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+       p {
+          margin: 0;
+          padding-bottom: 0;
+          font-size: $body-font-size * 1.2; // slightly bigger font size b/c it's introduction
+      }
+  
+      h2 span { // have some space between the slash and names in languages
+          padding-right: 0 15px 0 0;
+      }
+  
+  // Hovering animation for links to topics
+  
+      a {
+          position: relative;
+          text-decoration: none !important;
+  
+          &:before {
+              content: "";
+              position: absolute;
+              width: 0;
+              bottom: 0;
+              height: 2px;
+  
+          }
+  
+          &:hover:before
+          {
+              left: 0;
+              right: auto;
+              width: 100%;
+              transition: width 0.3s ease-out;
+          }
+  
+          &.cs:before 						{ background-color: $green; }
+          &.graphic-design:before { background-color: $red; }
+          &.math:before 					{ background-color: $blue; }
+          &.writing:before 				{ background-color: $yellow; }
+      }
+  
+      // Hovering animation for links to school websites
+      .saint-maur:hover {
+          background: linear-gradient(45deg, red, yellow);
+  
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -moz-background-clip: text;
+          -moz-text-fill-color: transparent;
+      }
+      .duke-univ:hover {
+          background: linear-gradient(45deg, grey, blue);
+  
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -moz-background-clip: text;
+          -moz-text-fill-color: transparent;
+      }
+  }
+  
+  /*
+   * Settings common to all sections (CS, Writing, etc.)
+   */
+  
+  // container for the projects, essays, etc.
+  .list-container {
+      padding-left: 10%; // indent everything slightly to the left;
+      padding-top: 10px;
+      padding-bottom: 20px;
+  
+  }
+  
+  // links inside the essays, projects, etc.
+  .links {
+      font-family: $font-family-sans-serif;
+      display: flex;
+  
+      a {
+          margin-right: 20px;
+  
+          &:hover i {
+              transform: translate(0.2em,-0.2em);
+              transition: all 0.1s ease-out;
+  
+          }
+      }
+  }
+  
+  .list-element  {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+  }
+  
+  .tags {
+      font-family: $font-family-sans-serif;
+      font-size: $body-font-size * 0.9;
+  }
+  
+  
+  /*
+   * Settings specific to a part of a section
+   */
+  
+  .list-container.skills.cs-math { // for the specific section for cs and math skills list
+      display: flex;
+      flex-wrap: wrap;
+  
+      div {
+          margin-right: 20px;
+          width: 40%;
+          min-width: 40%;
+      }
+  }
+  
+  .graphic-design-big-image {
+      display: block;
+      margin: auto;
+      width: 1000px;
+  
+      @media only screen and (max-width: 700px) {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+      }
+  }
+  
+  .graphic-design-images-container {
+      margin: auto;
+      padding: 20px 0;
+      width: 1000px;
+      display: grid;
+      grid-template-columns: auto auto;
+      //grid-row-gap: 10px;
+      //grid-column-gap: 10px;
+  
+      @media only screen and (max-width: 700px) {
+  
+          padding: 0;
+          width: 100%;
+          grid-template-columns: 100%;
+          margin: 0;
+      }
+  }
+  
+  .graphic-design-grid-element {
+      width: 100%;
+      opacity: 1;
+  }
+  
+  .graphic-design-label {
+  }
+  
+  
+  // Back to top link
+  a.back-top {
+      font-family: $font-family-sans-serif;
+  }
+  
+  .toBeFadedIn {
+      visibility: hidden;
+  }
+  
+  .layered-image {
+      position: relative;
+      top: 0;
+      left:0;
+  }
+  
+  .overlay-image {
+      position: absolute;
+      top: 0;
+      left:0;
+  }
+  
+  .fadeIn {
+      -webkit-animation: animat_show 0.8s;
+      animation: animat_show 0.8s;
+      visibility: visible !important;
+  }
+  
+  @-webkit-keyframes animat_show{
+      0%{opacity:0}
+      100%{opacity:1}
+  }
+  
+  /*
+  
+  // Bootstrap variables override
+  $body-bg: 									#1A1A1A;
+  $text-color: 								#F2F2F2;
+  
+  // Fonts - bootstrap override
+  $font-family-sans-serif:  	"Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  $font-family-serif:       	Palatino, "Times New Roman", Times, serif;
+  $headings-font-family:    	$font-family-serif;
+  
+  
+  
+  // Bootstrap container width customization
+  $container-max-widths: (
+      sm: 540px,
+      md: 720px,
+      lg: 960px,
+      xl: 960px
+      );
+  
+  @import "../bootstrap/scss/bootstrap";
+  
+  */
+  
+  
