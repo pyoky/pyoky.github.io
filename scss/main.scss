@@ -54,7 +54,7 @@ $separator-width:						40px;
 
 $body-side-margin-small:		10px;
 
-$mobile-size:               700px;
+$mobile-size:               1000px;
 // default variables applying to the whole body
 body {
 	background-color:	$black; // background color to black
@@ -147,7 +147,7 @@ a {
 		letter-spacing: 0.1rem; // increase space of letters
 		padding-right: 25px; // space each other out
 
-		@media only screen and (max-width: 1000px) {
+		@media only screen and (max-width: $mobile-size) {
 			letter-spacing: 0.05; // increase space of letters
 
 			padding-right: 5px; // space each other out
@@ -334,7 +334,7 @@ a {
 	width: 120%;
 	max-width: 100vw;
 
-	@media only screen and (max-width: 700px) {
+	@media only screen and (max-width: $mobile-size) {
 		width: 100%;
 		padding: 0;
 		margin: 0;
@@ -343,7 +343,7 @@ a {
 
 .graphic-design-images-container {
 	margin: auto;
-	padding: 20px 0;
+	padding: 0;
 	width: 120%;
 	max-width: 100vw;
 	display: grid;
@@ -351,7 +351,7 @@ a {
 	//grid-row-gap: 10px;
 	//grid-column-gap: 10px;
 
-	@media only screen and (max-width: 700px) {
+	@media only screen and (max-width: $mobile-size) {
 
 		padding: 0;
 		width: 100%;
@@ -366,6 +366,7 @@ a {
 }
 
 .graphic-design-label {
+	font-size: $body-font-size*1.2;
 }
 
 
