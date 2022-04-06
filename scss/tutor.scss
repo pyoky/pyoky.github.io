@@ -1,0 +1,259 @@
+/*
+ * Font Variables
+ */
+
+@font-face {
+  font-family: 'GyeonggiBatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Font Family Settings
+$font-family-sans-serif: "Avenir Next", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: Palatino, "Times New Roman", Times, serif;
+
+// Specialized Font Stack for Korean and Japanese
+$kor-font-stack: serif;
+$jap-font-stack: 'Kokoro', serif;
+
+// Font size settings
+$heading-font-size: 1.8rem;
+$body-font-size: 1.2rem;
+
+/*
+ * Color Variables
+ */
+
+$yellow: #FFE52B;
+$green: #B4D293;
+$blue: #0097DB;
+$red: #D53F77;
+$black: #1A1A1A;
+$white: #F2F2F2;
+
+
+// Separator rectangle properties
+$separator-height: 4px;
+$separator-width: 40px;
+
+$body-side-margin-small: 10px;
+
+// default variables applying to the whole body
+body {
+  background-color: $white; // background color to black
+  max-width: 960px;
+  margin: auto;
+
+  @media only screen and (max-width: 1000px) {
+    margin-right: $body-side-margin-small;
+    margin-left: $body-side-margin-small;
+  }
+}
+
+
+/*
+ * Default font styling through the whole document
+ */
+
+body {
+  font-family: $font-family-serif;
+  font-style: normal;
+  font-size: $body-font-size;
+
+  text-decoration: none !important;
+  color: $black;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-family-sans-serif;
+  font-weight: 500;
+  font-size: $heading-font-size;
+
+  text-decoration: none !important;
+
+  margin: 10px 0;
+
+
+}
+
+h1 {
+  font-size: $heading-font-size * 1.5;
+}
+
+h3 {
+  margin-top: 0;
+  font-family: $font-family-serif;
+  font-weight: bold;
+  font-size: $heading-font-size * 0.8;
+
+}
+
+a {
+  text-decoration: none !important;
+  color: $black;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: $body-font-size * 0.8;
+  }
+  h1, h2, h3, h4, h5 {
+    font-size: $heading-font-size * 0.8;
+  }
+
+}
+
+.korean {
+  font-family: $kor-font-stack;
+  font-style: normal;
+}
+
+.japanese {
+  font-family: $jap-font-stack;
+  font-style: normal;
+  letter-spacing: -0.2em;
+}
+
+/*
+ * Top navigation bar properties
+ */
+
+.navbar {
+  font-family: $font-family-sans-serif;
+  font-style: normal;
+  padding: 10px 0;
+
+  .sns-nav { // The links in the navigation bars
+    font-variant-caps: all-small-caps;
+    letter-spacing: 0.1rem; // increase space of letters
+    padding-right: 25px; // space each other out
+
+
+  }
+
+
+}
+
+/*
+ * Separator line properties
+ */
+
+.separator {
+  margin-top: 40px; // some margins in top and bottom
+  margin-bottom: 40px;
+
+  height: $separator-height;
+  width: $separator-width;
+
+  background-color: $black;
+
+  &.full {
+    width: 95%;
+    height: $separator-height * 0.8;
+    margin: auto;
+  }
+}
+
+/*
+ * Header Section
+ */
+
+.header {
+  //box-shadow: 0px 5px 20px grey;
+
+  .introduction {
+    background-color: $black;
+    color: $white;
+
+    .basic-intro {
+      .container {
+        display: flex;
+      }
+
+      .element {
+        flex: 1 1 0;
+
+        &.left {
+          text-align: right;
+          padding-right: 40px;
+          padding-top: 35px;
+        }
+
+        &.right {
+          padding-left: 40px;
+
+          p {
+            margin: 20px;
+            font-size: $body-font-size * 1.2;
+          }
+
+        }
+      }
+
+    }
+
+
+  }
+
+  .qual {
+
+    padding: 40px 60px;
+    margin-bottom: 40px;
+
+    background-position: 0 -50px;
+    background-image: url("/tutor/qual-background.jpg");
+    background-size: 100%;
+
+  }
+
+}
+
+.rates {
+  padding: 15px 5%;
+
+  .table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+
+    table {
+      border-collapse: collapse;
+    }
+
+    td {
+      padding: 15px 50px 15px 15px;
+      border-bottom: 1.5px solid black;
+    }
+  }
+}
+
+
+.contact {
+  padding: 15px 5%;
+
+  .google-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .email {
+    padding-left: 10px;
+
+    a {
+      padding-left: 10px;
+
+    }
+  }
+
+}
+
+.footer {
+  color: $white;
+  margin-bottom: 50px;
+  height: 200px;
+  background-color: $black;
+  box-shadow: 0px 5px 20px grey;
+
+}
