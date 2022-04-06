@@ -3,4 +3,4 @@
 *.swp
 Website\ Design.afdesign 
 .DS_Store
-.sass-cache/*
+.sass-cache/

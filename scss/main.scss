@@ -101,6 +101,7 @@ h3 {
 }
 
 
+
 @media only screen and (max-width: $mobile-size) {
 	body { font-size: $body-font-size * 0.8; }
 	h1, h2, h3, h4, h5 { font-size: $heading-font-size * 0.8; }
@@ -330,7 +331,8 @@ a {
 .graphic-design-big-image {
 	display: block;
 	margin: auto;
-	width: 1000px;
+	width: 120%;
+	max-width: 100vw;
 
 	@media only screen and (max-width: 700px) {
 		width: 100%;
@@ -342,7 +344,8 @@ a {
 .graphic-design-images-container {
 	margin: auto;
 	padding: 20px 0;
-	width: 1000px;
+	width: 120%;
+	max-width: 100vw;
 	display: grid;
 	grid-template-columns: auto auto;
 	//grid-row-gap: 10px;
