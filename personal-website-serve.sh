@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-python -m SimpleHTTPServer 5000;
+python -m SimpleHTTPServer 4400;
