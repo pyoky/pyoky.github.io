@@ -3,6 +3,8 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Klee+One&display=swap");
 @font-face {
   font-family: "SeoulHangangM";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff") format("woff");
@@ -76,8 +78,8 @@ a {
   font-style: normal;
 }
 
-.japanese {
-  font-family: "Noto Sans JP", serif !important;
+.jap {
+  font-family: "Noto Sans JP", serif;
   font-style: normal;
 }
 
@@ -97,7 +99,7 @@ a {
 .navbar .sns-nav.korean {
   font-size: 1.1rem;
 }
-.navbar .sns-nav.japanese {
+.navbar .sns-nav.jap {
   font-size: 0.7rem;
 }
 @media only screen and (max-width: 1000px) {
@@ -147,6 +149,7 @@ a {
  */
 .introduction {
   padding-top: 10px;
+  /* for japanese name display specifics */
 }
 .introduction .intro-container {
   display: grid;
@@ -204,6 +207,18 @@ a {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+.introduction rt {
+  font-weight: normal;
+  font-size: 0.7rem;
+  font-family: "Noto Sans JP", serif;
+  ruby-align: center;
+  margin-bottom: -10px;
+  text-align: center;
+}
+.introduction h2 span.jap {
+  font-family: "Klee One";
+  font-size: 2.52rem;
+}
 
 /*
  * Settings common to all sections (CS, Writing, etc.)
@@ -235,6 +250,9 @@ a {
   font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", "Kosugi", Arial, sans-serif;
   font-size: 0.9rem;
 }
+.tags.jap {
+  font-family: "Noto Sans JP", serif;
+}
 
 /*
  * Settings specific to a part of a section
@@ -249,6 +267,10 @@ a {
   padding-bottom: 30px;
   width: 40%;
   min-width: 40%;
+}
+
+#graphic-design h3.jap {
+  font-family: "Shippori Mincho", serif;
 }
 
 .graphic-design-big-image {
