@@ -22,14 +22,26 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 // Font Family Settings
-$font-family-sans-serif:  	"Avenir Next", Lato, Helvetica, 'SeoulNamsanM', Arial, sans-serif;
+$font-family-sans-serif:  	"Avenir Next", Lato, Helvetica, 'SeoulNamsanM', 'Kosugi', Arial, sans-serif;
 $font-family-serif:       	Palatino, "Times New Roman", Times, 'SeoulHangangM', serif;
+$font-family-mono:			ui-monospace, 
+							Menlo, Monaco, 
+							"Cascadia Mono", "Segoe UI Mono", 
+							"Roboto Mono", 
+							"Oxygen Mono", 
+							"Ubuntu Monospace", 
+							"Source Code Pro",
+							"Fira Mono", 
+							"Droid Sans Mono", 
+							"Courier New", monospace;
+
 
 // Specialized Font Stack for Korean and Japanese
 $kor-font-stack:						'SeoulNamsanM', serif;
-$jap-font-stack:						'Kokoro', serif;
+$jap-font-stack:						'Noto Sans JP', serif;
 
 // Font size settings
 $heading-font-size: 				1.8rem;
@@ -124,9 +136,8 @@ a {
 }
 
 .japanese {
-	font-family: $jap-font-stack;
+	font-family: $jap-font-stack !important;
 	font-style: normal;
-	letter-spacing: -0.2em;
 }
 
 /*
@@ -142,6 +153,9 @@ a {
     font-size: $body-font-size;
     &.korean {
       font-size: $body-font-size * 1.1;
+    }
+    &.japanese {
+      font-size: $body-font-size * 0.7;
     }
 
 		letter-spacing: 0.1rem; // increase space of letters
@@ -320,11 +334,14 @@ a {
 .list-container.skills.cs-math { // for the specific section for cs and math skills list
 	display: flex;
 	flex-wrap: wrap;
+	font-family: $font-family-mono;
 
 	div {
 		margin-right: 20px;
+		padding-bottom: 30px;
 		width: 40%;
 		min-width: 40%;
+		
 	}
 }
 

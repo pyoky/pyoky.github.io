@@ -1,89 +1,111 @@
 /*
  * Font Variables
  */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @font-face {
-  font-family: 'SeoulHangangM';
+  font-family: "SeoulHangangM";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff") format("woff");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
-  font-family: 'SeoulNamsanM';
+  font-family: "SeoulNamsanM";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff") format("woff");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 /*
  * Color Variables
  */
 body {
   background-color: #1A1A1A;
   max-width: 700px;
-  margin: auto; }
-  @media only screen and (max-width: 1000px) {
-    body {
-      margin-right: 10px;
-      margin-left: 10px; } }
+  margin: auto;
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
 
 /*
  * Default font styling through the whole document
  */
 body {
-  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", Arial, sans-serif;
+  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", "Kosugi", Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
   text-decoration: none !important;
-  color: #F2F2F2; }
+  color: #F2F2F2;
+}
 
 h1, h2, h3, h4, h5 {
-  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", Arial, sans-serif;
+  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", "Kosugi", Arial, sans-serif;
   font-weight: normal;
   font-size: 1.8rem;
   text-decoration: none !important;
   color: #F2F2F2;
   margin-top: 5px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 h3 {
-  font-family: Palatino, "Times New Roman", Times, "SeoulHangangM", serif; }
+  font-family: Palatino, "Times New Roman", Times, "SeoulHangangM", serif;
+}
 
 @media only screen and (max-width: 1000px) {
   body {
-    font-size: 0.8rem; }
-
+    font-size: 0.8rem;
+  }
   h1, h2, h3, h4, h5 {
-    font-size: 1.44rem; } }
+    font-size: 1.44rem;
+  }
+}
 a {
   font-family: inherit;
   font-style: none;
   font-size: inherit;
   text-decoration: none !important;
-  color: #F2F2F2; }
+  color: #F2F2F2;
+}
 
 .korean {
   font-family: "SeoulNamsanM", serif;
-  font-style: normal; }
+  font-style: normal;
+}
 
 .japanese {
-  font-family: "Kokoro", serif;
+  font-family: "Noto Sans JP", serif !important;
   font-style: normal;
-  letter-spacing: -0.2em; }
+}
 
 /*
  * Top navigation bar properties
  */
 .navbar {
-  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", Arial, sans-serif;
-  font-style: normal; }
+  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", "Kosugi", Arial, sans-serif;
+  font-style: normal;
+}
+.navbar .sns-nav {
+  font-variant-caps: all-small-caps;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  padding-right: 25px;
+}
+.navbar .sns-nav.korean {
+  font-size: 1.1rem;
+}
+.navbar .sns-nav.japanese {
+  font-size: 0.7rem;
+}
+@media only screen and (max-width: 1000px) {
   .navbar .sns-nav {
-    font-variant-caps: all-small-caps;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    padding-right: 25px; }
-    .navbar .sns-nav.korean {
-      font-size: 1.1rem; }
-    @media only screen and (max-width: 1000px) {
-      .navbar .sns-nav {
-        letter-spacing: 0.05;
-        padding-right: 5px; } }
+    letter-spacing: 0.05;
+    padding-right: 5px;
+  }
+}
 
 /*
  * Separator line properties
@@ -93,76 +115,95 @@ a {
   margin-bottom: 40px;
   height: 4px;
   width: 40px;
-  background-color: #F2F2F2; }
-  .separator.writing {
-    background-color: #FFE52B; }
-  .separator.double {
-    width: 80px;
-    display: flex; }
-  .separator.cs {
-    margin-top: 0;
-    margin-bottom: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #B4D293; }
-  .separator.math {
-    margin-top: 0;
-    margin-bottom: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #0097DB; }
-  .separator.graphic-design {
-    background-color: #D53F77; }
+  background-color: #F2F2F2;
+}
+.separator.writing {
+  background-color: #FFE52B;
+}
+.separator.double {
+  width: 80px;
+  display: flex;
+}
+.separator.cs {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #B4D293;
+}
+.separator.math {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0097DB;
+}
+.separator.graphic-design {
+  background-color: #D53F77;
+}
 
 /*
  * Introduction Section
  */
 .introduction {
-  padding-top: 10px; }
-  .introduction .intro-container {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
-  .introduction p {
-    margin: 0;
-    padding-bottom: 0;
-    font-size: 1.2rem; }
-  .introduction h2 span {
-    padding-right: 0 15px 0 0; }
-  .introduction a {
-    position: relative;
-    text-decoration: none !important; }
-    .introduction a:before {
-      content: "";
-      position: absolute;
-      width: 0;
-      bottom: 0;
-      height: 2px; }
-    .introduction a:hover:before {
-      left: 0;
-      right: auto;
-      width: 100%;
-      transition: width 0.3s ease-out; }
-    .introduction a.cs:before {
-      background-color: #B4D293; }
-    .introduction a.graphic-design:before {
-      background-color: #D53F77; }
-    .introduction a.math:before {
-      background-color: #0097DB; }
-    .introduction a.writing:before {
-      background-color: #FFE52B; }
-  .introduction .saint-maur:hover {
-    background: linear-gradient(45deg, red, yellow);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent; }
-  .introduction .duke-univ:hover {
-    background: linear-gradient(45deg, grey, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent; }
+  padding-top: 10px;
+}
+.introduction .intro-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.introduction p {
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 1.2rem;
+}
+.introduction h2 span {
+  padding-right: 0 15px 0 0;
+}
+.introduction a {
+  position: relative;
+  text-decoration: none !important;
+}
+.introduction a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  bottom: 0;
+  height: 2px;
+}
+.introduction a:hover:before {
+  left: 0;
+  right: auto;
+  width: 100%;
+  transition: width 0.3s ease-out;
+}
+.introduction a.cs:before {
+  background-color: #B4D293;
+}
+.introduction a.graphic-design:before {
+  background-color: #D53F77;
+}
+.introduction a.math:before {
+  background-color: #0097DB;
+}
+.introduction a.writing:before {
+  background-color: #FFE52B;
+}
+.introduction .saint-maur:hover {
+  background: linear-gradient(45deg, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.introduction .duke-univ:hover {
+  background: linear-gradient(45deg, grey, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
 
 /*
  * Settings common to all sections (CS, Writing, etc.)
@@ -170,46 +211,59 @@ a {
 .list-container {
   padding-left: 10%;
   padding-top: 10px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
 
 .links {
-  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", Arial, sans-serif;
-  display: flex; }
-  .links a {
-    margin-right: 20px; }
-    .links a:hover i {
-      transform: translate(0.2em, -0.2em);
-      transition: all 0.1s ease-out; }
+  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", "Kosugi", Arial, sans-serif;
+  display: flex;
+}
+.links a {
+  margin-right: 20px;
+}
+.links a:hover i {
+  transform: translate(0.2em, -0.2em);
+  transition: all 0.1s ease-out;
+}
 
 .list-element {
   padding-top: 1rem;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+}
 
 .tags {
-  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", Arial, sans-serif;
-  font-size: 0.9rem; }
+  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", "Kosugi", Arial, sans-serif;
+  font-size: 0.9rem;
+}
 
 /*
  * Settings specific to a part of a section
  */
 .list-container.skills.cs-math {
   display: flex;
-  flex-wrap: wrap; }
-  .list-container.skills.cs-math div {
-    margin-right: 20px;
-    width: 40%;
-    min-width: 40%; }
+  flex-wrap: wrap;
+  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+}
+.list-container.skills.cs-math div {
+  margin-right: 20px;
+  padding-bottom: 30px;
+  width: 40%;
+  min-width: 40%;
+}
 
 .graphic-design-big-image {
   display: block;
   margin: auto;
   width: 120%;
-  max-width: 100vw; }
-  @media only screen and (max-width: 1000px) {
-    .graphic-design-big-image {
-      width: 100%;
-      padding: 0;
-      margin: 0; } }
+  max-width: 100vw;
+}
+@media only screen and (max-width: 1000px) {
+  .graphic-design-big-image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
 
 .graphic-design-images-container {
   margin: auto;
@@ -217,47 +271,60 @@ a {
   width: 120%;
   max-width: 100vw;
   display: grid;
-  grid-template-columns: auto auto; }
-  @media only screen and (max-width: 1000px) {
-    .graphic-design-images-container {
-      padding: 0;
-      width: 100%;
-      grid-template-columns: 100%;
-      margin: 0; } }
+  grid-template-columns: auto auto;
+}
+@media only screen and (max-width: 1000px) {
+  .graphic-design-images-container {
+    padding: 0;
+    width: 100%;
+    grid-template-columns: 100%;
+    margin: 0;
+  }
+}
 
 .graphic-design-grid-element {
   width: 100%;
-  opacity: 1; }
+  opacity: 1;
+}
 
 .graphic-design-label {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+}
 
 a.back-top {
-  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", Arial, sans-serif; }
+  font-family: "Avenir Next", Lato, Helvetica, "SeoulNamsanM", "Kosugi", Arial, sans-serif;
+}
 
 .toBeFadedIn {
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 .layered-image {
   position: relative;
   top: 0;
-  left: 0; }
+  left: 0;
+}
 
 .overlay-image {
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+}
 
 .fadeIn {
   -webkit-animation: animat_show 0.8s;
   animation: animat_show 0.8s;
-  visibility: visible !important; }
+  visibility: visible !important;
+}
 
 @-webkit-keyframes animat_show {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 /*
 
 // Bootstrap variables override
