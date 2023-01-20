@@ -397,6 +397,26 @@ a {
 	}
 }
 
+
+.graphic-design-screenshot-container {
+	position:relative;
+	margin: auto;
+	padding: 0;
+	max-width: 120%;
+	//grid-row-gap: 10px;
+	//grid-column-gap: 10px;
+
+	@media only screen and (max-width: $mobile-size) {
+
+		padding: 0;
+		width: 100%;
+		grid-template-columns: 100%;
+		margin: 0;
+	}
+}
+.graphic-design-overlapped-image {
+	max-width: 100%; height: auto; box-shadow: 10px 10px 30px 5px #111;
+}
 .graphic-design-grid-element {
 	width: 100%;
 	opacity: 1;
