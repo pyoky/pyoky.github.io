@@ -1,0 +1,26 @@
+---
+aliases: []
+tags:
+  - Computing
+---
+- angular language service
+- code spell checker
+- compare folders
+- css property sorter
+- css var complete
+- error lens
+- eslint
+- git lens
+- html scss support
+- indent rainbow
+- intellicode
+- intellicode api usage examples
+- intellicode completions
+- japanese language pack for visual studio code
+- prettier - code formatter
+- scss intellisense
+- stylelint
+- todo highlight
+- vim
+- vscode-icons
+- powershell

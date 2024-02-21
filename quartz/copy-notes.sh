@@ -9,7 +9,7 @@ quartz_dir='/Users/pyoky/Developer/personal_website/quartz/'
 find "$obsidian_dir/Publishable" -type f -name '*.md' -exec perl -i -pe 's/(?<!^)\$\$/\n\$\$/g' {} +
 
 # copy notes to content directory
-rsync -avrn --delete --exclude "$obsidian_dir/.obsidian" "$obsidian_dir/Publishable" "$quartz_dir/content"
+rsync -avr --delete --exclude "$obsidian_dir/.obsidian" "$obsidian_dir/Publishable/" "$quartz_dir/content/"
 
 # build quartz
 cd "$quartz_dir"
