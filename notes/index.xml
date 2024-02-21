@@ -10,61 +10,61 @@
     <link>https://pyoky.me/notes/Machine-Learning</link>
     <guid>https://pyoky.me/notes/Machine-Learning</guid>
     <description>Machine Learning § Overview § Topics in: NN, CNN, RNN, LSTM, Reinforcement, GAN Tools and libraries: pyplotlib, scipy, numpy, tensorflow Ask HN: Full-on machine learning for 2020, what are the best resources? | Hacker News Since the “How Do I Learn AI/ML” question pops up on Hacker News once a month (m… | Hacker News Honestly, skip all of the courses.</description>
-    <pubDate>Wed, 21 Feb 2024 20:48:08 GMT</pubDate>
+    <pubDate>Wed, 21 Feb 2024 21:06:12 GMT</pubDate>
   </item><item>
     <title>Spontaneous Organization</title>
     <link>https://pyoky.me/notes/Spontaneous-Organization</link>
     <guid>https://pyoky.me/notes/Spontaneous-Organization</guid>
     <description>Money is an example of spontaneous organization: Devonthink.</description>
-    <pubDate>Wed, 21 Feb 2024 20:48:08 GMT</pubDate>
+    <pubDate>Wed, 21 Feb 2024 21:06:12 GMT</pubDate>
   </item><item>
     <title>Zero Sum Game</title>
     <link>https://pyoky.me/notes/Zero-Sum-Game</link>
     <guid>https://pyoky.me/notes/Zero-Sum-Game</guid>
     <description>def. Zero Sum Game. When each box in the payoff (cost) matrix sums to zero.</description>
-    <pubDate>Wed, 21 Feb 2024 20:48:08 GMT</pubDate>
-  </item><item>
-    <title>Consistency</title>
-    <link>https://pyoky.me/notes/Consistency</link>
-    <guid>https://pyoky.me/notes/Consistency</guid>
-    <description>def. Consisteny. An estimator θ^(X1​,…,Xn​) is consistent for parameter θ if: ∀ϵ&gt;0, θ^ p⟶​n→∞​ θi.e.n→∞lim​P(∣θ^−θ∣&lt;ϵ)=1n→∞lim​P(∣θ^−θ∣&gt;ϵ)=0 ![[スクリーンショット 2023-02-21 15.</description>
-    <pubDate>Wed, 21 Feb 2024 20:48:08 GMT</pubDate>
+    <pubDate>Wed, 21 Feb 2024 21:06:12 GMT</pubDate>
   </item><item>
     <title>Binomial Distribution</title>
     <link>https://pyoky.me/notes/Binomial-Distribution</link>
     <guid>https://pyoky.me/notes/Binomial-Distribution</guid>
     <description>Binomial Distribution § def. Binomial Distribution. For random variable X which denotes the number of successes within n trials with success probability p: XP(X=k)​∼Binom(n,p)=(kn​)⋅pk⋅(1−p)n−k​ E[X]=np Var[X]=n⋅p(1−p) .</description>
-    <pubDate>Wed, 21 Feb 2024 20:48:08 GMT</pubDate>
+    <pubDate>Wed, 21 Feb 2024 21:06:12 GMT</pubDate>
+  </item><item>
+    <title>Consistency</title>
+    <link>https://pyoky.me/notes/Consistency</link>
+    <guid>https://pyoky.me/notes/Consistency</guid>
+    <description>def. Consisteny. An estimator θ^(X1​,…,Xn​) is consistent for parameter θ if: ∀ϵ&gt;0, θ^ p⟶​n→∞​ θi.e.n→∞lim​P(∣θ^−θ∣&lt;ϵ)=1n→∞lim​P(∣θ^−θ∣&gt;ϵ)=0 ![[スクリーンショット 2023-02-21 15.</description>
+    <pubDate>Wed, 21 Feb 2024 21:06:12 GMT</pubDate>
   </item><item>
     <title>Targeting a Niche</title>
     <link>https://pyoky.me/notes/Targeting-a-Niche</link>
     <guid>https://pyoky.me/notes/Targeting-a-Niche</guid>
     <description>(DevonThink) &gt; The more precise and niche the words I input, the better the internet would ma… | Hacker News.</description>
-    <pubDate>Wed, 21 Feb 2024 20:48:08 GMT</pubDate>
+    <pubDate>Wed, 21 Feb 2024 21:06:12 GMT</pubDate>
   </item><item>
     <title>Graph</title>
     <link>https://pyoky.me/notes/Graph</link>
     <guid>https://pyoky.me/notes/Graph</guid>
     <description>def. Graph. A Graph is defined as: Ordered pair (V,E) where V is the set of all vertices E={x,y∣x,y∈V and x=y} Types of Graphs § Variations on: Directed or Undirected Connected or Not Connected Cyclical or Acyclical Common types: Tree is a connected undirected acyclical graph Forest is a set of trees Directed Graph Directed Acyclical Graph Properties of Graphs § Degree of a vertex v∈V: number of edges that connect to v Loop: an edge that connects a vertex to itself Cycle: a path that starts and ends with the same vertex Representation of Graphs in Memory § Adjacency Matrix 2D table of all nodes: Store a 1 if the edge between two nodes exists, 0 otherwise.</description>
-    <pubDate>Wed, 21 Feb 2024 20:48:08 GMT</pubDate>
+    <pubDate>Wed, 21 Feb 2024 21:06:12 GMT</pubDate>
   </item><item>
     <title>Utility</title>
     <link>https://pyoky.me/notes/Utility</link>
     <guid>https://pyoky.me/notes/Utility</guid>
     <description>Money. Utility. Consumer Surplus.</description>
-    <pubDate>Wed, 21 Feb 2024 20:48:08 GMT</pubDate>
-  </item><item>
-    <title>Markov Inequality</title>
-    <link>https://pyoky.me/notes/Markov-Inequality</link>
-    <guid>https://pyoky.me/notes/Markov-Inequality</guid>
-    <description>thm. Markov Inequality. For a non-negative random variable X, the following hols for all positive constant a: P(X≥a)≤aE(X)​.</description>
-    <pubDate>Wed, 21 Feb 2024 20:48:08 GMT</pubDate>
+    <pubDate>Wed, 21 Feb 2024 21:06:12 GMT</pubDate>
   </item><item>
     <title>(Philosopher) G. W. F. Hegel</title>
     <link>https://pyoky.me/notes/(Philosopher)-G.-W.-F.-Hegel</link>
     <guid>https://pyoky.me/notes/(Philosopher)-G.-W.-F.-Hegel</guid>
     <description> Georg Wilhelm Friedrich Hegel (; German: [ˈɡeːɔʁk ˈvɪlhɛlm ˈfʁiːdʁɪç ˈheːɡl̩]; 27 August 1770–14 November 1831) was a German philosopher and one of the most influential figures of German idealism and 19th-century philosophy.</description>
-    <pubDate>Wed, 21 Feb 2024 20:48:08 GMT</pubDate>
+    <pubDate>Wed, 21 Feb 2024 21:06:12 GMT</pubDate>
+  </item><item>
+    <title>Markov Inequality</title>
+    <link>https://pyoky.me/notes/Markov-Inequality</link>
+    <guid>https://pyoky.me/notes/Markov-Inequality</guid>
+    <description>thm. Markov Inequality. For a non-negative random variable X, the following hols for all positive constant a: P(X≥a)≤aE(X)​.</description>
+    <pubDate>Wed, 21 Feb 2024 21:06:12 GMT</pubDate>
   </item>
     </channel>
   </rss>
