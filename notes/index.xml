@@ -5,66 +5,6 @@
       <link>https://pyoky.me/notes</link>
       <description>Last 10 notes on PK&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
-      <item>
-    <title>index</title>
-    <link>https://pyoky.me/notes/</link>
-    <guid>https://pyoky.me/notes/</guid>
-    <description>Computer Science § 🌟 CS 330 Advanced Algorithms 🌟 CS 334 Formal Languages CS 535 Algorithmic Game Theory CS 250 Architecture Economics § 🌟 ECON 205 Intermediate Microeconomics II 🌟 Math 581 Mathematical Finance Math 582 Financial Derivatives Econ 201 Intermediate Microeconomics I Econ 204 Econometrics CS 535 Algorithmic Game Theory Econ 210 Macroeconomics Econ 371 Finance Math § 🌟 Stat 432 Statistics 🌟 Math 581 Mathematical Finance 🌟 Math 582 Financial Derivatives Stat 230 Probability Liberal Arts § GSF 386 Politics of Sexuality CulAnth 203 Marxism Econ 361 Distributive Justice See also: Phenomenology Michel Foucault Judith Butler .</description>
-    <pubDate>Wed, 21 Feb 2024 13:59:34 GMT</pubDate>
-  </item><item>
-    <title>Stochastic Process</title>
-    <link>https://pyoky.me/notes/Stochastic-Process</link>
-    <guid>https://pyoky.me/notes/Stochastic-Process</guid>
-    <description>def. Time Series is a stochastic process indexed by discrete (integer) time points. See discussion: Is a time series the same as a stochastic process? - Cross Validated def.</description>
-    <pubDate>Wed, 21 Feb 2024 13:35:59 GMT</pubDate>
-  </item><item>
-    <title>Stochastic Calculus</title>
-    <link>https://pyoky.me/notes/Stochastic-Calculus</link>
-    <guid>https://pyoky.me/notes/Stochastic-Calculus</guid>
-    <description>def. Ito Integral. Let the following: Brownian Motion B={Bs​∣s≥0}, an Ito process X={Xs​∣s≥0} 0=t1​&lt;t2​&lt;⋯&lt;tn​=t and thus ti​=nt​i Then the Ito integral Yt​ of X(t) with respect to B(t) is defined as such: Y(t)=∫0t​X(s)dB(s):=n→∞lim​i=0∑n​X(ti−1​)[Bti​​−Bti−1​​] Visualization.</description>
-    <pubDate>Wed, 21 Feb 2024 13:32:06 GMT</pubDate>
-  </item><item>
-    <title>Sequence Summation</title>
-    <link>https://pyoky.me/notes/Sequence-Summation</link>
-    <guid>https://pyoky.me/notes/Sequence-Summation</guid>
-    <description>Geometric Series: a,ar,ar2,…,arn Sn​=a⋅1−r1−rn​ If it converges, the infinite sum: S∞​=1−ra​ Arithmetic Sequence: a,a+d,a+2d,…a+nd Sn​=2n​⋅(2a+(n−1)d) Other Summations: See Convergence tests - Wikiwand Properties of Summations § (i=0∑n​ai​)2=i=0∑n​ai2​+i=j∑n​ai​aj​.</description>
-    <pubDate>Wed, 21 Feb 2024 13:31:53 GMT</pubDate>
-  </item><item>
-    <title>CS 535 Algorithmic Game Theory</title>
-    <link>https://pyoky.me/notes/CS-535-Algorithmic-Game-Theory</link>
-    <guid>https://pyoky.me/notes/CS-535-Algorithmic-Game-Theory</guid>
-    <description> Game Theory Equilibria in Game Theory Potential Games Traffic Routing No-Regret Dynamics Auction Theory Revenue-Maximizing Auctions Optimal Stopping Problem .</description>
-    <pubDate>Tue, 20 Feb 2024 22:33:35 GMT</pubDate>
-  </item><item>
-    <title>Auction Theory</title>
-    <link>https://pyoky.me/notes/Auction-Theory</link>
-    <guid>https://pyoky.me/notes/Auction-Theory</guid>
-    <description>def. Sealed Bid Auction. An auction is a game where there are a certain number of buyers, buyers each have their value, vi​ and bid, bi​. The auction process takes in the bids of all buyers b, and outputs the allocation x(b) and price p​(b).</description>
-    <pubDate>Tue, 20 Feb 2024 21:57:36 GMT</pubDate>
-  </item><item>
-    <title>Ordinary Least Squares Regression</title>
-    <link>https://pyoky.me/notes/Ordinary-Least-Squares-Regression</link>
-    <guid>https://pyoky.me/notes/Ordinary-Least-Squares-Regression</guid>
-    <description>Motivation. Let’s say that there is a relationship between GDP per capita and life expectancy. Maybe god has declared a perfect formula describing this relationship: \text{GDP Per Capita}=200\cdot \text{Life Expectancy}+1000+\text{Noise} $$While we humans may never truly know the parameters of the formula, $200$ and $1000$, we can still make a good guess about it.</description>
-    <pubDate>Tue, 20 Feb 2024 20:53:40 GMT</pubDate>
-  </item><item>
-    <title>Proof Techniques</title>
-    <link>https://pyoky.me/notes/Proof-Techniques</link>
-    <guid>https://pyoky.me/notes/Proof-Techniques</guid>
-    <description>Algebraic You can split summations (even infinite ones) ∏i​eXi​=e∑i​Xi​ Equivalently, ln(∏i​Xi​)=∑i​(lnXi​) Pushing log thru product makes it a sum Telescoping sums and products Probability Tower property E(X)=E(E(X∣F)) Linearity of expectation.</description>
-    <pubDate>Sat, 17 Feb 2024 20:24:09 GMT</pubDate>
-  </item><item>
-    <title>Student&#039;s t-test</title>
-    <link>https://pyoky.me/notes/Student's-t-test</link>
-    <guid>https://pyoky.me/notes/Student's-t-test</guid>
-    <description>def. let X1​,…,Xn​∼iidN(μ,σ2). We are comparing two hypothesis: H0​:μ≤μ0​ H1​:μ&gt;μ0​ Then, let T=σ^/n​Xˉn​−μ0​​ where σ^=n−1E[(Xˉn​−Xi​)]​ is the besset-corrected variance estimator.</description>
-    <pubDate>Thu, 15 Feb 2024 20:32:16 GMT</pubDate>
-  </item><item>
-    <title>Estimator</title>
-    <link>https://pyoky.me/notes/Estimator</link>
-    <guid>https://pyoky.me/notes/Estimator</guid>
-    <description>def. Statistic. let X1​,…,Xn​ observable random variables [= data of an experiment]. then statistic T is: T=δ(X1​,.</description>
-    <pubDate>Thu, 15 Feb 2024 05:43:18 GMT</pubDate>
-  </item>
+      
     </channel>
   </rss>
