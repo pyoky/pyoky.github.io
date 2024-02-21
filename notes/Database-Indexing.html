@@ -18,8 +18,8 @@
 </ul>
 <h2 id="index-sequential-access-method-isam">Index Sequential Access Method (ISAM)<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#index-sequential-access-method-isam" class="internal alias"> §</a></h2>
 <ul>
-<li>Lookup: <img src="./スクリーンショット-2023-11-26-18.58.01.png" width="400" height="auto"/></li>
-<li>Insert / Delete: <img src="./スクリーンショット-2023-11-26-18.58.16.png" width="450" height="auto"/></li>
+<li>Lookup: <img src="./assets/スクリーンショット-2023-11-26-18.58.01.png" width="400" height="auto"/></li>
+<li>Insert / Delete: <img src="./assets/スクリーンショット-2023-11-26-18.58.16.png" width="450" height="auto"/></li>
 </ul>
 <h2 id="b-trees">B+ Trees<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#b-trees" class="internal alias"> §</a></h2>
 <ul>
@@ -27,14 +27,14 @@
 <ul>
 <li>Each block can fan-out a specific amount <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span></li>
 <li>Each block containes <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span> entries to indicate ranges</li>
-<li>Example: <img src="./スクリーンショット-2023-11-26-18.59.17.png" width="400" height="auto"/></li>
+<li>Example: <img src="./assets/スクリーンショット-2023-11-26-18.59.17.png" width="400" height="auto"/></li>
 </ul>
 </li>
-<li>Leaves are sequential → Range queries are possible: <img src="./スクリーンショット-2023-11-26-19.01.36.png" width="450" height="auto"/></li>
+<li>Leaves are sequential → Range queries are possible: <img src="./assets/スクリーンショット-2023-11-26-19.01.36.png" width="450" height="auto"/></li>
 <li>Guaranteed to be well-balanced (=all nodes are at least half-full)
 <ul>
 <li>Guaranteed by recursive <em>node splitting</em> (on insert) and recursive <em>node coalescing</em> or <em>entry stealing</em> (on delete)</li>
-<li>Example: <img src="./スクリーンショット-2023-11-26-19.01.58.png" width="500" height="auto"/></li>
+<li>Example: <img src="./assets/スクリーンショット-2023-11-26-19.01.58.png" width="500" height="auto"/></li>
 </ul>
 </li>
 <li>Performance: access time is <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord text"><span class="mord">height</span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mop"><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.242em;"><span style="top:-2.4559em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">fanout</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2441em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord text"><span class="mord">#Tuples</span></span><span class="mclose">)</span></span></span></span>

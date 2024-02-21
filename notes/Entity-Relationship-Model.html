@@ -29,7 +29,7 @@ Design goals:</p>
 <li>Relationship—with attributes
 <ol>
 <li>Relationship attributes are not the same as entity attributes: they cannot be duplicated.</li>
-<li>e.g. <code>StopsAt</code> cannot have multiple <code>time</code>s for each <code>Train</code>-<code>Station</code> pair: <img src="./Entity-Relationship-Model-8.png" width="440" height="auto"/></li>
+<li>e.g. <code>StopsAt</code> cannot have multiple <code>time</code>s for each <code>Train</code>-<code>Station</code> pair: <img src="./assets/Entity-Relationship-Model-8.png" width="440" height="auto"/></li>
 </ol>
 </li>
 </ol>
@@ -37,18 +37,18 @@ Design goals:</p>
 <p><a href="x-devonthink-item://48D1B0D6-FFE4-497C-B38B-F797B1B986E4" class="external">(DevonThink) 3. E/R Design<svg class="external-icon" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
 <h3 id="multiplicity">Multiplicity<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#multiplicity" class="internal alias"> §</a></h3>
 <ul>
-<li>Many-to-Many: Most types of relations <img src="./Entity-Relationship-Model.png" width="320" height="auto"/></li>
+<li>Many-to-Many: Most types of relations <img src="./assets/Entity-Relationship-Model.png" width="320" height="auto"/></li>
 <li>Many-to-One
 <ul>
-<li>half-circle arrow: <strong>exactly one</strong> <img src="./Entity-Relationship-Model-2.png" width="120" height="auto"/></li>
-<li>Normal arrow: <strong>one or zero</strong><img src="./Entity-Relationship-Model-1.png" width="300" height="auto"/></li>
+<li>half-circle arrow: <strong>exactly one</strong> <img src="./assets/Entity-Relationship-Model-2.png" width="120" height="auto"/></li>
+<li>Normal arrow: <strong>one or zero</strong><img src="./assets/Entity-Relationship-Model-1.png" width="300" height="auto"/></li>
 </ul>
 </li>
-<li>One-to-One<img src="./Entity-Relationship-Model-5.png" width="340" height="auto"/></li>
+<li>One-to-One<img src="./assets/Entity-Relationship-Model-5.png" width="340" height="auto"/></li>
 </ul>
 <h3 id="roles-in-a-relationship">Roles in a Relationship<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#roles-in-a-relationship" class="internal alias"> §</a></h3>
 <ul>
-<li>if you’re taking two items from the same entity, the roles need to be clarified. <img src="./Entity-Relationship-Model-3.png" width="460" height="auto"/></li>
+<li>if you’re taking two items from the same entity, the roles need to be clarified. <img src="./assets/Entity-Relationship-Model-3.png" width="460" height="auto"/></li>
 </ul>
 <h3 id="n-ary-relationships">N-ary Relationships<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#n-ary-relationships" class="internal alias"> §</a></h3>
 <ul>
@@ -59,19 +59,19 @@ Design goals:</p>
 </ul>
 </li>
 <li>e.g. a <code>isMemberOf</code> relationship can have multiple members, but only (zero or) one initiator for a <code>group</code>—<code>member</code> pair
-<img src="./Entity-Relationship-Model-4.png" width="360" height="auto"/></li>
+<img src="./assets/Entity-Relationship-Model-4.png" width="360" height="auto"/></li>
 </ul>
 <h3 id="weak-entity--supporting-relationships-heirarchical-relationships">Weak Entity &amp; Supporting Relationships (=Heirarchical relationships)<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#weak-entity--supporting-relationships-heirarchical-relationships" class="internal alias"> §</a></h3>
 <ul>
 <li>more data is needed to uniquely identify the thing</li>
 <li>e.g. a room number in a building needs the building identification to uniquely identify it
-<img src="./Entity-Relationship-Model-6.png" width="440" height="auto"/></li>
+<img src="./assets/Entity-Relationship-Model-6.png" width="440" height="auto"/></li>
 </ul>
 <h3 id="isa-relationship-subclassing">ISA Relationship (Subclassing)<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#isa-relationship-subclassing" class="internal alias"> §</a></h3>
 <ul>
 <li>literally “A is-a B” relationship</li>
 <li>Inherits the attributes (with the key), relationships
-<img src="./Entity-Relationship-Model-7.png" width="260" height="auto"/></li>
+<img src="./assets/Entity-Relationship-Model-7.png" width="260" height="auto"/></li>
 </ul>
 <h2 id="translating-into-relational-model">Translating into <a href="./Relational-Algebra" class="internal alias" data-slug="Relational-Algebra">Relational Model</a><a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#translating-into-relational-model" class="internal alias"> §</a></h2>
 <p><a href="x-devonthink-item://1F5CF1D2-9FDD-4821-9214-3C24CED0FD1E" class="external">(DevonThink) 4. E/R Translation<svg class="external-icon" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
@@ -117,7 +117,7 @@ Design goals:</p>
                   <div class="callout-title-inner"><p><strong>Full example</strong></p></div>
                   
                 </div>
-<p><img src="./Entity-Relationship-Model-9.png" width="540" height="auto"/></p>
+<p><img src="./assets/Entity-Relationship-Model-9.png" width="540" height="auto"/></p>
 </blockquote></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
 	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
 	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562

@@ -5,7 +5,7 @@
                   <div class="callout-title-inner"><p>Problem: How to actually process this: </p></div>
                   
                 </div>
-<p><img src="./SQL-Query-Optimization-20231215221808381.png" width="401" height="auto"/></p>
+<p><img src="./assets/SQL-Query-Optimization-20231215221808381.png" width="401" height="auto"/></p>
 </blockquote>
 <h3 id="basic-strategies">Basic Strategies<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#basic-strategies" class="internal alias"> §</a></h3>
 <ul>
@@ -107,15 +107,15 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
                 </div>
 </blockquote>
 <h2 id="join-plans">Join Plans<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#join-plans" class="internal alias"> §</a></h2>
-<p>Q. given <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> relations to join, how to join?<img src="./SQL-Query-Optimization-20231212172740605.png" width="194" height="auto"/></p>
+<p>Q. given <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> relations to join, how to join?<img src="./assets/SQL-Query-Optimization-20231212172740605.png" width="194" height="auto"/></p>
 <ol>
 <li>Brute Force: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.53em;vertical-align:-0.52em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.01em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mathnormal mtight">n</span><span class="mbin mtight">−</span><span class="mord mtight">1</span><span class="mclose mtight">)!</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.485em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mtight">2</span><span class="mord mathnormal mtight">n</span><span class="mbin mtight">−</span><span class="mord mtight">2</span><span class="mclose mtight">)!</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.52em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></li>
-<li>Left-Deep Plan: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">n</span><span class="mclose">!</span></span></span></span> <img src="./SQL-Query-Optimization-20231212172910194.png" width="237" height="auto"/></li>
+<li>Left-Deep Plan: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">n</span><span class="mclose">!</span></span></span></span> <img src="./assets/SQL-Query-Optimization-20231212172910194.png" width="237" height="auto"/></li>
 <li>Greedy: <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> <img src="./assets/SQL-Query-Optimization-20231212172941783.png" width="auto" height="auto"/></li>
 <li>Dynamic Programming:
 <ul>
 <li>Need to consider: <em>interesting orders</em> (=sorted? deduped? etc.) need to be considered too!</li>
-<li><img src="./SQL-Query-Optimization-20231212173006952.png" width="495" height="auto"/></li>
+<li><img src="./assets/SQL-Query-Optimization-20231212173006952.png" width="495" height="auto"/></li>
 </ul>
 </li>
 </ol></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17

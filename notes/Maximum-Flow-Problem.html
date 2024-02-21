@@ -38,7 +38,7 @@
 </li>
 <li>Repeat calculation until there is no path <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span> in the residual graph.</li>
 </ol>
-<p><img src="./Maximum-Flow-Problem-20231205155225844.png" width="680" height="auto"/></p>
+<p><img src="./assets/Maximum-Flow-Problem-20231205155225844.png" width="680" height="auto"/></p>
 <p>alg. <strong>Minimum Cut.</strong> How to remove the minimum number of edges such that there is no flow from source <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">s</span></span></span></span> to sync <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span>?</p>
 <ol>
 <li>Run the Flow Maximization algorithm</li>
@@ -46,7 +46,7 @@
 <li>From the source vertex, perform a search (<a href="./Depth-First-Search" class="internal alias" data-slug="Depth-First-Search">DFS</a>/BFS) and mark all reachable edges.</li>
 <li>⇒ The edges between <em>reachable</em> and <em>unreachable</em> verticies is the min-cut edges.</li>
 </ol>
-<p><img src="./Maximum-Flow-Problem-20231205163738934.png" width="537" height="auto"/></p>
+<p><img src="./assets/Maximum-Flow-Problem-20231205163738934.png" width="537" height="auto"/></p>
 <ul>
 <li><em>Value</em> of a cut is the sum of forward edges (=edges in the direction reachable → unreachable)
 <ul>
@@ -121,7 +121,7 @@
 </blockquote>
 <p>Q. <strong>Edge Matching Problem.</strong> (=Maximum Cardinality Matching) Given an undirected, <em>partitioned</em> graph, return the maximum number of edges that don’t share a vertex</p>
 <ul>
-<li>Idea: reduce to a max-flow problem. <img src="./Pasted-image-20231106165505.png" width="155" height="auto"/></li>
+<li>Idea: reduce to a max-flow problem. <img src="./assets/Pasted-image-20231106165505.png" width="155" height="auto"/></li>
 <li>algorithm:
 <ol>
 <li>For a graph partitioned <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">A</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span>, make all edges <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> directed.</li>

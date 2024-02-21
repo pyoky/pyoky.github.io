@@ -27,7 +27,7 @@
 <li><strong>Precedence graph</strong>: a schedule with no cycles in the precedence graph (=graph is <a href="./Directed-Acyclical-Graph" class="internal alias" data-slug="Directed-Acyclical-Graph">DAG</a>) is <em>conflict-serializable</em>
 <ul>
 <li>A path in an acyclic precedence graph is a conflict-serializable schedule</li>
-<li>Example: <img src="./SQL-Transaction-Guarantees-20231212173800567.png" width="414" height="auto"/></li>
+<li>Example: <img src="./assets/SQL-Transaction-Guarantees-20231212173800567.png" width="414" height="auto"/></li>
 </ul>
 </li>
 </ul>
@@ -38,12 +38,12 @@
 <li><strong>Repeatable Reads:</strong> long duration locks</li>
 <li><strong>Serializable:</strong> long duration locks on ranges</li>
 </ul>
-<p><img src="./SQL-Transaction-Guarantees-20231215215034322.png" width="571" height="auto"/></p>
+<p><img src="./assets/SQL-Transaction-Guarantees-20231215215034322.png" width="571" height="auto"/></p>
 <h3 id="serializable-guarantee">Serializable Guarantee<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#serializable-guarantee" class="internal alias"> §</a></h3>
 <p>Implemented thru <strong>Strict 2-phase locking (S2PL).</strong> Rules:</p>
 <ol>
 <li><strong>One writer, multiple readers</strong>: <a href="./Readers-Writer-Locking" class="internal alias" data-slug="Readers-Writer-Locking">Readers-Writer Locking</a></li>
-<li><strong>2-Phase Locking</strong>: For each transaction, you must lock everything first (=locking phase) then unlock everything together (=unlock phase): <img src="./SQL-Transaction-Guarantees-20231212174449166.png" width="435" height="auto"/></li>
+<li><strong>2-Phase Locking</strong>: For each transaction, you must lock everything first (=locking phase) then unlock everything together (=unlock phase): <img src="./assets/SQL-Transaction-Guarantees-20231212174449166.png" width="435" height="auto"/></li>
 <li><strong>Strict Locking</strong>: Release <em>write-locks</em> (=exclusive-locks) only at commit or abort time
 <ol>
 <li>Guaranteed recoverable (no cascading rollbacks)</li>
@@ -54,12 +54,12 @@
 <ol>
 <li>Prevents Deadlocks</li>
 <li>Also Recoverable.</li>
-<li>Example:<img src="./SQL-Transaction-Guarantees-20231215210218732.png" width="200" height="auto"/></li>
+<li>Example:<img src="./assets/SQL-Transaction-Guarantees-20231215210218732.png" width="200" height="auto"/></li>
 </ol>
 </li>
 </ol>
 <h2 id="recovery">Recovery<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#recovery" class="internal alias"> §</a></h2>
-<p>Computation Model: <img src="./SQL-Transaction-Guarantees-20231212174650021.png" width="493" height="auto"/></p>
+<p>Computation Model: <img src="./assets/SQL-Transaction-Guarantees-20231212174650021.png" width="493" height="auto"/></p>
 <h3 id="naive-recovery">Naive Recovery<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#naive-recovery" class="internal alias"> §</a></h3>
 <ul>
 <li><em>Force</em>: on commit, (“force”) dirty flush to disk</li>
@@ -74,7 +74,7 @@ Properties</li>
 <li>Write-ahead logging: before disk flush, log must be flushed first</li>
 <li><em>No force</em>: commit even without flushing</li>
 <li><em>Steal</em>: flush to disk anytime (just log it!)
-<img src="./SQL-Transaction-Guarantees-20231212180023634.png" width="512" height="auto"/></li>
+<img src="./assets/SQL-Transaction-Guarantees-20231212180023634.png" width="512" height="auto"/></li>
 </ol>
 <h3 id="fuzzy-checkpointing">Fuzzy Checkpointing<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#fuzzy-checkpointing" class="internal alias"> §</a></h3>
 <ul>
