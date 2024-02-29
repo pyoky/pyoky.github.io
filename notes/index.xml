@@ -6,65 +6,65 @@
       <description>Last 10 notes on PK&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Spontaneous Organization</title>
-    <link>https://pyoky.me/notes/Spontaneous-Organization</link>
-    <guid>https://pyoky.me/notes/Spontaneous-Organization</guid>
-    <description>Money is an example of spontaneous organization: Devonthink.</description>
-    <pubDate>Thu, 29 Feb 2024 02:02:08 GMT</pubDate>
+    <title>Dynamic Programming</title>
+    <link>https://pyoky.me/notes/Dynamic-Programming</link>
+    <guid>https://pyoky.me/notes/Dynamic-Programming</guid>
+    <description> The name &quot;Dynamic Programming&quot; is a misnomer. Motto of Dynamic Programming Dynamic Programming (DP) is a algorithm design paradigm that includes the following features: Algorithms are recursive There are overlapping recursive subproblems Memoization can be used to reduce re-solving overlapping subproblems You can also write an iterative solution which can be easier to analyze Think of DP as a &quot;filling in a table&quot; problem To devise a DP solution to a problem, you must Understand which subproblems overlap Recursion trees help in identifying overlap Understand the subproblem dependencies (which subproblems to solve first) How to break ties (e.</description>
+    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
   </item><item>
-    <title>Machine Learning</title>
-    <link>https://pyoky.me/notes/Machine-Learning</link>
-    <guid>https://pyoky.me/notes/Machine-Learning</guid>
-    <description>Machine Learning § Overview § Topics in: NN, CNN, RNN, LSTM, Reinforcement, GAN Tools and libraries: pyplotlib, scipy, numpy, tensorflow Ask HN: Full-on machine learning for 2020, what are the best resources? | Hacker News Since the “How Do I Learn AI/ML” question pops up on Hacker News once a month (m… | Hacker News Honestly, skip all of the courses.</description>
-    <pubDate>Thu, 29 Feb 2024 02:02:08 GMT</pubDate>
+    <title>EBITDA Multiple</title>
+    <link>https://pyoky.me/notes/EBITDA-Multiple</link>
+    <guid>https://pyoky.me/notes/EBITDA-Multiple</guid>
+    <description>def. Enterprise value. The amout of money you have to pay to buy off the company, including its financial oblications (net debt) Enterprise Value = Equity Value + Net Debt where Net Debt = SR,LR debt + min.</description>
+    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
   </item><item>
-    <title>Zero Sum Game</title>
-    <link>https://pyoky.me/notes/Zero-Sum-Game</link>
-    <guid>https://pyoky.me/notes/Zero-Sum-Game</guid>
-    <description>def. Zero Sum Game. When each box in the payoff (cost) matrix sums to zero.</description>
-    <pubDate>Thu, 29 Feb 2024 02:02:08 GMT</pubDate>
+    <title>ECON 205 Intermediate Microeconomics II</title>
+    <link>https://pyoky.me/notes/ECON-205-Intermediate-Microeconomics-II</link>
+    <guid>https://pyoky.me/notes/ECON-205-Intermediate-Microeconomics-II</guid>
+    <description>Background Knowledge § Monotonic Transformation Constrained Optimization Rational Taste Consumer Choice Theory § Utility Function Budget Constraints Utility Maximization Utility Maximization with Endowments Ordinary Demand Indirect Utility Function Expenditure Minimization Hicksian Demand Curve Expenditure Function &amp; See: Map of Microeconomic Optimization Theory of the Firm § Profit Maximization Input Demand and Output Supply Profit Function Cost Minimization Constrained Constrainted Input Demand Monopoly Equilibrium Theory § Microeconomic Market Equilibrium Trade between individuals Edgeworth Box Pareto Efficiency Compensating and Equivalent Variation Game Theory § Game Theory Dominant Strategy Equilibrium Equilibria in Game Theory Subgame Perfect Nash Equilibirum Repeated Game Oligopoly Games Bertrand Price Competition Cornout Quantity Competition .</description>
+    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
   </item><item>
-    <title>Consistency</title>
-    <link>https://pyoky.me/notes/Consistency</link>
-    <guid>https://pyoky.me/notes/Consistency</guid>
-    <description>def. Consisteny. An estimator θ^(X1​,…,Xn​) is consistent for parameter θ if: ∀ϵ&gt;0, θ^ p⟶​n→∞​ θi.e.n→∞lim​P(∣θ^−θ∣&lt;ϵ)=1n→∞lim​P(∣θ^−θ∣&gt;ϵ)=0 ![[スクリーンショット 2023-02-21 15.</description>
-    <pubDate>Thu, 29 Feb 2024 02:02:08 GMT</pubDate>
+    <title>Econ 201 Intermediate Microeconomics I</title>
+    <link>https://pyoky.me/notes/Econ-201-Intermediate-Microeconomics-I</link>
+    <guid>https://pyoky.me/notes/Econ-201-Intermediate-Microeconomics-I</guid>
+    <description>Consumer Theory § Budget Lines Indifference Curve Constrained Optimization Income Effect (IE) Substitution Effect (SE) Types of Demand Curves (MicroEcon) Theory of the Firm § Production Function Profit Maximization Market Distortion § Price Controls International Trade Market Power § Game Theory Monopoly Bertrand Price Competition Monopolistic Competition Cartels and Collusion Public Good .</description>
+    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
   </item><item>
-    <title>Binomial Distribution</title>
-    <link>https://pyoky.me/notes/Binomial-Distribution</link>
-    <guid>https://pyoky.me/notes/Binomial-Distribution</guid>
-    <description>Binomial Distribution § def. Binomial Distribution. For random variable X which denotes the number of successes within n trials with success probability p: XP(X=k)​∼Binom(n,p)=(kn​)⋅pk⋅(1−p)n−k​ E[X]=np Var[X]=n⋅p(1−p) .</description>
-    <pubDate>Thu, 29 Feb 2024 02:02:08 GMT</pubDate>
+    <title>Econ 204 Econometrics</title>
+    <link>https://pyoky.me/notes/Econ-204-Econometrics</link>
+    <guid>https://pyoky.me/notes/Econ-204-Econometrics</guid>
+    <description> Quote Correlation doesn’t imply Causation Econometrics Bivariate Ordinary Least Squares Regression Confidence Intervals and Hypothesis Testing in OLS Linear Regression Omitted Variables Multivariate Ordinary Least Squares Regression Homework 5.</description>
+    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
   </item><item>
-    <title>Targeting a Niche</title>
-    <link>https://pyoky.me/notes/Targeting-a-Niche</link>
-    <guid>https://pyoky.me/notes/Targeting-a-Niche</guid>
-    <description>(DevonThink) &gt; The more precise and niche the words I input, the better the internet would ma… | Hacker News.</description>
-    <pubDate>Thu, 29 Feb 2024 02:02:08 GMT</pubDate>
+    <title>Econ 210 Macroeconomics</title>
+    <link>https://pyoky.me/notes/Econ-210-Macroeconomics</link>
+    <guid>https://pyoky.me/notes/Econ-210-Macroeconomics</guid>
+    <description> Macroeconomics Growth Rate Calculations GDP Agents of the Macro Economy Macroeconomic Market Equilibrium Laffer Curve Beveridge Curve Homogenous Degrees .</description>
+    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
   </item><item>
-    <title>Graph</title>
-    <link>https://pyoky.me/notes/Graph</link>
-    <guid>https://pyoky.me/notes/Graph</guid>
-    <description>def. Graph. A Graph is defined as: Ordered pair (V,E) where V is the set of all vertices E={x,y∣x,y∈V and x=y} Types of Graphs § Variations on: Directed or Undirected Connected or Not Connected Cyclical or Acyclical Common types: Tree is a connected undirected acyclical graph Forest is a set of trees Directed Graph Directed Acyclical Graph Properties of Graphs § Degree of a vertex v∈V: number of edges that connect to v Loop: an edge that connects a vertex to itself Cycle: a path that starts and ends with the same vertex Representation of Graphs in Memory § Adjacency Matrix 2D table of all nodes: Store a 1 if the edge between two nodes exists, 0 otherwise.</description>
-    <pubDate>Thu, 29 Feb 2024 02:02:08 GMT</pubDate>
+    <title>Econ 361 Distributive Justice</title>
+    <link>https://pyoky.me/notes/Econ-361-Distributive-Justice</link>
+    <guid>https://pyoky.me/notes/Econ-361-Distributive-Justice</guid>
+    <description> Remember, there are still people starving as we speak. Applying Game Theory § Robert Axelrod - The Evolution of Cooperation Robert Frank - Passions within Reason J.</description>
+    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
   </item><item>
-    <title>Utility</title>
-    <link>https://pyoky.me/notes/Utility</link>
-    <guid>https://pyoky.me/notes/Utility</guid>
-    <description>Money. Utility. Consumer Surplus.</description>
-    <pubDate>Thu, 29 Feb 2024 02:02:08 GMT</pubDate>
+    <title>Econ 371 Finance</title>
+    <link>https://pyoky.me/notes/Econ-371-Finance</link>
+    <guid>https://pyoky.me/notes/Econ-371-Finance</guid>
+    <description> Present Value Calculations Bonds (Finance) Equity Comparable Company (Comps) Analysis Portfolio Theory CAPM Model Futures Glossary Short-selling Trade-Through Interest Rate Derivatives (Finance) Contagion (Finance) .</description>
+    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
   </item><item>
-    <title>Markov Inequality</title>
-    <link>https://pyoky.me/notes/Markov-Inequality</link>
-    <guid>https://pyoky.me/notes/Markov-Inequality</guid>
-    <description>thm. Markov Inequality. For a non-negative random variable X, the following hols for all positive constant a: P(X≥a)≤aE(X)​.</description>
-    <pubDate>Thu, 29 Feb 2024 02:02:08 GMT</pubDate>
+    <title>Econometrics</title>
+    <link>https://pyoky.me/notes/Econometrics</link>
+    <guid>https://pyoky.me/notes/Econometrics</guid>
+    <description> Establishing causality does “policy/behavior/program → outcome”? X→Y? Challenges Is it random noise? Removing outliers Are there exogenous factors? X is endogenous if X correlates with ϵ (error)—non-causal, lurking variable X is exogenous if X doesn’t correlation with ϵ—likely causal Regression Analysis: Yi​=β0​+β1​Xi​+ϵi​ β0​: intercept.</description>
+    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
   </item><item>
-    <title>(Philosopher) G. W. F. Hegel</title>
-    <link>https://pyoky.me/notes/(Philosopher)-G.-W.-F.-Hegel</link>
-    <guid>https://pyoky.me/notes/(Philosopher)-G.-W.-F.-Hegel</guid>
-    <description> Georg Wilhelm Friedrich Hegel (; German: [ˈɡeːɔʁk ˈvɪlhɛlm ˈfʁiːdʁɪç ˈheːɡl̩]; 27 August 1770–14 November 1831) was a German philosopher and one of the most influential figures of German idealism and 19th-century philosophy.</description>
-    <pubDate>Thu, 29 Feb 2024 02:02:08 GMT</pubDate>
+    <title>Economic Democracy</title>
+    <link>https://pyoky.me/notes/Economic-Democracy</link>
+    <guid>https://pyoky.me/notes/Economic-Democracy</guid>
+    <description> (Book) The Case for Economic Democracy (Economist) Andrew Cumbers (DevonThink) Economic Democracy and Labor Productivity .</description>
+    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
   </item>
     </channel>
   </rss>
