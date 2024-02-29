@@ -6,65 +6,65 @@
       <description>Last 10 notes on PK&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Dynamic Programming</title>
-    <link>https://pyoky.me/notes/Dynamic-Programming</link>
-    <guid>https://pyoky.me/notes/Dynamic-Programming</guid>
-    <description> The name &quot;Dynamic Programming&quot; is a misnomer. Motto of Dynamic Programming Dynamic Programming (DP) is a algorithm design paradigm that includes the following features: Algorithms are recursive There are overlapping recursive subproblems Memoization can be used to reduce re-solving overlapping subproblems You can also write an iterative solution which can be easier to analyze Think of DP as a &quot;filling in a table&quot; problem To devise a DP solution to a problem, you must Understand which subproblems overlap Recursion trees help in identifying overlap Understand the subproblem dependencies (which subproblems to solve first) How to break ties (e.</description>
-    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
+    <title>(Article) Equality of What?</title>
+    <link>https://pyoky.me/notes/(Article)-Equality-of-What-q</link>
+    <guid>https://pyoky.me/notes/(Article)-Equality-of-What-q</guid>
+    <description>(DevonThink) Sen,Equality Equity is about asking “what should be equal?” Libertarians: Equality of Rights Utilitarians: Equal Weighting of Utility Progressive Taxation: Equality of Need Satisfaction etc.</description>
+    <pubDate>Thu, 29 Feb 2024 20:29:53 GMT</pubDate>
   </item><item>
-    <title>EBITDA Multiple</title>
-    <link>https://pyoky.me/notes/EBITDA-Multiple</link>
-    <guid>https://pyoky.me/notes/EBITDA-Multiple</guid>
-    <description>def. Enterprise value. The amout of money you have to pay to buy off the company, including its financial oblications (net debt) Enterprise Value = Equity Value + Net Debt where Net Debt = SR,LR debt + min.</description>
-    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
+    <title>(Article) Magic Ink - Information Software and the Graphical Interface</title>
+    <link>https://pyoky.me/notes/(Article)-Magic-Ink---Information-Software-and-the-Graphical-Interface</link>
+    <guid>https://pyoky.me/notes/(Article)-Magic-Ink---Information-Software-and-the-Graphical-Interface</guid>
+    <description>Notes on Magic Ink: Information Software and the Graphical Interface What You See is All You Get (WYSIAYG) UI design is: How information is presented: Graphic Design Personal accounting, Health app visualization How to manipulate and create: Industrial design Photoshop, Illustrator Users mostly want to learn something, not create something.</description>
+    <pubDate>Thu, 29 Feb 2024 20:29:53 GMT</pubDate>
   </item><item>
-    <title>ECON 205 Intermediate Microeconomics II</title>
-    <link>https://pyoky.me/notes/ECON-205-Intermediate-Microeconomics-II</link>
-    <guid>https://pyoky.me/notes/ECON-205-Intermediate-Microeconomics-II</guid>
-    <description>Background Knowledge § Monotonic Transformation Constrained Optimization Rational Taste Consumer Choice Theory § Utility Function Budget Constraints Utility Maximization Utility Maximization with Endowments Ordinary Demand Indirect Utility Function Expenditure Minimization Hicksian Demand Curve Expenditure Function &amp; See: Map of Microeconomic Optimization Theory of the Firm § Profit Maximization Input Demand and Output Supply Profit Function Cost Minimization Constrained Constrainted Input Demand Monopoly Equilibrium Theory § Microeconomic Market Equilibrium Trade between individuals Edgeworth Box Pareto Efficiency Compensating and Equivalent Variation Game Theory § Game Theory Dominant Strategy Equilibrium Equilibria in Game Theory Subgame Perfect Nash Equilibirum Repeated Game Oligopoly Games Bertrand Price Competition Cornout Quantity Competition .</description>
-    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
+    <title>The Case for Economic Democracy</title>
+    <link>https://pyoky.me/notes/(Book)-The-Case-for-Economic-Democracy</link>
+    <guid>https://pyoky.me/notes/(Book)-The-Case-for-Economic-Democracy</guid>
+    <description>The idea that the people have a right to shape political decisions through democratic means is widely accepted. The same cannot be said of the decisions that impact on our everyday economic life in the workplace and beyond.</description>
+    <pubDate>Thu, 29 Feb 2024 20:29:53 GMT</pubDate>
   </item><item>
-    <title>Econ 201 Intermediate Microeconomics I</title>
-    <link>https://pyoky.me/notes/Econ-201-Intermediate-Microeconomics-I</link>
-    <guid>https://pyoky.me/notes/Econ-201-Intermediate-Microeconomics-I</guid>
-    <description>Consumer Theory § Budget Lines Indifference Curve Constrained Optimization Income Effect (IE) Substitution Effect (SE) Types of Demand Curves (MicroEcon) Theory of the Firm § Production Function Profit Maximization Market Distortion § Price Controls International Trade Market Power § Game Theory Monopoly Bertrand Price Competition Monopolistic Competition Cartels and Collusion Public Good .</description>
-    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
+    <title>(HowTo) Cost Minimization</title>
+    <link>https://pyoky.me/notes/(HowTo)-Cost-Minimization</link>
+    <guid>https://pyoky.me/notes/(HowTo)-Cost-Minimization</guid>
+    <description>See also Profit Maximization Long Run Cost Minimization § minl,k​ C=wl+rk such that x=f(x) Lagrangian Optimization Optimal when Isoquant is tangent to the isocost Higher isoquant is not always better! it just means you’re producing more Warning Beware when MC is monotonically decreasing.</description>
+    <pubDate>Thu, 29 Feb 2024 20:29:53 GMT</pubDate>
   </item><item>
-    <title>Econ 204 Econometrics</title>
-    <link>https://pyoky.me/notes/Econ-204-Econometrics</link>
-    <guid>https://pyoky.me/notes/Econ-204-Econometrics</guid>
-    <description> Quote Correlation doesn’t imply Causation Econometrics Bivariate Ordinary Least Squares Regression Confidence Intervals and Hypothesis Testing in OLS Linear Regression Omitted Variables Multivariate Ordinary Least Squares Regression Homework 5.</description>
-    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
+    <title>(Philosopher) Alexandre Kojeve</title>
+    <link>https://pyoky.me/notes/(Philosopher)-Alexandre-Kojeve</link>
+    <guid>https://pyoky.me/notes/(Philosopher)-Alexandre-Kojeve</guid>
+    <description> Alexandre Kojève (koh-ZHEV, French: [alɛksɑ̃dʁ kɔʒɛv]; 28 April 1902–4 June 1968) was a Russian-born French philosopher and statesman whose philosophical seminars had an immense influence on 20th-century French philosophy, particularly via his integration of Hegelian concepts into twentieth-century continental philosophy.</description>
+    <pubDate>Thu, 29 Feb 2024 20:29:53 GMT</pubDate>
   </item><item>
-    <title>Econ 210 Macroeconomics</title>
-    <link>https://pyoky.me/notes/Econ-210-Macroeconomics</link>
-    <guid>https://pyoky.me/notes/Econ-210-Macroeconomics</guid>
-    <description> Macroeconomics Growth Rate Calculations GDP Agents of the Macro Economy Macroeconomic Market Equilibrium Laffer Curve Beveridge Curve Homogenous Degrees .</description>
-    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
+    <title>(Philosopher) Edmund Husserl</title>
+    <link>https://pyoky.me/notes/(Philosopher)-Edmund-Husserl</link>
+    <guid>https://pyoky.me/notes/(Philosopher)-Edmund-Husserl</guid>
+    <description>See Phenomenology.</description>
+    <pubDate>Thu, 29 Feb 2024 20:29:53 GMT</pubDate>
   </item><item>
-    <title>Econ 361 Distributive Justice</title>
-    <link>https://pyoky.me/notes/Econ-361-Distributive-Justice</link>
-    <guid>https://pyoky.me/notes/Econ-361-Distributive-Justice</guid>
-    <description> Remember, there are still people starving as we speak. Applying Game Theory § Robert Axelrod - The Evolution of Cooperation Robert Frank - Passions within Reason J.</description>
-    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
+    <title>(Philosopher) G. W. F. Hegel</title>
+    <link>https://pyoky.me/notes/(Philosopher)-G.-W.-F.-Hegel</link>
+    <guid>https://pyoky.me/notes/(Philosopher)-G.-W.-F.-Hegel</guid>
+    <description> Georg Wilhelm Friedrich Hegel (; German: [ˈɡeːɔʁk ˈvɪlhɛlm ˈfʁiːdʁɪç ˈheːɡl̩]; 27 August 1770–14 November 1831) was a German philosopher and one of the most influential figures of German idealism and 19th-century philosophy.</description>
+    <pubDate>Thu, 29 Feb 2024 20:29:53 GMT</pubDate>
   </item><item>
-    <title>Econ 371 Finance</title>
-    <link>https://pyoky.me/notes/Econ-371-Finance</link>
-    <guid>https://pyoky.me/notes/Econ-371-Finance</guid>
-    <description> Present Value Calculations Bonds (Finance) Equity Comparable Company (Comps) Analysis Portfolio Theory CAPM Model Futures Glossary Short-selling Trade-Through Interest Rate Derivatives (Finance) Contagion (Finance) .</description>
-    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
+    <title>(Philosopher) Martin Heidegger</title>
+    <link>https://pyoky.me/notes/(Philosopher)-Martin-Heidegger</link>
+    <guid>https://pyoky.me/notes/(Philosopher)-Martin-Heidegger</guid>
+    <description>See Phenomenology.</description>
+    <pubDate>Thu, 29 Feb 2024 20:29:53 GMT</pubDate>
   </item><item>
-    <title>Econometrics</title>
-    <link>https://pyoky.me/notes/Econometrics</link>
-    <guid>https://pyoky.me/notes/Econometrics</guid>
-    <description> Establishing causality does “policy/behavior/program → outcome”? X→Y? Challenges Is it random noise? Removing outliers Are there exogenous factors? X is endogenous if X correlates with ϵ (error)—non-causal, lurking variable X is exogenous if X doesn’t correlation with ϵ—likely causal Regression Analysis: Yi​=β0​+β1​Xi​+ϵi​ β0​: intercept.</description>
-    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
+    <title>10-09 Notes</title>
+    <link>https://pyoky.me/notes/10-09-Notes</link>
+    <guid>https://pyoky.me/notes/10-09-Notes</guid>
+    <description> Society’s Scripts of gender are grounded on biology but unfounded. Emergence of diverse modes of social interaction necessitate better ways of interaction Your Validating Emotions: your desire to be percieved as the cute girl, to perform that role (Gender is a performance) is built upon Your history in korea and japan your past relationships Optimistic Nihilism.</description>
+    <pubDate>Thu, 29 Feb 2024 20:29:53 GMT</pubDate>
   </item><item>
-    <title>Economic Democracy</title>
-    <link>https://pyoky.me/notes/Economic-Democracy</link>
-    <guid>https://pyoky.me/notes/Economic-Democracy</guid>
-    <description> (Book) The Case for Economic Democracy (Economist) Andrew Cumbers (DevonThink) Economic Democracy and Labor Productivity .</description>
-    <pubDate>Thu, 29 Feb 2024 03:20:26 GMT</pubDate>
+    <title>581 Exam Topics</title>
+    <link>https://pyoky.me/notes/581-Exam-Topics</link>
+    <guid>https://pyoky.me/notes/581-Exam-Topics</guid>
+    <description>Chapter 2: Time Value of Money § Simple vs compound interest From compound interest to continuous compounding Formulas for PV and FV of an annuity Amortization (payment towards interest and principal) PV and FV of Bonds Stock valuation (DDM) Chapter 3: Portfolio Theory § 2-securities: finding the global minimum variance portfolio using 1variable calculus Cases for ρ = 0, ρ = ±1 N-securities: finding the global minimum variance portfolio using Lagrange Understanding matrices V and H, quantities A, B, and C Chapter 4: Capital Market Theory § Understanding CML and SML lines Finding the sharp ratio and equation of the CML Deriving weight and risk-return of the Market Portfolio Deriving the formula for the Beta Chapter 5: Binomial Tree Models § Understanding the definition of a general binomial tree Deriving formulas for u_n, d_n, and p_n for the CRR tree From Binomial Tree to the Lognormal Model Chapter 6: Stochastic Calculus § Definition of SBM and GBM Intuition behind SBM: the symmetric random walk Properties of SBM in relation to the random walk Properties of the Lognormal Model for security prices Definition of the stochastic integral Using Ito’s formula in simple cases Chapter 7&amp;8: Derivatives and the BSM Model § Terminal payoff diagrams for Call and Put Put- []Call parity Binomial tree model for call options From Binomial tree model to the BSM formula Deriving the BSM PDE Understanding the BSM formula for Call and Put .</description>
+    <pubDate>Thu, 29 Feb 2024 20:29:53 GMT</pubDate>
   </item>
     </channel>
   </rss>
