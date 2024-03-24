@@ -6,65 +6,65 @@
       <description>Last 10 notes on PK&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Input Demand and Output Supply</title>
-    <link>https://pyoky.me/notes/Input-Demand-and-Output-Supply</link>
-    <guid>https://pyoky.me/notes/Input-Demand-and-Output-Supply</guid>
-    <description>Long Run Input Demand § def. Ordinary Input Demand. Ordinary Demand for Inputs (=labor l, capital k) To derive: Profit Function Properties: HD0 in (w,r,p) Decreasing in own-price ←regardless of anything! (Unlike Utility Maximization) def.</description>
-    <pubDate>Thu, 07 Mar 2024 22:00:04 GMT</pubDate>
+    <title>Algorithm</title>
+    <link>https://pyoky.me/notes/Algorithm</link>
+    <guid>https://pyoky.me/notes/Algorithm</guid>
+    <description>Loose definition Note An algorithm… finishes in finite number of steps its answer is consistent it always gives the correct answer Algorithm Design Principles § Design What to compute How it computes what we want it to compute Correctness Why does it compute what we want it to compute Analysis &amp; Efficiency How much resources does it use? (Complexity) Most algorithms follow the following two standard models of computation Recursion Iteration Verifying Correctness § Warning There is no way to find out if an algorithm is correct.</description>
+    <pubDate>Sun, 24 Mar 2024 18:53:42 GMT</pubDate>
   </item><item>
-    <title>Institutional Design</title>
-    <link>https://pyoky.me/notes/Institutional-Design</link>
-    <guid>https://pyoky.me/notes/Institutional-Design</guid>
-    <description> Horizontal vs Vertical organization structure Centralized vs Decentralized (Microphysics of-) Microphysics of Power Incentives &amp; Payoff structures in Game Theory .</description>
-    <pubDate>Thu, 07 Mar 2024 22:00:04 GMT</pubDate>
+    <title>Alienation</title>
+    <link>https://pyoky.me/notes/Alienation</link>
+    <guid>https://pyoky.me/notes/Alienation</guid>
+    <description>Commoditization of human labor § Trading labor Differences of age and sex have no longer any distinctive social validity for the working class. All are instruments of labour, more or less expensive to use, according to their age and sex.</description>
+    <pubDate>Sun, 24 Mar 2024 18:53:42 GMT</pubDate>
   </item><item>
-    <title>Instruction Set</title>
-    <link>https://pyoky.me/notes/Instruction-Set</link>
-    <guid>https://pyoky.me/notes/Instruction-Set</guid>
-    <description>Instruction Set: a set of instructions—the “vocabulary”—that a process of certain architecture understands (x86, MIPS, etc.) Types of Instruction Set: ARMv7, ARMv8 (64-bit), MIPS, x86 (32, 64-bit).</description>
-    <pubDate>Thu, 07 Mar 2024 22:00:04 GMT</pubDate>
+    <title>Amartya Sen</title>
+    <link>https://pyoky.me/notes/Amartya-Sen</link>
+    <guid>https://pyoky.me/notes/Amartya-Sen</guid>
+    <description> Developer of the Human Development Index Author of (Article) Equality of What? Frequent interactions with Martha Nussbaum .</description>
+    <pubDate>Sun, 24 Mar 2024 18:53:42 GMT</pubDate>
   </item><item>
-    <title>Instructions (Computer Science)</title>
-    <link>https://pyoky.me/notes/Instructions-(Computer-Science)</link>
-    <guid>https://pyoky.me/notes/Instructions-(Computer-Science)</guid>
-    <description>2.1. Introduction § Instruction Set language of the hardware. Vocabulary understood by a given architecture. 2.2. Operations of the Computer Hardware § Register: Places to store variables An instruction in MIPS looks like this: add $s1, $s2, $s3 which means s1 ← s2 + s3 Notice that one instruction has three operands.</description>
-    <pubDate>Thu, 07 Mar 2024 22:00:04 GMT</pubDate>
+    <title>Anarcho-Syndicalism</title>
+    <link>https://pyoky.me/notes/Anarcho-Syndicalism</link>
+    <guid>https://pyoky.me/notes/Anarcho-Syndicalism</guid>
+    <description>Noam Chomsky Anarcho-: Decentralization of power Syndicalism: Worker’s union’s ownership of Means of Production A realistic alternative to Marxism .</description>
+    <pubDate>Sun, 24 Mar 2024 18:53:42 GMT</pubDate>
   </item><item>
-    <title>Integer Multiplication</title>
-    <link>https://pyoky.me/notes/Integer-Multiplication</link>
-    <guid>https://pyoky.me/notes/Integer-Multiplication</guid>
-    <description>alg. Long Multiplication. (grade school) algorithm Complexity: Time O(n2). alg. Karatsuba Multiplication. Recursive algorithm to compute Idea: To get x×y… Let a,b,c,d be digits of x=abˉ,y=cdˉ, and observe: x=10n/2a+b y=10n/2c+d x×y=10nac+10n/2(ad+bc)+bd Recurse Compute a×c …(1) Recurse Compute b×d …(2) To compute the middle term, instead of computing a×d,b×c we do: Recursively compute (a+b)(c+d)=ac+ad+bc+bd …(3) (3) subtract (1) and (2) to get middle term ad+bc See Karatsuba Multiplication in 13 min - YouTube Complexity Time: O(nlog2​3≈n1.</description>
-    <pubDate>Thu, 07 Mar 2024 22:00:04 GMT</pubDate>
+    <title>Annuity</title>
+    <link>https://pyoky.me/notes/Annuity</link>
+    <guid>https://pyoky.me/notes/Annuity</guid>
+    <description>Annuities are… Money you borrowed: mortgages, etc. ⇒ pay regularly to pay off large amount Money you lent: social security credit, etc. ⇒ give large money, get regular payments later Amortization is the same thing but from a different perspective ⇒ You’re spreading a one-time cost into multiple years.</description>
+    <pubDate>Sun, 24 Mar 2024 18:53:42 GMT</pubDate>
   </item><item>
-    <title>Integration Rules</title>
-    <link>https://pyoky.me/notes/Integration-Rules</link>
-    <guid>https://pyoky.me/notes/Integration-Rules</guid>
-    <description></description>
-    <pubDate>Thu, 07 Mar 2024 22:00:04 GMT</pubDate>
+    <title>Approximating Distributions</title>
+    <link>https://pyoky.me/notes/Approximating-Distributions</link>
+    <guid>https://pyoky.me/notes/Approximating-Distributions</guid>
+    <description>thm. A Normal Distribution with μ=np,σ=np(1−p)​ will approximate a Binomial distribution with n trials and success probability p when np&gt;1 P(a≤X≤b)=k=a∑b​P(X=k)≃∫ab​fnormal​(μ=np,σ=np(1−p)​)dx REMARK.</description>
+    <pubDate>Sun, 24 Mar 2024 18:53:42 GMT</pubDate>
   </item><item>
-    <title>Interest Rate</title>
-    <link>https://pyoky.me/notes/Interest-Rate</link>
-    <guid>https://pyoky.me/notes/Interest-Rate</guid>
-    <description>Rates in General § def. Rate is a simple abstraction of interest rate so that we can calculate things easily. R​=F(0)F(τ)−F(0)​=τ⋅r=(1+kr​)τk−1​ (Definition) (.</description>
-    <pubDate>Thu, 07 Mar 2024 22:00:04 GMT</pubDate>
+    <title>Approximation Algorithm</title>
+    <link>https://pyoky.me/notes/Approximation-Algorithm</link>
+    <guid>https://pyoky.me/notes/Approximation-Algorithm</guid>
+    <description>def. Approximation Factor. α(n)-level approximation. For optimization problem π, ALG is a α-level optimization algorithm iff for input I of size n: max[OPT(I)ALG(I)​,ALG(I)OPT(I)​]=α(n) Smaller is better! Constant approximation factor: if approximation factor doesn’t depend on n, ALG is a constant α-level approximation .</description>
+    <pubDate>Sun, 24 Mar 2024 18:53:42 GMT</pubDate>
   </item><item>
-    <title>International Trade</title>
-    <link>https://pyoky.me/notes/International-Trade</link>
-    <guid>https://pyoky.me/notes/International-Trade</guid>
-    <description>Balance of Payments.</description>
-    <pubDate>Thu, 07 Mar 2024 22:00:04 GMT</pubDate>
+    <title>Artificial Needs</title>
+    <link>https://pyoky.me/notes/Artificial-Needs</link>
+    <guid>https://pyoky.me/notes/Artificial-Needs</guid>
+    <description>Normally it’s human nature from which arises naturally the needs, and capital should be appropriated for Under the system of private property their significance is reversed.</description>
+    <pubDate>Sun, 24 Mar 2024 18:53:42 GMT</pubDate>
   </item><item>
-    <title>Jean Baudrillard</title>
-    <link>https://pyoky.me/notes/Jean-Baudrillard</link>
-    <guid>https://pyoky.me/notes/Jean-Baudrillard</guid>
-    <description>The postmodern condition (Postmodernism) def. Simulation btw. illusion problem!= simulation problem There is no way out of the simulation postmodern age: no longer a distinction between illusion and reality ⇒ this situation is a simulation “stranded in a world without referents” The desert of the real (everything scary about postmodernism!) “tribute to individuals which is property and function of the simulation” “the analyst of simulation, therefore, is subject to the very rule he or she analyzes” Simulation attempts to hypermarket def.</description>
-    <pubDate>Thu, 07 Mar 2024 22:00:04 GMT</pubDate>
+    <title>Ascending Price Auction</title>
+    <link>https://pyoky.me/notes/Ascending-Price-Auction</link>
+    <guid>https://pyoky.me/notes/Ascending-Price-Auction</guid>
+    <description>Motivation. The VCG Auction is DSIC and Welfare-maximizing. But it’s also very complicated to explain to all agents. Instead, let’s think of a simpler, intuitive idea: ascending price auctions.</description>
+    <pubDate>Sun, 24 Mar 2024 18:53:42 GMT</pubDate>
   </item><item>
-    <title>John Rawls</title>
-    <link>https://pyoky.me/notes/John-Rawls</link>
-    <guid>https://pyoky.me/notes/John-Rawls</guid>
-    <description> Justice as Fairness Maximin Principle Basic Rights .</description>
-    <pubDate>Thu, 07 Mar 2024 22:00:04 GMT</pubDate>
+    <title>Assets (Finance)</title>
+    <link>https://pyoky.me/notes/Assets-(Finance)</link>
+    <guid>https://pyoky.me/notes/Assets-(Finance)</guid>
+    <description>Assets are anything that’s tradable. Equity Commodities Derivatives (Finance) Futures Real Estate Note A debt for one person is an asset for the lender.</description>
+    <pubDate>Sun, 24 Mar 2024 18:53:42 GMT</pubDate>
   </item>
     </channel>
   </rss>
