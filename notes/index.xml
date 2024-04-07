@@ -6,65 +6,65 @@
       <description>Last 10 notes on PK&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Bertrand Price Competition</title>
-    <link>https://pyoky.me/notes/Bertrand-Price-Competition</link>
-    <guid>https://pyoky.me/notes/Bertrand-Price-Competition</guid>
-    <description>Firms will choose price as the strategic variable. Market Demand x(p)=A−bp where A,b are constants Simultaneous game Firm with lower price captures all of demand Case: Constant and Same Marginal Cost § Marginal Cost is constant for both firms: c(x)=cx, MC=c Both firms will attempt to undercut each other.</description>
-    <pubDate>Sun, 31 Mar 2024 03:46:06 GMT</pubDate>
+    <title>main diagonal</title>
+    <link>https://pyoky.me/notes/main-diagonal</link>
+    <guid>https://pyoky.me/notes/main-diagonal</guid>
+    <description>Main Diagonal Anti-diagonal .</description>
+    <pubDate>Sun, 07 Apr 2024 20:09:18 GMT</pubDate>
   </item><item>
-    <title>Besset Correction</title>
-    <link>https://pyoky.me/notes/Besset-Correction</link>
-    <guid>https://pyoky.me/notes/Besset-Correction</guid>
-    <description>Review and intuition why we divide by n-1 for the unbiased sample | Khan Academy - YouTube Naiive sample variance estimator: s^2=n∑i=1n​(xi​−xˉ)​ ⇒ Sample variance is biased.</description>
-    <pubDate>Sun, 31 Mar 2024 03:46:06 GMT</pubDate>
+    <title>Agents of the Macro Economy</title>
+    <link>https://pyoky.me/notes/Agents-of-the-Macro-Economy</link>
+    <guid>https://pyoky.me/notes/Agents-of-the-Macro-Economy</guid>
+    <description>Agents § We’re doing static analysis; i.e. it’s very LR or very SR. Numerous agents of each sector are grouped into a representative agent. Representative household Objective: maximize utility over consumption (C) and Leisure (L) within the utility function → Labor Supply SN and # of laborers N → Goods Demanded D Representative Firm Objective: maximuze profit (π) over capital (K) and Labor (N) within the production function → Labor Demand DN → Goods Supplied S Government Role: collect taxes and pay transfers (NT); spend remaining on the goods market G Household Optimization § For households the price of consumption goods and the price of leisure [=wage] is an exogenous variable; i.</description>
+    <pubDate>Sun, 07 Apr 2024 20:09:18 GMT</pubDate>
   </item><item>
-    <title>Beveridge Curve</title>
-    <link>https://pyoky.me/notes/Beveridge-Curve</link>
-    <guid>https://pyoky.me/notes/Beveridge-Curve</guid>
-    <description>Beveridge Curve § := description of the inverse correlation between Unemployment and job openings It may shift due to: increased in unemployment benefits, participation rate changes, etc.</description>
-    <pubDate>Sun, 31 Mar 2024 03:46:06 GMT</pubDate>
+    <title>Algorithm Problem Tips</title>
+    <link>https://pyoky.me/notes/Algorithm-Problem-Tips</link>
+    <guid>https://pyoky.me/notes/Algorithm-Problem-Tips</guid>
+    <description>During Practice § There are only two ways to store data structures: as arrays (sequential storage) or as linked lists (linked storage). First of all, it should be clear that data structures are tools, and algorithms are methods to solve specific problems with appropriate tools.</description>
+    <pubDate>Sun, 07 Apr 2024 20:09:18 GMT</pubDate>
   </item><item>
-    <title>Bias (Statistics)</title>
-    <link>https://pyoky.me/notes/Bias-(Statistics)</link>
-    <guid>https://pyoky.me/notes/Bias-(Statistics)</guid>
-    <description> Note Bias is the difference between the expected value [=mean] of an estimator and the ground truth. Bias[θ^]=E[θ^]−θ0​ thm. Linear Transformation Preserves Bias.</description>
-    <pubDate>Sun, 31 Mar 2024 03:46:06 GMT</pubDate>
+    <title>Algorithm</title>
+    <link>https://pyoky.me/notes/Algorithm</link>
+    <guid>https://pyoky.me/notes/Algorithm</guid>
+    <description>Loose definition Note An algorithm… finishes in finite number of steps its answer is consistent it always gives the correct answer Algorithm Design Principles § Design What to compute How it computes what we want it to compute Correctness Why does it compute what we want it to compute Analysis &amp; Efficiency How much resources does it use? (Complexity) Most algorithms follow the following two standard models of computation Recursion Iteration Verifying Correctness § Warning There is no way to find out if an algorithm is correct.</description>
+    <pubDate>Sun, 07 Apr 2024 20:09:18 GMT</pubDate>
   </item><item>
-    <title>Big-Oh Notation</title>
-    <link>https://pyoky.me/notes/Big-Oh-Notation</link>
-    <guid>https://pyoky.me/notes/Big-Oh-Notation</guid>
-    <description>Alternative formulation of parts of calculus. def. Big-Oh Notation. for functions f,g, we say f(n)=O(g(n)) iff: Definition 1: ∃c∈R+ ∀n∈N+,f(n)≤c⋅g(n) Definition 2: n→∞lim​sup(f(n))&lt;∞ ⇒ Intuitive Understanding: f=O(g)≈f&lt;g def.</description>
-    <pubDate>Sun, 31 Mar 2024 03:46:06 GMT</pubDate>
+    <title>Alienation</title>
+    <link>https://pyoky.me/notes/Alienation</link>
+    <guid>https://pyoky.me/notes/Alienation</guid>
+    <description>Commoditization of human labor § Trading labor Differences of age and sex have no longer any distinctive social validity for the working class. All are instruments of labour, more or less expensive to use, according to their age and sex.</description>
+    <pubDate>Sun, 07 Apr 2024 20:09:18 GMT</pubDate>
   </item><item>
-    <title>Binomial Distribution</title>
-    <link>https://pyoky.me/notes/Binomial-Distribution</link>
-    <guid>https://pyoky.me/notes/Binomial-Distribution</guid>
-    <description>Binomial Distribution § def. Binomial Distribution. For random variable X which denotes the number of successes within n trials with success probability p: XP(X=k)​∼Binom(n,p)=(kn​)⋅pk⋅(1−p)n−k​ E[X]=np Var[X]=n⋅p(1−p) .</description>
-    <pubDate>Sun, 31 Mar 2024 03:46:06 GMT</pubDate>
+    <title>Amartya Sen</title>
+    <link>https://pyoky.me/notes/Amartya-Sen</link>
+    <guid>https://pyoky.me/notes/Amartya-Sen</guid>
+    <description> Developer of the Human Development Index Author of (Article) Equality of What? Frequent interactions with Martha Nussbaum .</description>
+    <pubDate>Sun, 07 Apr 2024 20:09:18 GMT</pubDate>
   </item><item>
-    <title>Binomial Option Pricing Model</title>
-    <link>https://pyoky.me/notes/Binomial-Option-Pricing-Model</link>
-    <guid>https://pyoky.me/notes/Binomial-Option-Pricing-Model</guid>
-    <description>Binomial Option Pricing Model § Q. What is the fair price (=No-Arbitrage) of a European call option at time t0​? You can’t really just use Present Value Calculations because it’s a derivative.</description>
-    <pubDate>Sun, 31 Mar 2024 03:46:06 GMT</pubDate>
+    <title>Analytic Philosophy</title>
+    <link>https://pyoky.me/notes/Analytic-Philosophy</link>
+    <guid>https://pyoky.me/notes/Analytic-Philosophy</guid>
+    <description></description>
+    <pubDate>Sun, 07 Apr 2024 20:09:18 GMT</pubDate>
   </item><item>
-    <title>Binomial Security Pricing Model</title>
-    <link>https://pyoky.me/notes/Binomial-Security-Pricing-Model</link>
-    <guid>https://pyoky.me/notes/Binomial-Security-Pricing-Model</guid>
-    <description> Model Definition § Consider time interval [t0​,tf​] total time τ=tf​−t0​ n intervals hn​: duration of one interval (=ntf​−t0​​) St​: price of security at time t.</description>
-    <pubDate>Sun, 31 Mar 2024 03:46:06 GMT</pubDate>
+    <title>Anarcho-Syndicalism</title>
+    <link>https://pyoky.me/notes/Anarcho-Syndicalism</link>
+    <guid>https://pyoky.me/notes/Anarcho-Syndicalism</guid>
+    <description>Noam Chomsky Anarcho-: Decentralization of power Syndicalism: Worker’s union’s ownership of Means of Production A realistic alternative to Marxism .</description>
+    <pubDate>Sun, 07 Apr 2024 20:09:18 GMT</pubDate>
   </item><item>
-    <title>Binomial Theorem</title>
-    <link>https://pyoky.me/notes/Binomial-Theorem</link>
-    <guid>https://pyoky.me/notes/Binomial-Theorem</guid>
-    <description>(x+y)n=k=0∑n​(kn​)xn−kyk=k=0∑n​(kn​)xkyn−k.</description>
-    <pubDate>Sun, 31 Mar 2024 03:46:06 GMT</pubDate>
+    <title>Annuity</title>
+    <link>https://pyoky.me/notes/Annuity</link>
+    <guid>https://pyoky.me/notes/Annuity</guid>
+    <description>Annuities are… Money you borrowed: mortgages, etc. ⇒ pay regularly to pay off large amount Money you lent: social security credit, etc. ⇒ give large money, get regular payments later Amortization is the same thing but from a different perspective ⇒ You’re spreading a one-time cost into multiple years.</description>
+    <pubDate>Sun, 07 Apr 2024 20:09:18 GMT</pubDate>
   </item><item>
-    <title>Bivariate Ordinary Least Squares Regression</title>
-    <link>https://pyoky.me/notes/Bivariate-Ordinary-Least-Squares-Regression</link>
-    <guid>https://pyoky.me/notes/Bivariate-Ordinary-Least-Squares-Regression</guid>
-    <description>Motivation. Let’s say that there is a relationship between GDP per capita and life expectancy. Maybe god has declared a perfect formula describing this relationship: GDP Per Capita=200⋅Life Expectancy+1000+Noise While we humans may never truly know the parameters of the formula, 200 and 1000, we can still make a good guess about it.</description>
-    <pubDate>Sun, 31 Mar 2024 03:46:06 GMT</pubDate>
+    <title>Approximating Distributions</title>
+    <link>https://pyoky.me/notes/Approximating-Distributions</link>
+    <guid>https://pyoky.me/notes/Approximating-Distributions</guid>
+    <description>thm. A Normal Distribution with μ=np,σ=np(1−p)​ will approximate a Binomial distribution with n trials and success probability p when np&gt;1 P(a≤X≤b)=k=a∑b​P(X=k)≃∫ab​fnormal​(μ=np,σ=np(1−p)​)dx REMARK.</description>
+    <pubDate>Sun, 07 Apr 2024 20:09:18 GMT</pubDate>
   </item>
     </channel>
   </rss>
