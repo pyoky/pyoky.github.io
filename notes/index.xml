@@ -6,65 +6,65 @@
       <description>Last 10 notes on PK&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Amartya Sen</title>
-    <link>https://pyoky.me/notes/Amartya-Sen</link>
-    <guid>https://pyoky.me/notes/Amartya-Sen</guid>
-    <description> Developer of the Human Development Index Author of (Article) Equality of What? Frequent interactions with Martha Nussbaum .</description>
-    <pubDate>Wed, 17 Apr 2024 18:25:43 GMT</pubDate>
+    <title>Confidence Intervals and Hypothesis Testing in OLS Linear Regression</title>
+    <link>https://pyoky.me/notes/Confidence-Intervals-and-Hypothesis-Testing-in-OLS-Linear-Regression</link>
+    <guid>https://pyoky.me/notes/Confidence-Intervals-and-Hypothesis-Testing-in-OLS-Linear-Regression</guid>
+    <description>See also: Confidence Intervals and Hypothesis Testing Motivation. Assume we have our estimators for our sample size N using OLS, β0​,β1​^​^​. Now, assuming we have the true population data (impossible in real life) and take 100 samples of size N from the whole population, we get 100 different tuple of estimators (β0​^​,β1​^​).</description>
+    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
   </item><item>
-    <title>Analytic Philosophy</title>
-    <link>https://pyoky.me/notes/Analytic-Philosophy</link>
-    <guid>https://pyoky.me/notes/Analytic-Philosophy</guid>
+    <title>Confidence Intervals</title>
+    <link>https://pyoky.me/notes/Confidence-Intervals</link>
+    <guid>https://pyoky.me/notes/Confidence-Intervals</guid>
+    <description>Simple Definition § def. Confidence Interval of the parameter θ∈[f(X,ψ),g(X,ψ)] in the probability distribution of a random variable X∼pdf(θ,ψ) is defined as the following: C.</description>
+    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
+  </item><item>
+    <title>Consistency</title>
+    <link>https://pyoky.me/notes/Consistency</link>
+    <guid>https://pyoky.me/notes/Consistency</guid>
+    <description>def. Consisteny. An estimator θ^(X1​,…,Xn​) is consistent for parameter θ if: ∀ϵ&gt;0, θ^ p⟶​n→∞​ θi.e.n→∞lim​P(∣θ^−θ∣&lt;ϵ)=1n→∞lim​P(∣θ^−θ∣&gt;ϵ)=0 ![[スクリーンショット 2023-02-21 15.</description>
+    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
+  </item><item>
+    <title>Consumer Sentiment Index</title>
+    <link>https://pyoky.me/notes/Consumer-Sentiment-Index</link>
+    <guid>https://pyoky.me/notes/Consumer-Sentiment-Index</guid>
+    <description>University of Michigan performs a monthly telephone survey about how the households feel about the economic climate.</description>
+    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
+  </item><item>
+    <title>Consumer Surplus</title>
+    <link>https://pyoky.me/notes/Consumer-Surplus</link>
+    <guid>https://pyoky.me/notes/Consumer-Surplus</guid>
+    <description>Consumer Surplus § Marginal Willingness to Pay Curve leads naturally to the concept of consumer surplus. Follow the following line of logic: The area under the MWTP curve is the Total Willingness to Pay (TWTP)—the amount the consumer was willing to pay to get q amount of goods.</description>
+    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
+  </item><item>
+    <title>Contagion (Finance)</title>
+    <link>https://pyoky.me/notes/Contagion-(Finance)</link>
+    <guid>https://pyoky.me/notes/Contagion-(Finance)</guid>
+    <description>:= a propogation of bear markets, due to the fact that banks lend and borrow from each other → The higher the leverage, the greater the degree of contagion in markets.</description>
+    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
+  </item><item>
+    <title>Context Sensitive Grammar</title>
+    <link>https://pyoky.me/notes/Context-Sensitive-Grammar</link>
+    <guid>https://pyoky.me/notes/Context-Sensitive-Grammar</guid>
     <description></description>
-    <pubDate>Wed, 17 Apr 2024 18:25:43 GMT</pubDate>
+    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
   </item><item>
-    <title>Anarcho-Syndicalism</title>
-    <link>https://pyoky.me/notes/Anarcho-Syndicalism</link>
-    <guid>https://pyoky.me/notes/Anarcho-Syndicalism</guid>
-    <description>Noam Chomsky Anarcho-: Decentralization of power Syndicalism: Worker’s union’s ownership of Means of Production A realistic alternative to Marxism .</description>
-    <pubDate>Wed, 17 Apr 2024 18:25:43 GMT</pubDate>
+    <title>Context-Free Grammar</title>
+    <link>https://pyoky.me/notes/Context-Free-Grammar</link>
+    <guid>https://pyoky.me/notes/Context-Free-Grammar</guid>
+    <description>Section: Pushdown Automata def. a Context-Free Grammar (CFG) is a grammar whose production rules consist of: A→x …where A is a variable, and x is a string of variables and terminals.</description>
+    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
   </item><item>
-    <title>Annuity</title>
-    <link>https://pyoky.me/notes/Annuity</link>
-    <guid>https://pyoky.me/notes/Annuity</guid>
-    <description>Annuities are… Money you borrowed: mortgages, etc. ⇒ pay regularly to pay off large amount Money you lent: social security credit, etc. ⇒ give large money, get regular payments later Amortization is the same thing but from a different perspective ⇒ You’re spreading a one-time cost into multiple years.</description>
-    <pubDate>Wed, 17 Apr 2024 18:25:43 GMT</pubDate>
+    <title>Context-Free Language</title>
+    <link>https://pyoky.me/notes/Context-Free-Language</link>
+    <guid>https://pyoky.me/notes/Context-Free-Language</guid>
+    <description>Section: Pushdown Automata Closure Properties § Context-Free Languages are closed under: Union Concat Star Regular Intersection (←think: you have states &amp; one stack to combine.</description>
+    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
   </item><item>
-    <title>Approximating Distributions</title>
-    <link>https://pyoky.me/notes/Approximating-Distributions</link>
-    <guid>https://pyoky.me/notes/Approximating-Distributions</guid>
-    <description>thm. A Normal Distribution with μ=np,σ=np(1−p)​ will approximate a Binomial distribution with n trials and success probability p when np&gt;1 P(a≤X≤b)=k=a∑b​P(X=k)≃∫ab​fnormal​(μ=np,σ=np(1−p)​)dx REMARK.</description>
-    <pubDate>Wed, 17 Apr 2024 18:25:43 GMT</pubDate>
-  </item><item>
-    <title>Approximation Algorithm</title>
-    <link>https://pyoky.me/notes/Approximation-Algorithm</link>
-    <guid>https://pyoky.me/notes/Approximation-Algorithm</guid>
-    <description>def. Approximation Factor. α(n)-level approximation. For optimization problem π, ALG is a α-level optimization algorithm iff for input I of size n: max[OPT(I)ALG(I)​,ALG(I)OPT(I)​]=α(n) Smaller is better! Constant approximation factor: if approximation factor doesn’t depend on n, ALG is a constant α-level approximation .</description>
-    <pubDate>Wed, 17 Apr 2024 18:25:43 GMT</pubDate>
-  </item><item>
-    <title>Artificial Needs</title>
-    <link>https://pyoky.me/notes/Artificial-Needs</link>
-    <guid>https://pyoky.me/notes/Artificial-Needs</guid>
-    <description>Normally it’s human nature from which arises naturally the needs, and capital should be appropriated for Under the system of private property their significance is reversed.</description>
-    <pubDate>Wed, 17 Apr 2024 18:25:43 GMT</pubDate>
-  </item><item>
-    <title>Ascending Price Auction</title>
-    <link>https://pyoky.me/notes/Ascending-Price-Auction</link>
-    <guid>https://pyoky.me/notes/Ascending-Price-Auction</guid>
-    <description>Motivation. The VCG Auction is DSIC and Welfare-maximizing. But it’s also very complicated to explain to all agents. Instead, let’s think of a simpler, intuitive idea: ascending price auctions.</description>
-    <pubDate>Wed, 17 Apr 2024 18:25:43 GMT</pubDate>
-  </item><item>
-    <title>Assets (Finance)</title>
-    <link>https://pyoky.me/notes/Assets-(Finance)</link>
-    <guid>https://pyoky.me/notes/Assets-(Finance)</guid>
-    <description>Assets are anything that’s tradable. Equity Commodities Derivatives (Finance) Futures Real Estate Note A debt for one person is an asset for the lender.</description>
-    <pubDate>Wed, 17 Apr 2024 18:25:43 GMT</pubDate>
-  </item><item>
-    <title>Atomic</title>
-    <link>https://pyoky.me/notes/Atomic</link>
-    <guid>https://pyoky.me/notes/Atomic</guid>
-    <description>Atomicity means indivisibility. Useful in a variety of contexts: Programming &amp; Concurrency. atomic operations cannot have any operation happen between it during the operation i.</description>
-    <pubDate>Wed, 17 Apr 2024 18:25:43 GMT</pubDate>
+    <title>Continual Procession of Technology</title>
+    <link>https://pyoky.me/notes/Continual-Procession-of-Technology</link>
+    <guid>https://pyoky.me/notes/Continual-Procession-of-Technology</guid>
+    <description>Moore’s law.</description>
+    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
   </item>
     </channel>
   </rss>
