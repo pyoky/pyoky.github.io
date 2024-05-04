@@ -6,65 +6,65 @@
       <description>Last 10 notes on PK&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Confidence Intervals and Hypothesis Testing in OLS Linear Regression</title>
-    <link>https://pyoky.me/notes/Confidence-Intervals-and-Hypothesis-Testing-in-OLS-Linear-Regression</link>
-    <guid>https://pyoky.me/notes/Confidence-Intervals-and-Hypothesis-Testing-in-OLS-Linear-Regression</guid>
-    <description>See also: Confidence Intervals and Hypothesis Testing Motivation. Assume we have our estimators for our sample size N using OLS, β0​,β1​^​^​. Now, assuming we have the true population data (impossible in real life) and take 100 samples of size N from the whole population, we get 100 different tuple of estimators (β0​^​,β1​^​).</description>
-    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
-  </item><item>
-    <title>Confidence Intervals</title>
-    <link>https://pyoky.me/notes/Confidence-Intervals</link>
-    <guid>https://pyoky.me/notes/Confidence-Intervals</guid>
-    <description>Simple Definition § def. Confidence Interval of the parameter θ∈[f(X,ψ),g(X,ψ)] in the probability distribution of a random variable X∼pdf(θ,ψ) is defined as the following: C.</description>
-    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
-  </item><item>
-    <title>Consistency</title>
-    <link>https://pyoky.me/notes/Consistency</link>
-    <guid>https://pyoky.me/notes/Consistency</guid>
-    <description>def. Consisteny. An estimator θ^(X1​,…,Xn​) is consistent for parameter θ if: ∀ϵ&gt;0, θ^ p⟶​n→∞​ θi.e.n→∞lim​P(∣θ^−θ∣&lt;ϵ)=1n→∞lim​P(∣θ^−θ∣&gt;ϵ)=0 ![[スクリーンショット 2023-02-21 15.</description>
-    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
-  </item><item>
-    <title>Consumer Sentiment Index</title>
-    <link>https://pyoky.me/notes/Consumer-Sentiment-Index</link>
-    <guid>https://pyoky.me/notes/Consumer-Sentiment-Index</guid>
-    <description>University of Michigan performs a monthly telephone survey about how the households feel about the economic climate.</description>
-    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
-  </item><item>
-    <title>Consumer Surplus</title>
-    <link>https://pyoky.me/notes/Consumer-Surplus</link>
-    <guid>https://pyoky.me/notes/Consumer-Surplus</guid>
-    <description>Consumer Surplus § Marginal Willingness to Pay Curve leads naturally to the concept of consumer surplus. Follow the following line of logic: The area under the MWTP curve is the Total Willingness to Pay (TWTP)—the amount the consumer was willing to pay to get q amount of goods.</description>
-    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
-  </item><item>
-    <title>Contagion (Finance)</title>
-    <link>https://pyoky.me/notes/Contagion-(Finance)</link>
-    <guid>https://pyoky.me/notes/Contagion-(Finance)</guid>
-    <description>:= a propogation of bear markets, due to the fact that banks lend and borrow from each other → The higher the leverage, the greater the degree of contagion in markets.</description>
-    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
-  </item><item>
-    <title>Context Sensitive Grammar</title>
-    <link>https://pyoky.me/notes/Context-Sensitive-Grammar</link>
-    <guid>https://pyoky.me/notes/Context-Sensitive-Grammar</guid>
+    <title>Utilitarianism</title>
+    <link>https://pyoky.me/notes/Utilitarianism</link>
+    <guid>https://pyoky.me/notes/Utilitarianism</guid>
     <description></description>
-    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
+    <pubDate>Sat, 04 May 2024 21:13:42 GMT</pubDate>
   </item><item>
-    <title>Context-Free Grammar</title>
-    <link>https://pyoky.me/notes/Context-Free-Grammar</link>
-    <guid>https://pyoky.me/notes/Context-Free-Grammar</guid>
-    <description>Section: Pushdown Automata def. a Context-Free Grammar (CFG) is a grammar whose production rules consist of: A→x …where A is a variable, and x is a string of variables and terminals.</description>
-    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
+    <title>Utility Function</title>
+    <link>https://pyoky.me/notes/Utility-Function</link>
+    <guid>https://pyoky.me/notes/Utility-Function</guid>
+    <description>for mapping (p1​,p2​,I)↦u, see the Indirect Utility Function def. Utility Function. a utility function maps n goods to utility (happiness) that satisfies the assumption of Rational Taste including convexity.</description>
+    <pubDate>Sat, 04 May 2024 21:13:42 GMT</pubDate>
   </item><item>
-    <title>Context-Free Language</title>
-    <link>https://pyoky.me/notes/Context-Free-Language</link>
-    <guid>https://pyoky.me/notes/Context-Free-Language</guid>
-    <description>Section: Pushdown Automata Closure Properties § Context-Free Languages are closed under: Union Concat Star Regular Intersection (←think: you have states &amp; one stack to combine.</description>
-    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
+    <title>Utility Maximization with Endowments</title>
+    <link>https://pyoky.me/notes/Utility-Maximization-with-Endowments</link>
+    <guid>https://pyoky.me/notes/Utility-Maximization-with-Endowments</guid>
+    <description>Budget constraint with endowment p1​x1​+p2​x2​=Endowmentsp1​e1​+p2​e2​​​+I ⇒ Whether the change in price leads to a utility increase or decrease depends on where your original optimum is; i.</description>
+    <pubDate>Sat, 04 May 2024 21:13:42 GMT</pubDate>
   </item><item>
-    <title>Continual Procession of Technology</title>
-    <link>https://pyoky.me/notes/Continual-Procession-of-Technology</link>
-    <guid>https://pyoky.me/notes/Continual-Procession-of-Technology</guid>
-    <description>Moore’s law.</description>
-    <pubDate>Thu, 18 Apr 2024 16:30:57 GMT</pubDate>
+    <title>Utility Maximization</title>
+    <link>https://pyoky.me/notes/Utility-Maximization</link>
+    <guid>https://pyoky.me/notes/Utility-Maximization</guid>
+    <description>max u(x1​,x2​) such that I=p1​x1​+p2​x2​ Maximization of the Utility Function against the Budget Constraints. Uses Lagrangian Optimization &amp; If it makes it more convenient, do a Monotonic Transformation of the utility function.</description>
+    <pubDate>Sat, 04 May 2024 21:13:42 GMT</pubDate>
+  </item><item>
+    <title>Utility</title>
+    <link>https://pyoky.me/notes/Utility</link>
+    <guid>https://pyoky.me/notes/Utility</guid>
+    <description>Money. Utility. Consumer Surplus.</description>
+    <pubDate>Sat, 04 May 2024 21:13:42 GMT</pubDate>
+  </item><item>
+    <title>VCG Auction</title>
+    <link>https://pyoky.me/notes/VCG-Auction</link>
+    <guid>https://pyoky.me/notes/VCG-Auction</guid>
+    <description>thm. VCG Mechanism Auction. The following mechanism is DSIC and Welfare Maximizing. Compute the optimum allocation S=(S1∗​,…,Sn∗​). Then for an agent i, let V∗:=∑j=in​vj​(Sj∗​) Optimal Social Welfare V−i∗​:=maxi=j​∑j=1n​vj​(Sj,−i​) where sj−1​ is the optimal allocation to j when i is simply removed from auction Thus v−i∗​ is the optimal social welfare without i Thus V∗≥V−i∗​ because adding more bidders can only increase social welfare thm.</description>
+    <pubDate>Sat, 04 May 2024 21:13:42 GMT</pubDate>
+  </item><item>
+    <title>VSCode Extensions</title>
+    <link>https://pyoky.me/notes/VSCode-Extensions</link>
+    <guid>https://pyoky.me/notes/VSCode-Extensions</guid>
+    <description> angular language service code spell checker compare folders css property sorter css var complete error lens eslint git lens html scss support indent rainbow intellicode intellicode api usage examples intellicode completions japanese language pack for visual studio code prettier - code formatter scss intellisense stylelint todo highlight vim vscode-icons powershell .</description>
+    <pubDate>Sat, 04 May 2024 21:13:42 GMT</pubDate>
+  </item><item>
+    <title>Valorization, Surplus Value</title>
+    <link>https://pyoky.me/notes/Valorization,-Surplus-Value</link>
+    <guid>https://pyoky.me/notes/Valorization,-Surplus-Value</guid>
+    <description>Valorization is the addition of surplus value into capital. Begins with the curiosity: Where did this M-C-M’ increase come from? ← magic! (actually capital?) Pedagogical process of explaining valorization The evolution of the money-owner to the capitalist capitalist’s rant \Delta M is the capitalist’s focus.</description>
+    <pubDate>Sat, 04 May 2024 21:13:42 GMT</pubDate>
+  </item><item>
+    <title>Value of Money</title>
+    <link>https://pyoky.me/notes/Value-of-Money</link>
+    <guid>https://pyoky.me/notes/Value-of-Money</guid>
+    <description> A dollar now than a dollar tomorrow. Class notes for detailed info. Money’s Role § Solves the problem of the double coincidence of wants Observe the Edgeworth Box|420.</description>
+    <pubDate>Sat, 04 May 2024 21:13:42 GMT</pubDate>
+  </item><item>
+    <title>Variance</title>
+    <link>https://pyoky.me/notes/Variance</link>
+    <guid>https://pyoky.me/notes/Variance</guid>
+    <description>def. Variance of a random variable X: Var[X]=E[(X−μ)2]=E(X2)−[E(X)]2 Var(X):=E((X−μ)2)≡∫−∞∞​(x−μ)2fX​(x)dx=E(X2)−[E(X)]2 thm. (Variance Identities.) For a single random variable X and constant n Var(n⋅X)=n2⋅Var(X) Quadratic Scaling Var(X+n)=Var(X) Translation Invariance For any two random variables X,Y: Var(X+Y)=Var(X)+Var(Y)+2⋅E[(X−μx​)(Y−μy​)] …if X⊥Y (i.</description>
+    <pubDate>Sat, 04 May 2024 21:13:42 GMT</pubDate>
   </item>
     </channel>
   </rss>
