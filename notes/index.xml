@@ -10,61 +10,61 @@
     <link>https://pyoky.me/notes/(HowTo)-Cost-Minimization</link>
     <guid>https://pyoky.me/notes/(HowTo)-Cost-Minimization</guid>
     <description>See also Profit Maximization Long Run Cost Minimization § minl,k​ C=wl+rk such that x=f(x) Lagrangian Optimization Optimal when Isoquant is tangent to the isocost Higher isoquant is not always better! it just means you’re producing more Warning Beware when MC is monotonically decreasing.</description>
-    <pubDate>Mon, 12 Aug 2024 20:04:39 GMT</pubDate>
+    <pubDate>Mon, 12 Aug 2024 20:19:58 GMT</pubDate>
   </item><item>
     <title>(Philosopher) Alexandre Kojeve</title>
     <link>https://pyoky.me/notes/(Philosopher)-Alexandre-Kojeve</link>
     <guid>https://pyoky.me/notes/(Philosopher)-Alexandre-Kojeve</guid>
     <description> Alexandre Kojève (koh-ZHEV, French: [alɛksɑ̃dʁ kɔʒɛv]; 28 April 1902–4 June 1968) was a Russian-born French philosopher and statesman whose philosophical seminars had an immense influence on 20th-century French philosophy, particularly via his integration of Hegelian concepts into twentieth-century continental philosophy.</description>
-    <pubDate>Mon, 12 Aug 2024 20:04:39 GMT</pubDate>
+    <pubDate>Mon, 12 Aug 2024 20:19:58 GMT</pubDate>
   </item><item>
     <title>(Philosopher) Amia Srinivasan</title>
     <link>https://pyoky.me/notes/(Philosopher)-Amia-Srinivasan</link>
     <guid>https://pyoky.me/notes/(Philosopher)-Amia-Srinivasan</guid>
     <description></description>
-    <pubDate>Mon, 12 Aug 2024 20:04:39 GMT</pubDate>
+    <pubDate>Mon, 12 Aug 2024 20:19:58 GMT</pubDate>
   </item><item>
     <title>(Philosopher) Edmund Husserl</title>
     <link>https://pyoky.me/notes/(Philosopher)-Edmund-Husserl</link>
     <guid>https://pyoky.me/notes/(Philosopher)-Edmund-Husserl</guid>
     <description>See Phenomenology.</description>
-    <pubDate>Mon, 12 Aug 2024 20:04:39 GMT</pubDate>
+    <pubDate>Mon, 12 Aug 2024 20:19:58 GMT</pubDate>
   </item><item>
     <title>(Philosopher) G. W. F. Hegel</title>
     <link>https://pyoky.me/notes/(Philosopher)-G.-W.-F.-Hegel</link>
     <guid>https://pyoky.me/notes/(Philosopher)-G.-W.-F.-Hegel</guid>
     <description> Georg Wilhelm Friedrich Hegel (; German: [ˈɡeːɔʁk ˈvɪlhɛlm ˈfʁiːdʁɪç ˈheːɡl̩]; 27 August 1770–14 November 1831) was a German philosopher and one of the most influential figures of German idealism and 19th-century philosophy.</description>
-    <pubDate>Mon, 12 Aug 2024 20:04:39 GMT</pubDate>
+    <pubDate>Mon, 12 Aug 2024 20:19:58 GMT</pubDate>
   </item><item>
     <title>(Philosopher) Martin Heidegger</title>
     <link>https://pyoky.me/notes/(Philosopher)-Martin-Heidegger</link>
     <guid>https://pyoky.me/notes/(Philosopher)-Martin-Heidegger</guid>
     <description>See Phenomenology.</description>
-    <pubDate>Mon, 12 Aug 2024 20:04:39 GMT</pubDate>
+    <pubDate>Mon, 12 Aug 2024 20:19:58 GMT</pubDate>
   </item><item>
     <title>Abstraction</title>
     <link>https://pyoky.me/notes/Abstraction</link>
     <guid>https://pyoky.me/notes/Abstraction</guid>
     <description>1.2. 8 Great Ideas from Computer Science § Moore’s law Abstraction Optimize for the Common Case Parallelism → thruput increase Pipelining → thuput increase Prediction Memory Heirarchy Redundancy Abstraction: Application Software &gt; Systems Software &gt; Hardware.</description>
-    <pubDate>Mon, 12 Aug 2024 20:04:39 GMT</pubDate>
+    <pubDate>Mon, 12 Aug 2024 20:19:58 GMT</pubDate>
   </item><item>
     <title>Academic Disciplines</title>
     <link>https://pyoky.me/notes/Academic-Disciplines</link>
     <guid>https://pyoky.me/notes/Academic-Disciplines</guid>
     <description> Social Sciences is for understanding any human behavior Economics: Utilitarianism, Rationality (Economics) Sociology: Social Constructs, Collective Effervescence Psychology: Childhood, Parents, Trauma .</description>
-    <pubDate>Mon, 12 Aug 2024 20:04:39 GMT</pubDate>
+    <pubDate>Mon, 12 Aug 2024 20:19:58 GMT</pubDate>
   </item><item>
     <title>Ackerman Function</title>
     <link>https://pyoky.me/notes/Ackerman-Function</link>
     <guid>https://pyoky.me/notes/Ackerman-Function</guid>
     <description>def. Ackerman Function. The Ackerman function satisfies the following recurrence relations: A(k,n)=A(k−1,A(k,n−1)) A(k,1)=2 A(1,n)=2n Example: A(2,n)=A(1,A(2,n−1))=⋯=A(1,A(1,…A(2,1)))=2n A(3,n)=2↑n Properties § Grows really fast Appears in Limits of Math and Computing .</description>
-    <pubDate>Mon, 12 Aug 2024 20:04:39 GMT</pubDate>
+    <pubDate>Mon, 12 Aug 2024 20:19:58 GMT</pubDate>
   </item><item>
     <title>Activation Functions of a Neural Network</title>
     <link>https://pyoky.me/notes/Activation-Functions-of-a-Neural-Network</link>
     <guid>https://pyoky.me/notes/Activation-Functions-of-a-Neural-Network</guid>
     <description>RELU § REctifier Linear Units. f(x):=max{0,x} Used as an activation function of a neuron in a neural network. Rectifier since it removes GELU § Gaussian Error Linear Unit f(x):=x⋅Φ(x) Where Φ(x) is the CDF of the standard Normal Distribution.</description>
-    <pubDate>Mon, 12 Aug 2024 20:04:39 GMT</pubDate>
+    <pubDate>Mon, 12 Aug 2024 20:19:58 GMT</pubDate>
   </item>
     </channel>
   </rss>
