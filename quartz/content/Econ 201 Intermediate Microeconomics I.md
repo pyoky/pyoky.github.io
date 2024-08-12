@@ -1,12 +1,14 @@
 ---
-aliases: []
+aliases: 
 tags:
   - Courses
+professor: Thomas Nechyba
 ---
+> [!quote] Now, go and make the world a better place.
 ### Consumer Theory
 - [[Budget Lines]]
 - [[Utility Function|Indifference Curve]]
-- [[Constrained Optimization]]
+- [[Lagrangian Optimization]]
 - [[Income Effect (IE)]]
 - [[Substitution Effect (SE)]]
 - [[Types of Demand Curves (MicroEcon)]]

@@ -15,6 +15,10 @@ $G=(V,T,S,P)$
 
 > [!info] Notation for production rules:
 
-- $w \Rightarrow z$ : w derives z
-- $w \xRightarrow[]{*} z$ : w derives z in zero or more steps
-- $w \xRightarrow[]{+} z$ : w derives z in one or more steps
+- $w \Rightarrow z$: w derives z
+- $w \xRightarrow[]{*} z$: w derives z in zero or more steps
+- $w \xRightarrow[]{+} z$: w derives z in one or more steps
+
+### Normal Forms
+- [[Greibach Normal Form]]
+- [[Chompsky Normal Form]]

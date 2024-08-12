@@ -61,7 +61,7 @@ Defining Phenomenology
 	- e.g. Meridian system by China, Chakra by India
 	- Looks stupid from rationalist perspective
 	- ⇒ but it's the mapping of the first-person experience of the body
-	- e.g. [[meditation]]: observe the experience
+	- e.g. [[Meditation]]: observe the experience
 		- a form of bracketing (stopping judgement, and just experiencing thoughts and emotions)
 		- Zen buddism
 		- Daoism may have influenced Husserl directly too

@@ -25,3 +25,6 @@ alg. **Kosaraju's Algorithm** for Finding **Strongly Connected Components**.
 	1. when you run out of reachable components…
 	2. cut off the DFS tree; **that's a strongly connected component**; then
 	3. go in the next maximum unvisited post-time vertex
+
+thm. **(no cycles implies no zero-degree vertex)** Let $G$ be a directed graph. If every vertex of $G$ has one or more outgoing edges, the graph is cyclic.
+*Proof.* [graph theory - Having No Directed Cycles Guarantees a Vertex of Zero Outdegree - Mathematics Stack Exchange](https://math.stackexchange.com/a/3013698) ^7207a7

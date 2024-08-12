@@ -2,8 +2,8 @@
 aliases:
   - PPE
 tags:
-  - Humanities
   - Economics/Game-Theory
+  - "#Philosophy/Political-Philosophy"
 ---
 
 ## Why?

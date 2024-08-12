@@ -23,17 +23,17 @@ alg. **BFS Shortest Path**
 
 alg. **Dijkstra's Shortest Path**
 - **Assumption**. graph has non-negative edge weights
-- **Idea**. BFS Shortest Path, but you choose the next vertex by how likely they are to be the shortest path (=maintain a [[priority queue]] based on path length)
+- **Idea**. BFS Shortest Path, but you choose the next vertex by how likely they are to be the shortest path (=maintain a [[Priority Queue]] based on path length)
 	- See [Dijkstra's Algorithm - Computerphile - YouTube](https://www.youtube.com/watch?v=GazC3A4OQTE&t=538s)
 - Complexity
 	- Time: $O\Big((|V|+|E|)\cdot\log |V|\Big)$
 
 alg. **A-Star (A\*) Shortest Path**
 - **Assumption**. graph has non-negative edge weights
-- **Idea**. Dijkstra using [[priority queue]], but the priority is calculated on a heuristic
+- **Idea**. Dijkstra using [[Priority Queue]], but the priority is calculated on a heuristic
 	- See [A\* (A Star) Search Algorithm - Computerphile - YouTube](https://www.youtube.com/watch?v=ySN5Wnu88nE)
 - Complexity.
-	- Time: $O(|E|\log |V|)$ using [[priority queue|binary heap]]
+	- Time: $O(|E|\log |V|)$ using [[Priority Queue|binary heap]]
 
 alg. **Bellman–Ford Shortest Path**
 - Idea:
@@ -41,7 +41,7 @@ alg. **Bellman–Ford Shortest Path**
 	- Repeat BFS edge relaxation again, for $|V|-1$ times. But this time, if any cost values are updated, the node is part of a negative cycle. Mark cost to that node as $\infty$.
 	- See [Bellman Ford Algorithm | Graph Theory - YouTube](https://www.youtube.com/watch?v=lyw4FaxrwHg&t=704s)
 	- Able to deal with negative edges/negative cycles
-	- Often used in finance for identifying [[arbitrage]] opportunities.
+	- Often used in finance for identifying [[No-Arbitrage]] opportunities.
 - Complexity. Time: $O(V\cdot E)$
 
 ## All Pairs Shortest Path (APSP)

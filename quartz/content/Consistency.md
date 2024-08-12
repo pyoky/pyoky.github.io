@@ -18,12 +18,10 @@ $$
 
 ![[スクリーンショット 2023-02-21 15.40.01.png|center|250]]
 
-def. Asymptotic Unbiasedness. An estimator $\hat\theta$ is asymptotically unbiased if:
+def. **Asymptotic Unbiasedness.** An estimator $\hat\theta$ is asymptotically unbiased if:
 
 $$
 E[\hat\theta_n]\overset{n\rightarrow\infty}\longrightarrow~\theta
 $$
 
-> [!info] You can use the following Chebyshev’s Inequality for determining Consistency.
-
-![[Chebyshev's Inequality]]
+_Remark._ You can use the [[Chebyshev's Inequality]] for determining Consistency.

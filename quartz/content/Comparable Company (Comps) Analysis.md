@@ -19,7 +19,7 @@ $\coloneqq$ using the ratios of [[Income Statement|accounting line items]] (like
 
 The following are commonly used multiples:
 
-- [[EBITDA Multiple]]
+- [[Measuring Security Performance]]
 - [[Price to Earnings Ratio]]
 
 ## Accounting Sheets

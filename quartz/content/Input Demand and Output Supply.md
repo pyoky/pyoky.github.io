@@ -50,7 +50,7 @@ Method 2:
 
 Short run (own-price) output supply: $x_{\bar{k}}(w,p|\bar{k})$
 - $\bar{k}$ is a parameter. Set it to the long-run input demand $k(w,r,p)$
-- Use the [[production function]] $x=f(l,k)$ but with $\bar{k}$ fixed.
+- Use the [[Production Function]] $x=f(l,k)$ but with $\bar{k}$ fixed.
 - In the short run, a change in $w$ or $p$ will only operate within $x_{\bar{k}}$ with no change in $\bar{k}$ possible.
 - In the long run, we simply calculate the long-run output demand $l(w,r,p)$.
 - ![[Pasted image 20231024161556.png]]

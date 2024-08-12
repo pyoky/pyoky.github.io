@@ -1,7 +1,7 @@
 ---
-aliases: []
+aliases: 
 tags:
-  - Computing
+  - Documentation
 ---
 ## AWS John the Ripper Instance
 

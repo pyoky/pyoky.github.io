@@ -19,7 +19,7 @@ Q. **Coupon Exchange Problem.** Josh and Andrew have identical utility functions
 > [CV and EV - YouTube](https://www.youtube.com/watch?v=uuvkr2GZahw)
 > Oh no! the price of good $x_{1}$ increased!
 > - 🥺 She's now at a lower [[Utility Function|Indifference Curve]]. How much should we give as compensation to get her back on the _original_ indifference curve? ⇒ **Compensating Variation**
-> - 😈 She's at a _lower_ indifference curve now. What if instead of having the price of good $x_{1}$ increase, we just take money away from her directly? ⇒ **Equivalent Variation**
+> - 😈 She's at a _lower_ in[](Utility%20Function.md)x_{1}$ increase, we just take money away from her directly? ⇒ **Equivalent Variation**
 
 def. **Compensating Variation (CV)**. When a price of a good changes, the Compensating variation is the change in expenditure ($\pm$) required to maintain the utility.
 

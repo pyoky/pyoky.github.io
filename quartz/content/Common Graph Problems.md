@@ -12,11 +12,11 @@ See also:
 - [[Minimal Spanning Tree Problem]]
 
 Q. **Clique Problem.** Given a graph $G=(V,E)$ what is the maximum set of vertices $C$ such that all vertices $v$ in $C$ are fully connected, i.e. for every $u,v \in C$, there exists edge $(u,v) \in E$
-![[Clique Problem-20231202170000798.webp]]
+![[Clique Problem-20231202170000798 1.webp]]
 
 - NP-complete problem
 
-Q. **Independent Set Problem.** (=Stable set =anti-clique) Given a graph $G=(V,E)$ what is the maximum set of vertices $C$ such that no edges connect any two vertices in this set? ![[Clique Problem-20231202165618399.webp|248]]
+Q. **Independent Set Problem.** (=Stable set =anti-clique) Given a graph $G=(V,E)$ what is the maximum set of vertices $C$ such that no edges connect any two vertices in this set? ![[Clique Problem-20231202165618399 1.webp|248]]
 - Complement with vertex cover.
 	- $C$ is an maximal independent set ⇔ $V-C$ is a minimal vertex cover
 	- Reduction both ways is trivial
@@ -26,7 +26,7 @@ thm. **3-SAT $\leq_{p}$ Independent Set**
 
 Q. **Vertex Cover.** Given $G=(V,E)$ find the minimal subset $C \subseteq V$ such that it covers all edges in the graph.
 
-![[Vertex Cover-20231202164958170.webp|326]]
+![[Vertex Cover-20231202164958170 1.webp|326]]
 - e.g. graph that has a vertex cover comprising 2 vertices (bottom), but none with fewer.
 - NP-complete problem
 - $C$ is a minimal vertex cover ⇔ $V-C$ is a maximal [[Common Graph Problems|Independent Set]]

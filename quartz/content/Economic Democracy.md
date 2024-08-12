@@ -4,7 +4,6 @@ aliases:
 tags:
   - Economics
   - Philosophy/Political-Philosophy
-  - index
 ---
 - [[(Book) The Case for Economic Democracy]]
 - [[(Economist) Andrew Cumbers]]

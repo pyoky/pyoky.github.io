@@ -33,7 +33,7 @@ Note:
 > - YED:= Income elasticity of demand-
 > - [[Income Effect (IE)]] is important in understanding economic goods
 
-- **Normal Good**: $\text{Income} \propto Q_\text{Demand}$
+-[](Income%20Effect%20(IE).md)xt{Income} \propto Q_\text{Demand}$
 	- i.e. $\frac{\partial x_{1}(p_{1},p_{2},\bar{I})}{\partial I}>0$ (derivative from [[Uncompensated Demand curve|Marshallian Demand]])
 	- **Necessity Good** (Necessities)
 		- $0<\frac{\partial x_{1}}{\partial I}<1$

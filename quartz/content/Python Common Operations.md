@@ -28,3 +28,13 @@ tags:
 ### Dictionary
 - Default value for dictionary entries`{python}dictionary = collections.defaultdict(list|int)`
 - Helps when you have a list of `dict`s, or accumulating a count in a dict.
+
+### All conditions true
+```python
+def is_increasing(lst):
+    return all(earlier < later for earlier, later in zip(lst, lst[1:]))
+
+# Example usage:
+my_list = [1, 2, 3, 4, 5]
+print(is_increasing(my_list))  # Output: True
+```

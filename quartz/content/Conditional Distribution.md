@@ -1,5 +1,6 @@
 ---
-aliases: []
+aliases:
+  - Posterior Distribution
 tags:
   - Math/Probability
 ---

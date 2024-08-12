@@ -13,8 +13,8 @@ tags:
   - Logistics
 ---
 Leisure in economics is simply "not working." Instead, I define positive leisure as:
-def. Positive Leisure. Positive leisure means two things:
-1. **[[(Youtube) Spaceship You|Creating]] at Leisure.** You're doing "work" that benefits you/others. [[CGP Grey]] definition
+def. **Positive Leisure.** Positive leisure means two things:
+1. **[[(Youtube) Spaceship You|Creative]] Leisure.** You're doing "work" that benefits you/others. [[CGP Grey]] definition
 2. **Leisurely Pace.** Making sure life is not rushed, and there is space.
 3. **Uneconomic Leisure.** Leisure that is not about consumption (i.e. buying things/spending money).
 
@@ -35,7 +35,7 @@ Positive leisure implements the following:
 	- Move between tasks at a leisurely pace
 	- When you do this, you have more [[Slack]].
 	- Procrastination happens when you fail to combine productivity and leisure well.
-- [[감성]] cannot exist without emotional peace.
+- [[Aesthetics]] cannot exist without emotional peace.
 	- Even in turmoil you can have emotional peace, and time to reflect on those feelings.
 	- [[성민석]] says 감성 is what makes life worth living. And it is for you too.
 - Positive leisure often leads to [[Gratitude]]

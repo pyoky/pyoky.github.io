@@ -36,7 +36,7 @@ $$
 	- $c$: quantity of composite consumption good
 	- $e$: consumption endowment
 
-[[Cobb-Douglas Utility|Cobb-Douglas]]:
+[[Cobb-Douglas Utility (Two Goods)|Cobb-Douglas]]:
 
 $$
 \text{max}_{L,c}~u=L^\alpha c^{(1-\alpha)}~\text{such that}~wL+pc=I+wT+pe

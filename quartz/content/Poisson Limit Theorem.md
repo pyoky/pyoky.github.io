@@ -7,7 +7,7 @@ tags:
 
 thm. Poisson Limit Theorem. With a random variable $X\sim \text{Binom}(n,p)$, as $n\rightarrow \infty,p\rightarrow0$, $X\approx\text{Poi}(np)$, since:
 
-$X=\mathbb{I}_1+\cdots \mathbb{I}_n$ where each is an indicator of success of the $i$-th event, and as $\text{lim}_{n\rightarrow \infty,p\rightarrow0}$ this defines the [[poisson distribution]].
+$X=\mathbb{I}_1+\cdots \mathbb{I}_n$ where each is an indicator of success of the $i$-th event, and as $\text{lim}_{n\rightarrow \infty,p\rightarrow0}$ this defines the [[Poisson Distribution]].
 
 ## Poisson Scatter Theorem
 
@@ -30,14 +30,14 @@ thm. If $X\sim \text{Poi}(\lambda_X)$ and $Y\sim \text{Poi}(\lambda_Y)$ and $X\p
 $$
 X+Y\sim \text{Poi}(\lambda_X+\lambda_Y)
 $$
-
 > [!info]
 > Note also that the bionmial distribution as something like this too. If $X\sim \text{Bi}(n_X,p)$ and $Y\sim \text{Bi}(n_Y,p)
-$$Y\sim \text{Bi}(\lambda_Y)$ and $X\perp Y$ then $X+Y\sim \text{Bi}(n_X+n_Y,p)$
+$$Y\sim \text{Bi}(\lambda_Y)$ and $X\perp Y$ then $X+Y\sim \text{Bi}(n_X+n_Y,p)
+$$
+
 ## Poisson Point Process
 
 def. Memory-less-ness (continuous). $X$ is memoryless iff:
-
 $$
 \forall s,t>0,\ \ \mathbb{P}(X>s+t|X\geq s)=\mathbb{P}(X>t)
 $$

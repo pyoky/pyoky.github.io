@@ -6,8 +6,8 @@ aliases:
 tags:
   - Economics/Game-Theory
 ---
-**Intuition.** Hierarchy of Games in game theory. ![[Equilibria in Game Theory-20240125141023389.png|263]]
-
+**Intuition.** Hierarchy of Games in game theory.
+![[Equilibria in Game Theory-20240307130828585.png]]
 ## Pure Strategy
 
 def. **Pure Strategy Nash Equilibrium** is a set of strategies _(one for each player)_ which is the best response strategy of each other’s move; _i.e._ you can’t deviate without destabilizing the equilibrium.
@@ -19,6 +19,7 @@ where:
 - $s$: strategy for $i$-th player
 - $S$: strategy set for $i$-th player
 - $c_{i}(\vec{s})$: cost function for $i$-th player
+
 ### How to Find PNE
 - In **Simultaenous** Games: Use the **Corner method**
 - In **Sequential** Games:
@@ -50,54 +51,37 @@ alg. **Backwards Induction.** To find the SPNE of a game, use Backwards Inductio
 3. Continue solving until the first player.
 - Example. Caterpillar game unraveling![Untitled|400](Untitled%201%207.png)
 - $SPNE={\{(d,d),(d,d)\}}$, payoff is (1,0) which is a lot worse off that global optimal.
-## Mixed Strategy
+
+## Mixed Strategy Nash Equilibrium
 
 def. **Mixed Strategy Nash Equilibrium**
 1. Each player $i$ chooses a distribution $\sigma_{i}$ over strategy set $S_{i}$ ← $\sigma_{i}$ is public knowledge
 2. At runtime, each player chooses strategy $s_{i} \sim \sigma_{i}$ independent of other players
-3. $(s_{1},\dots,s_{n})$ is a Mixed Nash Equilibrium if: 
+3. $(s_{1},\dots,s_{n})$ is a Mixed Nash Equilibrium if:
 $$
 \forall_{i}\forall s_{i}\in S_{i},~~\underbrace{ E_{\vec{s}_{-i}\sim \vec{\sigma}_{-i}}[C_{i}(s'_{i},\vec{s_{-i}})] }_{ \text{Expected cost after switching} }\geq \underbrace{ E_{\vec{s}_{-i}\sim \vec{\sigma}_{-i}}[C_{i}(s_{i},\vec{s_{-i}})] }_{ \text{Expected cost of potential equal. strat.} }
 $$
+thm. **(Existence of MNE, John Nash)** Any game with finite players and finite set of strategies for each player has an MNE.
+*Proof.* The proof as three parts: the proof of [[Sperner's Lemma]], using it to prove [[Brouwer's Fixed Point Theorem]], and then reducing a mixed Nash Equillibrium to a fixed point in Brouwer's Fixed Point theorem. We will only reveal the last part in this proof.
+Consider the following:
+- Agent $i$ has the strategy set $S_{i}$. There are $k$ agents. Their payoff is $\pi_{i}(S_{i},S_{-i})$.
+- $\Delta_{i}\coloneqq (p_{1},p_{2},\dots)$ is the mixed strategy set of agent $i$ with each corresponding to the probability of each strategy in $S_{i}$.
+    - This makes it a unit simplex in $\mathbb{R}^{|S_{i}|}$
+- $C\coloneqq \Delta_{1}\times \dots \times \Delta_{k}$ is all possible combinations of mixed strategy of all agents.
+    - $C$ is a compact set, and we want to apply Brouwer's theorem on this space
+Let function $f_{i}:\underbrace{ C }_\text{ combination of mixed strat. } \mapsto \underbrace{ \Delta_{i} }_\text{ i's mixed strat. }$ be:
+$$
+f_{i}(x_{i},\vec{x_{-i}})\coloneqq \underbrace{ \arg\max_{x' \in \Delta_{i}} }_\text{ maximize, return mixed strategy $x'$ } \underbrace{ \mathbb{E}(\pi_{i}(S)) }_\text{ ...that maximizes expected payoff }-\underbrace{ \mid\mid x_{i}'-x_{i}\mid\mid_{2}^{2} }_\text{ regularizaer (don't move fast) }
+$$
+Then, let function $f: C \mapsto C$ be defined $f(\vec{x})=(f_{1}(x_{1}),f_{2}(x_{2}),\dots,f_{k}(x_{k}))$. Then $f$ is continuous, thus there exists a point in which $f(\vec{x}^{*})=\vec{x^{*}}$. This means at $\vec{x^{*}}$ there is no more expected payoff maximization that can be made by any individual, i.e. MNE.
+<span style="float:right;">■</span>
+
 alg. **Computation of MNE** using [[Linear Programming]].
-- * The payoff matrix denotes what the column player (=minimizing player) gives to row player (=maximizing player)
+- The payoff matrix denotes what the column player (=minimizing player) gives to row player (=maximizing player)
 1. Row player thinks that column player will minimize exchange (stackleberg solution)
 2. Column player thinks that row player will maximize exchange (stackleberg solution)
 3. Strategy tuple that satisfies both conditions is an MNE.
 
-**Example.** In the following game:
-![[Equilibria in Game Theory-20240212182144101.png|367]]
-Row player will aim to: 
-$$
-\overbrace{ \text{max}_{x_{1},x_{2}} \underbrace{ \text{min}(\underbrace{ 3x_{1}-2x_{2} }_\text{ column goes left},\underbrace{ -x_{1}+x_{2} }_\text{ column goes right }) }_\text{column's expected strategy } }^\text{ Given column's expected strategy, the best response }
-$$
-This is also known as the **Stackleberg solution**. Letting $z=\text{min}(3x_{1}-2x_{2},-x_{1}+x_{2})$ we have the following linear program:
-$$
-\begin{align}
-z&\leq 3x_{1}-2x_{2} \\
-z&\leq -x_{1}+x_{2} \\
-1&=x_{1}+x_{2} \\
-0&\leq x_{1},x_{2}
-\end{align}
-$$
-Equivalently, column player will aim to $\text{min}_{y_{1},y_{2}}\text{max}(3y_{1}-y_{2},-2y_{1}+y_{2})$. Letting $w=\text{max}(3y_{1}-y_{2},-2y_{1}+y_{2})$ We have the following linear program: 
-$$
-\begin{align}
-w&\geq 3y_{1}-y_{2} \\
-w&\geq-2y_{1}+y_{2} \\
-1&=y_{1}+y_{2} \\
-0&\leq y_{1},y_{2}
-\end{align}
-$$
-The above two linear programs are dual problems to each other. The solution to both of these programs are: 
-$$
-\begin{cases}
-x_{1}=\frac{3}{7},x_{2}=\frac{4}{7} \\
-y_{1}=\frac{2}{7},y_{2}=\frac{5}{7}
-\end{cases}
-$$
-And this is also the mixed strategy nash equilibirum to the game.
-<span style="float:right;">■</span>
 ## Correlated Nash Equilibrium (CNE)
 
 def. **Correlated Nash Equilibrium**

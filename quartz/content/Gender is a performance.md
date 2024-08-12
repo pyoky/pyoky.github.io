@@ -1,6 +1,6 @@
 ---
 aliases: []
 tags:
-  - Philosophy/Feminism
+  - Philosophy/Queer-Theory
 ---
 [[Pride]]

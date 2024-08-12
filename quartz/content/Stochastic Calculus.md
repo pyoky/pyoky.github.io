@@ -23,7 +23,7 @@ $$
 	- $Y_{t}$ is a martingale
 	- $\mathbb{E}(Y_{t})=0$
 	- let $Z_{t}=\int _{0}^t X(s)^{\color{red}2}\, d\mathfrak{B}(s)$
-		- **Ito Isometry:** $\text{Var}(Y_{t})=\mathbb{E}(Z_{t})$
+		- **Ito Isometry:** $\text{Var}(Y_{t})=\mathbb{E}(Z_{t})$ ^5b91f3
 		- $Y_{t}\sim \mathcal{N}(0,\mathbb{E}(Z_{t}))$
 
 **Remark.** We often use shorthand notation (abuse of notation) to write an integral term like this:
@@ -38,13 +38,13 @@ Now, these also exist but they are trivial (**Ito Isometry**):
 
 **Reference Table of Common Ito Integrals**
 
-| Stochastic Integral                | Result                                       | Variance          |
-|------------------------------------|----------------------------------------------|-------------------|
-| $\int_0^t dB_s$                    | $B_t$                                        | $t$               |
-| $\int_0^t s dB_s$                  | $tB_t - \int_0^t B_s ds$                     | $\frac{1}{3}t^3$  |
-| $\int_0^t B_s dB_s$                | $\frac{1}{2}B_t^2 - \frac{1}{2}t$            | $\frac{1}{2}t^2$  |
-| $\int_0^t B_s^2 dB_s$              | $\frac{1}{3}B_t^3 - \int_0^t B_s ds$         | $3t^2$            |
-| $\int_0^t e^{B_s - \frac{1}{2}s} dB_s$ | $e^{B_t - \frac{1}{2}t} - 1$              | $e^t - 1$         |
+| Stochastic Integral                    | Result                               | Variance         |
+| -------------------------------------- | ------------------------------------ | ---------------- |
+| $\int_0^t dB_s$                        | $B_t$                                | $t$              |
+| $\int_0^t s dB_s$                      | $tB_t - \int_0^t B_s ds$             | $\frac{1}{3}t^3$ |
+| $\int_0^t B_s dB_s$                    | $\frac{1}{2}B_t^2 - \frac{1}{2}t$    | $\frac{1}{2}t^2$ |
+| $\int_0^t B_s^2 dB_s$                  | $\frac{1}{3}B_t^3 - \int_0^t B_s ds$ | $3t^2$           |
+| $\int_0^t e^{B_s - \frac{1}{2}s} dB_s$ | $e^{B_t - \frac{1}{2}t} - 1$         | $e^t - 1$        |
 
 **Motivation**. Unfortunately we cannot calculate ito intergrals directly. For example, as we saw in the above example finding $\int _{0}^t\mathfrak{B}(s) \, d\mathfrak{B}(s)$ using just the definition was a laborious process. In order to make this easier, we use the following lemma.
 
@@ -111,3 +111,5 @@ _Essentially, a function of an Ito process is also an Ito process._
 **Properties.**
 - $\mathbb{E}(dY\mid \mathcal{F}_{t})=(f_{t}+a f_{x}+\frac{b^2}{2}f_{x x})\cdot dt$
 - $\text{Var}(dY\mid \mathcal{F}_{t}) =(b f_{x})^2$
+
+

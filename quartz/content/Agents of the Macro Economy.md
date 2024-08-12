@@ -96,7 +96,7 @@ $$
 
 ---
 
-⇒ The [[Cobb-Douglas Utility|Cobb-Douglas]] Production Function satisfies all these assumptions:
+⇒ The [[Cobb-Douglas Utility (Two Goods)|Cobb-Douglas]] Production Function satisfies all these assumptions:
 
 $$
 f(z,K,N)=zK^\alpha N^{1-\alpha}~ \text{where }~0<\alpha<1

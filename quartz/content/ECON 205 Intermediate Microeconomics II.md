@@ -5,7 +5,7 @@ tags:
 ---
 ### Background Knowledge
 - [[Monotonic Transformation]]
-- [[Constrained Optimization]]
+- [[Lagrangian Optimization]]
 - [[Rationality (Economics)|Rational Taste]]
 ### Consumer Choice Theory
 - [[Utility Function]]

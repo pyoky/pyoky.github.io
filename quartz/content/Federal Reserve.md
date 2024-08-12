@@ -7,7 +7,7 @@ tags:
 
 The United States' central bank independent of the government (or the Treasury) that has the following roles:
 
-1. **Setting Interest Rates**: The Federal Reserve has a significant influence over the interest rates in the U.S. economy. It can adjust the [[Federal Funds Rate]] to control [[inflation]] and stabilize the economy.
+1. **Setting Interest Rates**: The Federal Reserve has a significant influence over the interest rates in the U.S. economy. It can adjust the [[Federal Funds Rate]] to control [[Inflation]] and stabilize the economy.
 
 2. **Managing the Money Supply**: The Fed controls the amount of money circulating in the economy through measures such as open market operations, reserve requirements for banks, and setting the discount rate \[>=[[Federal Funds Rate]]].
 

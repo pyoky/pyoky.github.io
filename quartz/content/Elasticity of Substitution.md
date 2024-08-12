@@ -24,7 +24,7 @@ Higher elasticity of substitution (EoS) means the following things:
 
 ### Elasticity & [[Utility Function|Indifference Curve]] Shapes
 ![[Elasticity of Substitution and Indifference Curves.png|280]]
-## [[Cobb-Douglas Utility|Cobb-Douglas]] EOS
+## [[Cobb-Douglas Utility (Two Goods)|Cobb-Douglas]] EOS
 
 1. $u(x_{1},x_{2})=x_{1}^{\alpha}x_{2}^{1-\alpha}$
 2. $\text{MRS}=- \frac{\alpha}{1-\alpha}\cdot \frac{x_{2}}{x_{1}}$
@@ -37,7 +37,6 @@ $$
  &\implies\frac{d}{d\ln |\text{MRS}|}\ln \frac{x_{1}}{x_{2}} = \frac{d}{d\ln |\text{MRS}|}\left( \ln \text{MRS}+\ln \frac{\alpha}{1-\alpha}  \right) \\
 &\implies \frac{d\ln \frac{x_{1}}{x_{2}}}{d\ln|\text{MRS}|}=1~{\color{red}=\sigma_{2,1}}
 \end{align}
-
 $$
 
-⇒ We also can see that it is homogenous and thus homothetic:
+⇒ We also can see that it is homogeneous and thus homothetic:

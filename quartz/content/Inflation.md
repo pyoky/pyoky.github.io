@@ -1,8 +1,7 @@
 ---
-aliases: []
+aliases: 
 tags:
   - Economics/Macro-Economics
-  - index
 ---
 
 Inflation:= change in the price of the **basket of goods** [= a representative sample of GDP]

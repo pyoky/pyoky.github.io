@@ -11,7 +11,7 @@ $$
 min_{l,k} ~C=wl+rk ~\text{such that} ~x=f(x)
 $$
 
-- [[Constrained Optimization|Lagrangian Optimization]]
+- [[Lagrangian Optimization|Lagrangian Optimization]]
 - Optimal when Isoquant is tangent to the isocost
 	- Higher isoquant is not always better! it just means you're producing more
 

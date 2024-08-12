@@ -1,5 +1,6 @@
 ---
-aliases: []
+aliases:
+  - Human Experience
 tags:
-  - Humanities
+  - Philosophy
 ---

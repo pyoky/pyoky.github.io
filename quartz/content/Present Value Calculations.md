@@ -39,9 +39,9 @@ PV&=\frac{C}{(1+r)^1}+\frac{C}{(1+r)^2}+\cdots+\frac{C}{(1+r)^n}\\[.5em]
 \end{aligned}
 $$
 
-What is the value of [[interest rate]] $r$?
+What is the value of [[Interest Rate]] $r$?
 - In individual investments/loans, $r$ determined usually by looking at similar assets in the market
-- $r \propto$ [[inflation]]; if inflation is high, money isn’t worth much in the future, so lender demands more interest rate
+- $r \propto$ [[Inflation]]; if inflation is high, money isn’t worth much in the future, so lender demands more interest rate
 
 ## Net Present Value
 

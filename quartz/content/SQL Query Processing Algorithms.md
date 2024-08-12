@@ -12,7 +12,7 @@ tags:
 
 ### Sorting Based Algorithms
 alg. **External Merge Sort**
-- Idea: [[Sorting Algorithms|Merge Sort]], but with limited memory ![[スクリーンショット 2023-11-30 16.52.00.webp|284]]
+- Idea: [[Sorting Algorithms|Merge Sort]], but with limited memory ![[スクリーンショット 2023-11-30 16.52.00 1.webp|284]]
 1. We are trying to sort relation $R$ on disk with $M$ blocks of main memory
 2. Pass 0: we read $M$ sequential blocks at a time, sort (using any [[Sorting Algorithms]]) and read onto disk into different _runs_. The number of runs is $n$.
 3. Pass 1: We merge teach runs in memory. We need one block to write out the result, and $n$ blocks to merge simultaneously.
@@ -24,7 +24,7 @@ alg. **External Merge Sort**
 	- Memory requirement: $M$ (as much as possible)
 
 alg. **Sort-Merge Join**
-Idea: while sorting the table, simultaneously join them in the process: ![[スクリーンショット 2023-11-30 17.05.16.webp|500]]
+Idea: while sorting the table, simultaneously join them in the process: ![[スクリーンショット 2023-11-30 17.05.16 1.webp|500]]
 1. Run external merge sort passes until the no. of _total_ runs to merge is less than or equal to $M-1$
 2. Merge each table in-memory, and compare them to the condition. Join if necessary.
 - Complexity for 2 passes:
@@ -35,7 +35,7 @@ Idea: while sorting the table, simultaneously join them in the process: ![[ス�
 ### Hash Based Algorithms
 
 alg. Hash Join
-- Idea: use a $O(1)$ hash function that partitions the table into block size $M-1$ partitions, then merge: ![[スクリーンショット 2023-11-30 17.04.57.webp|450]]
+- Idea: use a $O(1)$ hash function that partitions the table into block size $M-1$ partitions, then merge: ![[スクリーンショット 2023-11-30 17.04.57 1.webp|450]]
 1. _Probe_: Partition both tables $R,S$ into block size $M-1$ different partitions using the same hash function
 2. Load one partition of $R$ into memory. Stream one block of $S$ at a time, and join.
 - Complexity

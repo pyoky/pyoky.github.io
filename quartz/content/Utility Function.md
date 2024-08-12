@@ -7,13 +7,20 @@ tags:
 ---
 for mapping $(p_{1},p_{2},I) \mapsto u$, see the [[Indirect Utility Function]]
 
-def. Utility Function. a utility function maps $n$ goods to utility (happiness) that satisfies the assumption of [[Rationality (Economics)|Rational Taste]] including convexity.
+def. **Utility Function.** a utility function maps $n$ goods to utility (happiness) that satisfies the assumption of [[Rationality (Economics)|Rational Taste]] including convexity.
 
 $$
-U(\vec{x}): \mathbb{R}^2 \mapsto \mathbb{R}
+U(\vec{x}): \underbrace{ \mathbb{R}^n }_\text{ tuple of good quantity } \mapsto \underbrace{ \mathbb{R} }_\text{ utility }
 $$
 
 ⇒ such that if $\vec{x_{1}} \succ \vec{x_{2}}$ then $u(\vec{x_{1}})>u(\vec{x_{2}})$
+### Types of Utility Functions
+Let $S_{i}$ be the allocation bundle to agent $i$. $S_{i}$ contains items ("$j$") where $x_{ij}$ defines what percentage of that item is allocated to $j$. Then $i$'s utility $\mu_{i}$ can take various forms.
+
+- def. **Additive Utility.** $\mu_{i}=\sum_{j}\mu_{ij}x_{j}$ ^4b3170
+- def. **Cobb-Douglas Utility.** $\mu_{i}\coloneqq \prod_{j}\mu_{ij}x_{j}^{\alpha_{ij}}$ where $\sum \alpha_{ij}=1$
+  (See [[Cobb-Douglas Utility (Two Goods)|the case for two goods]])
+- def. **Leontief Utility.** $\mu_{i}\coloneqq \text{min}_{j}\{ \mu_{ij}x_{j} \}$
 
 ## Homothetic, Quasilinear, Perfect Substitutes
 
@@ -47,7 +54,7 @@ $$
 
 def. **Indifference Curve**. A set of bundles that an agent with [[Rationality (Economics)|rational taste]] is indifferent about
 - Indifference curves are horizontal slices of a utility function.
-	- i.e. a level field of a scalar field defined by the [[utility function]] of two goods—$u(x_1,x_2)$.
+	- i.e. a level field of a scalar field defined by the [[Utility Function]] of two goods—$u(x_1,x_2)$.
 	- Indifference curves from the same utility function cannot cross (obviously)
 - North-east side is always better.
 	- ∵ monotonic [[Rationality (Economics)|taste]]—if this is not the case, change the direction of the curve.

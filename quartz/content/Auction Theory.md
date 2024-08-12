@@ -15,45 +15,53 @@ def. **Quasilinear Utility Model.** Each bidder, after the auction process finis
 $$
 \underbrace{ \mu_{i}(\vec{b}) }_{ \text{utility} }=\underbrace{ v_{i}x_{i}(\vec{b}) }_{ \text{welfare=value} }-p_{i}(\vec{b})
 $$
+
+## Types of Auctions
+
+_Remark._ An auction can be not DSIC and welfare-maximizing 🤯.
+
+- Single-Item
+    - Deterministic Valuations
+        - [[Vickery Auction#^de8823|Second Price]] (DSIC, Welfare-Max)
+        - [[Vickery Auction#^28769f|First-Price]] (Revenue-Max)
+    - Bayesian values
+        - [[Revenue-Maximizing Auctions#^ca1a42|Vickery Auction with Reserve]] (DSIC if regular, Revenue-max)
+- Multi-Item
+    - Single-item Demand, Indivisible (=sponsored search)
+        - [[Vickery Auction#^e95333|Generalized Second Price]] (Welfare-Max)
+        - Virtual Second Price (Revenue-Max)
+    - Combinatorial Demand, Indivisible
+        - [[VCG Auction]] (DSIC, Welfare-Max)
+        - [[Ascending Price Auction#^8f0f47|Ascending Item Price]] → W.E. (Welfare-Max)
+    - Combinatorial Demand, Indivisible—Price discriminatory
+        - [[Ascending Price Auction#^d85cec|Ascending Individual Bundle Price]] → C.E. (Welfare-Max)
+    - Combinatorial Demand, Indivisible, Bayesian
+        - ? (Welfare-max)
+        - ? (Revenue-max)
+
 ## Properties of an Auction
 
 **Motivation.** An auction's goal is to:
 - Make sure each person tells the truth, i.e. $v_{i}=b_{i}$
 - Maximize total utility, i.e. $\sum\mu_{i}$
+- Sometimes, to maximize seller revenue.
 Therefore, we want an auction that will satisfy the following two properties.
+
+def. **Welfare Maximizing** (=Socially _Efficient_). An auction is welfare-maximizing iff Given all bidders are truthful, then it maximizes $\sum_{\forall i}v_{i}x_{i}(\vec{b})$
 
 def. **Dominant Strategy Incentive Compatibility (DISC).** Intuition: all bidders are incentivized to tell the truth. An auction is DISC iff:
 $$
 \forall i,\forall b,\text{regardless of }\vec{b}_{-i},\underbrace{ \mu_{i}({\color{red}v_{i}},\vec{b}_{-i}) }_{ \text{utility for telling truth} }\geq\underbrace{  \mu_{i}({\color{red}b_{i}},\vec{b}_{-i}) }_{ \text{utility for lying} }
 $$
 
-def. **Welfare Maximizing** (=Socially Efficient). An auction is welfare-maximizing iff Given all bidders are truthful, then it maximizes $\sum_{\forall i}v_{i}x_{i}(\vec{b})$
+def. **Revenue Maximizing** (=Optimal). See [[Revenue-Maximizing Auctions]].
+### Myerson's Lemma (or, How to Be DSIC)
+Motivation. Instead of directly showing that an auction mechanism is DSIC, it is enough for it to satisfy the properties of the following Myerson's lemma.
 
-## Types of Auction Games
-
-**Motivation.** A first-price auction (=give the highest bidder the item, then charge them their bid) is a bad idea because, assuming the highest bidder was truthful ($v_{i}=b_{i}$) then their utility is $v_{i}-b_{i}=0$. Thus this is not DISC and not a good auction. It's also very hard to reason about. Therefore we have…
-
-game. **Second Price Auction.** Give to the highest bidder; charge them the second highest price.
-- An ascending bid auction (=an e-bay auction) is actually a second price auction if you think about it. The last two bidders $(v_{1},b_{1})\geq(v_{2},b_{2})$ will increase their bids continually until they reach $b_{2}$, and then bidder $1$ bids just slightly above ($b_{1}=v_{2}+\delta$) to get the item.
-
-thm. **Second Price Auction is Dominant Strategy Incentive Compatible.**
-proof. There are only two cases where a bidder may lie.
-1. Case one: a bidder lies to reduce the price of the item. But $p_{i}(\vec{b})$ does not depend on $\vec{v}$. Thus this is impossible
-2. Case two: a bidder lies to get the item. But lying to get the item results in negative utility. ![[Auction Theory-20240212171059087.png|411]]<span style="float:right;">◆</span>
-
-game. **Sponsored Search Auction.** This is a different game layout. Imagine a search engine selling advertisement slots.
-
-![[Auction Theory-20240212171209827.png]]
-- There are $k$ ad slots, with click-thru rate, largest to smallest: $\alpha_{1},\dots,\alpha_{k}$
-- There are $n$ bidders, for whom the value-per-click is $v_{1},\dots,v_{n}$. Each bids $b_{i}$ to get any slot.
-- Then, if bidder $i$ is assigned slot $l$ and charged $p_{i}(\vec{b})$ ![[Auction Theory-20240212171442906.png|366]]
-	- Allocation matrix is $\mathbf{x}$ and $\mathbf{x}_{il}=1$
-	- price matrix is $\mathbf{p}$ and $\mathbf{p}_{il}$ is the price charged
-
-thm. **Myerson's Lemma.** A DSIC (=truthful) auction satisfies the following properties.
-1. $x_{i}(b_{i})$ is a monotonically increasing function
+thm. **Myerson's Lemma.** An auction is DSIC (=truthful) _if and only if_ it satisfies the following to properties:
+1. Given other agent's bids $\vec{b}_{-i}$, the allocation function $x_{i}(b_{i},)$ is a monotonically increasing function
+    1. i.e. if $b'_{i}>b_{i}$ then $x_i(b’_i, b_{-i}) \geq x_i(b_i, b_{-i})$
 2. Given $\vec{b}_{-i}$, the optimal price $p_{i}(b_{i})=b_{i}x_{i}(b_{i})-\int_{0}^{b_{i}} x_{i}(z) \, dz$
-The implication goes both ways.
 
 **Proof.**
 <u>Property 1.</u> Allocation is monotonic w.r.t. bid amount. (=bid more, get more)
@@ -93,4 +101,3 @@ $$
 <span style="float:right;">■</span>
 _Intuition._ The geometric intuition for this is that the price for the allocated person is the rectangle minus the area under the graph, i.e. the blue region.
 ![[Auction Theory-20240212173055410.png|319]]
-

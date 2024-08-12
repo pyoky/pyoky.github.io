@@ -96,12 +96,12 @@ Example of using building blocks to simplify a turing machine:
 2. Multitrack TM: One tape, but split into $n$ cells: $\delta: Q\times \Gamma^{\color{red}n} \rightarrow Q \times \Gamma^{\color{red}n} \times \{L,R\}$
    - Diagram
 ![Untitled](Untitled%201%205.png)
-3. Semi-infinite TM: The tape is infinite only in one direction
+1. Semi-infinite TM: The tape is infinite only in one direction
    → Proof by “folding over” the standard TM into multi-track.
-4. Multi-tape TM: $\delta: Q\times \Gamma^n \rightarrow Q \times \Gamma^n \times \{L,R\}^{\color{red}n}$
-5. Off-line TM: Two-tape; one tape is input, the other the read/write tape. $\delta: Q\times \Gamma^{\color{red}2} \rightarrow Q \times \Gamma \times \{L,R\}^{\color{red}2}$
-6. Non-deterministic TM
-7. NPDA with 2 stacks
+2. Multi-tape TM: $\delta: Q\times \Gamma^n \rightarrow Q \times \Gamma^n \times \{L,R\}^{\color{red}n}$
+3. Off-line TM: Two-tape; one tape is input, the other the read/write tape. $\delta: Q\times \Gamma^{\color{red}2} \rightarrow Q \times \Gamma \times \{L,R\}^{\color{red}2}$
+4. Non-deterministic TM
+    1. NPDA with 2 stacks
 
 ### Universal Turing Machine
 

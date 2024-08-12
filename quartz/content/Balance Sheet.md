@@ -4,9 +4,8 @@ tags:
   - Economics/Finance
 ---
 
-## Balance Sheet
 
-a **Balance Sheet** is a table showing all the firm’s **assets and liabilities.**
+The **Balance Sheet** is a table showing all the firm’s **assets and liabilities.**
 
 Items on a balance sheet:
 
@@ -18,10 +17,7 @@ Items on a balance sheet:
 - **Property, Plant, & Equipment (PP&E)**, i.e. Durable capital assdets
 - **Stockholder’s Equity**: money recieved by purchasers of stock
 
-Properties of a balance sheet
-
-- Assets and liabilities always sum to zero.
+**Properties**.
+- Assets and liabilities must always sum to zero.
 - counts book value, _not_ market value ⇒ hard to measure the “value” of a firm
-- soft skills (e.g. brand image, reputation) are not reflected (the market may better reflect untangibles).
-
----
+- soft skills (e.g. brand image, reputation) are not reflected (the market may better reflect intangibles).

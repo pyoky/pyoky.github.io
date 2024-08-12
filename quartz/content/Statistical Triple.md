@@ -10,4 +10,4 @@ $(\Omega, \mathcal{F},P)$ where $\Omega$ is the sample space, $\mathcal{F}=2^\Om
 
 > [!info] Relationship between probability and statistics
 
-![Untitled](assets/Untitled%201.png)
+![Untitled](Untitled%201.png)

@@ -1,0 +1,53 @@
+---
+aliases: 
+tags:
+  - Philosophy/Queer-Theory
+---
+### Sources
+- [[(Movie) Queer Japan (2019)]]
+- “Audrey Yue and Helen Hok-Sze Leung, “Notes towards the queer Asian City: Singapore and Hong Kong”
+- [[(Book) 歴史の中の多様な「性」]]
+    - [(DevonThink) 荻野・美穂、三橋順子著『歴史の中の多様な「性」』を読む](x-devonthink-item://672D226C-5A30-4394-AF0E-4A98141EB328)
+    - [三橋順子 | 乙女塾](https://otomejuku.jp/media/tag/%E4%B8%89%E6%A9%8B%E9%A0%86%E5%AD%90/) (interviews)
+- [[(Book) 「甘え」の構造]]
+    - [(DevonThink) 「甘えの構造」を読む- スペクトラムに量子的](x-devonthink-item://E9E775DA-85E9-47DA-B6FA-3A211E76E733)
+- [[(Article) On Liking Women  Andrea Long Chu]]
+- Canaday, [[(Book) The Straight State]] 
+- Srinivasan [[(Book) The Right to Sex]]
+- Minor: [Jameson The political unconscious.pdf](https://thecharnelhouse.org/wp-content/uploads/2017/09/Fredric-Jameson-The-Political-Unconscious-Narrative-as-a-Socially-Symbolic-Act-1981.pdf)
+- [(DevonThink) Communist Manifesto](x-devonthink-item://150A099C-6258-4C42-998F-5F15ECEAB32B)  
+
+### Structure
+- Construction of sexual spaces and identity in pre-modern history
+    - point: Japan has spaces, US has identity
+    - U.S. construction through law
+    - Japan (edo period ← pre-modern precursor)
+        - construction of 男色
+        - Kabuki, etc.
+    - Yue & Leung's etymology suggest tradition vs society [[(Paper) Notes towards the queer Asian city - Singapore and Hong Kong#^b66055|here]], the western perspective. Mitsuhashi says it's imported.
+- Reification of desire into a clash of spaces/identity
+    - Queer Defined spaces in historic Japan
+        - Introduce " 男色, [definition](x-devonthink-item://672D226C-5A30-4394-AF0E-4A98141EB328?page=1&start=269&length=44&search=%E3%81%9D%E3%81%97%E3%81%A6%E3%80%8C%E5%A4%A7%E4%BA%BA(%E7%94%B7)%E3%80%8D%E3%81%AE%E6%80%A7%E7%9A%84%E6%8C%87%E5%90%91%E3%81%8B%E3%82%99%E5%A8%98%E3%81%AB%E5%90%91%E3%81%8B%E3%81%86%E5%A0%B4%E5%90%88%E3%81%8B%E3%82%99%E3%80%8C%E5%A5%B3%E8%89%B2%E3%80%8D%E3%80%81%E8%8B%A5%E8%A1%86%E3%81%AB%E5%90%91%E3%81%8B%E3%81%86%E3%81%AE%E3%81%8B%E3%82%99%E3%80%8C%E7%94%B7%E8%89%B2%E3%80%8D)
+        - 双性原理–religious
+        - Paganist cultures readily accept (india), but europe doesn't「神に近づく行為である女装・男装は厳しく禁じられ」(50)
+        - 歴史の中に見られるのは「同性間性愛」ではあっても、それは人の性的指 向を異性愛か同性愛かと固定的・対立的にとらえる概念である「同性愛」とは似て非なるものであると主張する。
+            - Internesting point: Mitsuhashi, [4 categories](x-devonthink-item://672D226C-5A30-4394-AF0E-4A98141EB328?page=2&start=1102&length=25&search=%E5%B9%B4%E9%BD%A2%E9%9A%8E%E6%A2%AF%E5%88%B6%E3%82%92%E4%BC%B4%E3%82%8F%E3%81%99%E3%82%99%E3%80%81%E5%A5%B3%E8%A3%85%E3%82%82%E4%BC%B4%E3%82%8F%E3%81%AA%E3%81%84%E7%94%B7%E6%80%A7%E9%96%93%E6%80%A7%E6%84%9B%E6%96%87%E5%8C%96) of 男色; first three shown in history, last only modern. But last is what western though considers "gay"
+        - [FTM](x-devonthink-item://672D226C-5A30-4394-AF0E-4A98141EB328?page=5&start=466&length=54&search=%E6%B7%B1%E5%B7%9D%E3%81%AE%E3%80%8C%20%E5%B7%BD%20%E8%8A%B8%E8%80%85%E3%80%8D%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E3%80%81%E3%80%8C%E5%A5%B3%E8%BA%AB%E3%81%AB%E3%81%97%20%E3%81%A6%E7%94%B7%E3%81%B5%E3%82%99%E3%82%8A%E3%81%A8%E3%81%84%E3%81%86%E6%80%A7%E3%81%8B%E3%82%99%E9%87%8D%E3%81%AA%E3%81%A3%E3%81%9F%E3%80%81%E3%81%8B%E3%81%AA%E3%82%8A%E5%8F%8C%E6%80%A7%E3%81%AB%E5%AF%84%E3%81%A3%E3%81%9F%E5%AD%98%E5%9C%A8%E3%80%8D(170))
+        - Developing: [陰間茶屋 - Wikipedia](https://ja.wikipedia.org/wiki/%E9%99%B0%E9%96%93%E8%8C%B6%E5%B1%8B) during edo period [MJ](x-devonthink-item://672D226C-5A30-4394-AF0E-4A98141EB328?page=4&start=1179&length=45&search=%E7%95%B0%E6%80%A7%E8%A3%85%E8%80%85%E3%81%8B%E3%82%99%20%E7%89%B9%E5%AE%9A%E3%81%AE%E8%81%B7%E6%A5%AD%E3%82%92%E5%9F%BA%E8%BB%B8%E3%81%AB%E3%81%97%E3%81%A6%E7%A4%BE%E4%BC%9A%E3%81%AE%E4%B8%AD%E3%81%A6%E3%82%99%E7%94%9F%E3%81%8D%E3%81%A6%E3%81%84%E3%81%8F%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%8B%E3%82%99%E5%AD%98%E5%9C%A8%E3%81%97%E3%81%9F%E3%80%8D(148))
+    - Opposite of what a western historical record of queer of identity is: We the other victorians: brother and mental hospitals, taboo, nonexistence, silence.
+        - Modern influenced: bring in Yue "confucian norms not able to accept"; [they can't even justify it](x-devonthink-item://7D1777B2-9697-4E89-AF96-B4E4A040A352?page=2&start=1577&length=317&search=In%20queer%20Asian%20cities%20such%20as%20Singapore%20and%20Hong%20Kong,%20where%20homo-%20sexuality%20is%20either%20still%20illegal%20or%20its%20societies%20are%20still%20deeply%20engrained%20in%20traditional%20Confucian%20norms%20that%20reify%20heterosexual%20and%20family%20values,%20the%20evolutionary%20model%20of%20the%20gay%20dis)
+            - Instead, [this](x-devonthink-item://7D1777B2-9697-4E89-AF96-B4E4A040A352?page=3&start=1156&length=106&search=%E2%80%98new%20Asian%20city%E2%80%99%20is%20represented%20by%20%E2%80%98a%20%5Bpostcolonial%5D%20struggle%20over%20space%20rather%20than%20culture%20and%20identity%E2%80%99) is what it is
+        - Smoking gun, MJ: [Christianity caused it](x-devonthink-item://672D226C-5A30-4394-AF0E-4A98141EB328?page=3&start=219&length=178&search=%E8%91%97%E8%80%85%E3%81%AF%E3%80%8117%20%E4%B8%96%E7%B4%80%E3%81%AE%E4%B8%96%E7%95%8C%E5%85%A8%E4%BD%93%E3%81%A6%E3%82%99%E3%81%AF%E5%BC%BE%E5%9C%A7%E7%9A%84%E3%81%AA%E3%83%A8%E3%83%BC%E3%83%AD%E3%83%83%E3%83%8F%E3%82%9A%E3%81%AE%E6%96%B9%E3%81%8B%E3%82%99%E7%89%B9%E7%95%B0%E3%81%A6%E3%82%99%E3%80%81%E5%90%8C%E6%80%A7%E9%96%93%E6%80%A7%E6%84%9B%E3%82%84%E7%95%B0%E6%80%A7%E8%A3%85%E3%82%92%E8%AA%8D%E3%82%81%E3%82%8B%E7%A4%BE%E4%BC%9A%E3%81%AE%20%E6%96%B9%E3%81%8B%E3%82%99%E5%BA%83%E5%9F%9F%E3%81%A6%E3%82%99%E6%99%AE%E9%81%8D%E7%9A%84%E3%81%9F%E3%82%99%E3%81%A3%E3%81%9F%E3%81%A8%E3%81%97%E3%80%81%E3%81%93%E3%81%86%E8%BF%B0%E3%81%B8%E3%82%99%E3%82%8B%E3%80%82%E3%80%8C%E3%81%9D%E3%82%8C%E3%81%8B%E3%82%99%E9%80%86%E8%BB%A2%E3%81%97%E3%81%A6%E3%81%84%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%AF%E3%80%81%E3%83%A8%E3%83%BC%E3%83%AD%E3%83%83%E3%83%8F%E3%82%9A%E8%AB%B8%E5%9B%BD%E3%81%AE%E4%B8%96%E7%95%8C%20%E9%80%B2%E5%87%BA%E3%80%81%E6%A4%8D%E6%B0%91%E5%9C%B0%E6%94%AF%E9%85%8D%E3%81%AE%E9%80%B2%E8%A1%8C%E3%81%8B%E3%82%99%E5%A5%91%E6%A9%9F%E3%81%9F%E3%82%99%E3%81%A3%E3%81%9F%E3%80%82%E3%81%A4%E3%81%BE%E3%82%8A%E3%80%81%E3%82%AD%E3%83%AA%E3%82%B9%E3%83%88%E6%95%99%E4%B8%96%E7%95%8C%E3%81%AE%E6%8B%A1%E5%A4%A7%E3%81%A8%E3%81%A8%E3%82%82%E3%81%AB%E5%90%8C%E6%80%A7%E9%96%93%E6%80%A7%E6%84%9B%E3%82%84%E7%95%B0%20%E6%80%A7%E8%A3%85%E3%81%B8%E3%81%AE%E6%8A%91%E5%9C%A7%E3%81%8B%E3%82%99%E4%B8%96%E7%95%8C%E4%B8%AD%E3%81%AB%E5%BA%83%E3%81%8B%E3%82%99%E3%81%A3%E3%81%A6%E3%81%84%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%9F%E3%82%99%E3%80%8D(66))
+    - Bringing in western thought caused "GID illness" "law & [punishment](x-devonthink-item://672D226C-5A30-4394-AF0E-4A98141EB328?page=3&start=486&length=38&search=%E5%A4%A7%E6%AD%A3%E3%81%8B%E3%82%89%20%E6%98%AD%E5%92%8C%E5%88%9D%E6%9C%9F%E3%81%AB%E3%81%8B%E3%81%91%E3%81%A6%E3%80%8C%E5%A4%89%E6%85%8B%E6%80%A7%E6%AC%B2%E3%80%8D%E6%A6%82%E5%BF%B5%E3%82%84%E3%80%8C%E5%90%8C%E6%80%A7%E6%84%9B%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E8%A8%B3%E8%AA%9E%E3%81%8B%E3%82%99%E6%B5%81%E5%B8%83%E3%81%97%E3%80%81)"
+- Modern Japan: Spaces and identity
+    - Point: bringing in identity is inapplicable:
+        - [[(Movie) Queer Japan (2019)#^0212a3]]
+            - Sumiko: GID? no, just lesbian
+            - Gengoroh: sex, not love. (danshoku-style)
+    - Point: Interaction between spaces and identity. Space has always been available in Japan, not as oppositions to the mainstream but part of it.
+        - Self-identity is defined through spaces (US) vs. spaces define self-identity (japan
+            - See goldfinger vs grammy tokyo [[(Movie) Queer Japan (2019)#^6e5e4d|conflict]]. It's because you're _living_ as a man you're not allowed, not because you are _existentially_ a man.
+        - Reason out more: Queer defined spaces in modern japan—Conflict is between spaces in japan, and identity in the US.
+            - Advertising of sexuality as "inherent" in the US for acceptance vs. Separation of spaces in Japan for acceptance
+- Desire as the fundamental element of japanese queer-ness (as opposed to what is correct/moral/ethical)
+    - Buddhism & shinto doesn't anti-trans (三橋：「日本はトランスジェンダーとして天国」)

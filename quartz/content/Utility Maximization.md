@@ -9,7 +9,7 @@ $$
 $$
 
 Maximization of the [[Utility Function]] against the [[Budget Lines|Budget Constraints]].
-- Uses [[Constrained Optimization]]
+- Uses [[Lagrangian Optimization]]
 - & If it makes it more convenient, do a [[Monotonic Transformation]] of the utility function. See [Example](x-devonthink-item://816B71A6-ACA1-47A0-AD42-B5601DC840D2?page=9).
 - Optimal is where the budget line is the tangent to the [[Utility Function|Indifference Curve]]. This implies both gradients are same, i.e. $-\frac{P_1}{P_2} = MRS$
 - The result is the [[Uncompensated Demand curve|Ordinary Demand]] functions (one for each good)
@@ -50,7 +50,7 @@ $$
 
 ### Quasilinear Optimization
 
-Use [[Constrained Optimization|Lagrangian]] optimization, but beware that the blue line might happen (=maximum point lies outside $x_{1},x_{2}>0$):
+Use [[Lagrangian Optimization|Lagrangian]] optimization, but beware that the blue line might happen (=maximum point lies outside $x_{1},x_{2}>0$):
 ![[Constrained Optimization.png|260]]
 ⇒ In this case, go to the red `(*)` corner solution.
 

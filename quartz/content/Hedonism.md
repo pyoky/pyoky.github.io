@@ -1,6 +1,6 @@
 ---
 aliases:
-  - spice and honey
+  - Spice and Honey
 tags:
   - Philosophy
 ---

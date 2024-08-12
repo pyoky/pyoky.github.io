@@ -1,5 +1,6 @@
 ---
-aliases: []
+aliases:
+  - Cashflow Statement
 tags:
   - Economics/Finance
 ---

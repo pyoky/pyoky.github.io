@@ -1,7 +1,6 @@
 ---
 tags:
   - Economics/Macro-Economics
-  - index
 aliases:
   - GDP
 ---

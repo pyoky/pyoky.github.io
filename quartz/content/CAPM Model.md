@@ -21,7 +21,7 @@ Data correlates between market excess return ($r_m-r_f$) and asset excess return
 - **Coefficient of Determination** \[=R-value] $0\leq R^2 \leq 1$, measures the goodness of fit. Bigger means the model is a better fit.
 - Standard deviations \[=[[Risk (Finance)]]] $\sigma_m, \sigma_i$
 - Correlation coefficient $-1<\rho<1$, measures the degree of correlation between the two variables
-- Beta \[=slope $\approx 1$] $\beta \coloneqq \frac{\rho_{i,m} \cdot\sigma_i}{\sigma_m}$, which measures the sensitivity of one variable to another. It doesn’t deviate much from 1.
+- [[Market Beta]] \[=slope $\approx 1$] $\beta \coloneqq \frac{\rho_{i,m} \cdot\sigma_i}{\sigma_m}$, which measures the sensitivity of one variable to another. It doesn’t deviate much from 1.
 - Alpha \[=intercept $\approx 1$], which measures the excess return against all odds (of the prediction of the CAPM model.) It should, theoretically, always be zero. But it is not (See Jenson’s Alpha below.)
 
 If we plot riskless assets with a riskful asset:
@@ -94,5 +94,5 @@ Use terminology from [[Portfolio Theory]].
   1.  Red: risk-seeking
   2.  Black: risk-neutral
   3.  Blue: risk-averse
-  - - [[Constrained Optimization]] problem $max_{\mu,\sigma}E[u(R_{p})] \text{ s.t. } g(\mu,\sigma)=k$
+  - - [[Lagrangian Optimization]] problem $max_{\mu,\sigma}E[u(R_{p})] \text{ s.t. } g(\mu,\sigma)=k$
       ⇒ to get optimal portfolio $R_{p}^*$ ![[Pasted image 20231106171919.png|391]]

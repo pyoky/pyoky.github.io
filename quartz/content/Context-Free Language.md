@@ -9,12 +9,10 @@ Section: [[Pushdown Automata]]
 ## Closure Properties
 
 Context-Free Languages are closed under:
-
 - Union
 - Concat
 - Star
 - Regular Intersection (←think: you have states & one stack to combine. It makes sense)
-
 ## Pumping Lemma
 
 thm. Pumping Lemma for CFL.

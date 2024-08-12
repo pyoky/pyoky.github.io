@@ -23,4 +23,4 @@ def. Referent
 
 def. Simulacra
 
-def. Hyperreality. See [[Living in HyperReality]]
+def. Hyperreality. See [[Living in Hyper-Reality]]

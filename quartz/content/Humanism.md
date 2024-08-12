@@ -1,7 +1,7 @@
 ---
-aliases: []
+aliases: 
 tags:
-  - Humanities
+  - Philosophy
 ---
 
 > **Humanism** is a philosophical stance that emphasizes the individual and social potential, and agency of human beings, whom it considers the starting point for serious moral and philosophical inquiry.
@@ -17,3 +17,4 @@ tags:
 The principle of inherent life value
 
 직업에 귀천은 없다
+    x

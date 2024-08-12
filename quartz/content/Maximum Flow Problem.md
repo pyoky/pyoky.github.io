@@ -77,7 +77,7 @@ alg. **Choice of Augmenting Path.** There are three common options:
 
 > [!hint] Any time they ask you to match a set of $k$ things with a separate set of $l$ things, suspect flow/cut problem.
 
-Q. **Edge Matching Problem.** (=Maximum Cardinality Matching) Given an undirected, _partitioned_ graph, return the maximum number of edges that don't share a vertex
+Q. **Edge Matching Problem.** (=Maximum Cardinality Matching) Given an undirected, _partitioned_ graph, return the maximum number of edges that don't share a vertex ^caff40
 - Idea: reduce to a max-flow problem. ![[Pasted image 20231106165505.png|155]]
 - algorithm:
 	1. For a graph partitioned $A,B$, make all edges $A\to B$ directed.

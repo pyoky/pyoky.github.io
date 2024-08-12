@@ -84,47 +84,4 @@ Varaince of $\hat{\beta_{1}}$ is also the variance of CLT limit with the *same s
 
 ## Omitted Variables
 
-Motivation. What if there are external variables that are related to $Y$? We want to characterize how off we might be if we omitted a variable.
-
-### Omitting a variable from a true 2-var model
-Assume the true model should have the following: 
-$$
-\hat{Y_{i}}=\hat{\beta_{0}}+\hat{\beta_{1}}X_{1,i}+\hat{\beta_{2}}X_{2,i}+\hat{\epsilon_{i}}
-$$
-We didn't take into account $X_{2}$, and we mistakenly used the following model:
-$$
-\hat{Y}_{i}'=\hat{\beta_{0}'}+\hat{\beta_{1}'}X_{1,i}+\hat{\epsilon_{i}}
-$$
-Then, our estimators $\hat{\beta_{0}'}$ and $\hat{\beta_{1}'}$ will be different from $\hat{\beta_{0}},\hat{\beta_{1}}$. We can state precisely how off they will be:
-$$\hat{\beta_{1}'}=\hat{\beta_{1}}+\hat{\beta_{2}}\hat{\delta_{1}}
-$$
-where $\hat{\delta_{1}}$ is from the auxiliary regression 
-$$
-X_{2,i}=\hat{\delta_{0}}+\hat{\delta_{1}}X_{1,i}+\tau_{i}
-$$
-### Omitting a variable from a 3-var model
-- True model: $\hat{Y_{i}}=\hat{\beta_{0}}+\hat{\beta_{1}}X_{1,i}+\hat{\beta_{2}}X_{2,i}+\hat{\beta_{3}}X_{3,i}+\hat{\epsilon_{i}}$
-- Omitted model: $\hat{Y_{i}'}=\hat{\beta_{0}'}X_{1,i}+\hat{\beta_{2}'}X_{2,i}+\hat{\epsilon_{i}'}$
-- Estimator relationships:
-	- $\hat{\beta_{1}'}=\hat{\beta_{1}}+\hat{\beta_{3}}\hat{\delta_{1}}$
-	- $\hat{\beta_{2}'}=\hat{\beta_{2}}+\hat{\beta_{3}}\hat{\delta_{2}}$
-- Auxiliary regression: $X_{3}=\hat{\delta_{0}}+\hat{\delta_{1}}X_{1}+\hat{\delta_{2}}X_{2}$
-
-### General Form
-For true model:
-$$
-\hat{Y_{i}}=\hat{\beta_{0}}+\hat{\beta_{1}}X_{1,i}+\dots+\hat{\beta_{n-1}}X_{n-1,i}+\hat{\beta_{n}}X_{n}
-$$
-where $X_{n}$ is the omitted variable. Our omitted model:
-$$
-\hat{Y_{i}}
-$$
-$$
-\hat{\beta_{i}'}=\hat{\beta_{i}}+\hat{\beta}_{\text{omit}}\hat{\delta_{i}}
-$$
-where
-$$
-X_\text{omit}=\hat{\delta_{0}}+\hat{\delta_{1}}X_{2}+\dots+\hat{\delta}_{n-1}X_{n-1}
-$$
-
 

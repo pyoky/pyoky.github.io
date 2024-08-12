@@ -34,8 +34,6 @@ $$
 
 > [!info] Example finite state machine that accepts inputs that have both even number of $a,b$.
 
-![Untitled](assets/Untitled%206.png)
-
 _def_. Language. A string is **accepted** by a DFA when:
 
 1. After processing the string, the DFA is in a final state
@@ -53,7 +51,7 @@ i.e. all the strings which, after processing it thru $\delta^*$, it lands on a f
 
 ## Non-deterministic Finite Automata (NFA)
 
-_def_. **Non-deterministic Finite Automata** can have multible edges with the same labels; i.e.
+_def_. **Non-deterministic Finite Automata** can have multiple edges with the same labels; i.e.
 
 $$
 \delta :Q \times \Sigma {\color{red} \cup \lambda}\rightarrow {\color{red}2^Q}

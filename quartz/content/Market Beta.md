@@ -4,11 +4,12 @@ tags:
   - Economics/Finance
 ---
 **Market Beta** ($\beta$)
-- Variables
+- **Intuition**. Market Beta measure the correlation between security $i$ with market $M$. It therefore is proportional to *market risk* (if $\beta$ is big, market volatility triggers security volatility).
+- Consider:
 	- Security $i$ with $(R_{i,},\sigma_{i},\mu_{i})$
 	- Market $(R_{M},\sigma_{M},\mu_{M})$
-	- ⇒ Market Beta measures the degree to which the security price correlates with the market price
-		- Market beta is a constant, derived from past data
+	- &  Market Beta measures the degree to which the security price correlates with the market price
+		- Market beta is a coefficient of regression, derived from past data
 	- Market's beta is $1$.
 - **Definition:** $\beta_{i}\coloneqq\frac{Cov(R_{i},R_{M})}{\sigma_{M}^2}=\rho_{i,M} \cdot \frac{\sigma_{i}}{\sigma_{M}}$
 - $\beta_{i}=\frac{\mu_{i}-\mu_{f}}{\mu_{M}-\mu_{f}}$ or equivalently $\mu_{i}-\mu_{f}=\beta(\mu_{M}-\mu_{f})$ ← "[[CAPM Model]]"

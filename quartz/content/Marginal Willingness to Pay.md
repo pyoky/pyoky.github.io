@@ -8,7 +8,7 @@ tags:
 
 > [!abstract]
 > Basically, "In a vacuum, how **much** do you want it?"
-> - Think [[CGP grey]]'s "I'd pay anything for Apple to make X."
+> - Think [[CGP Grey]]'s "I'd pay anything for Apple to make X."
 > - Used to calculate [[Consumer Surplus]]
 > - Doesn't really show up in actual reality. A theoretical construct to help calculate some things
 

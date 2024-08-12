@@ -18,7 +18,7 @@ $$
 
 ## How Good is the P/E Ratio?
 
-- The P/E ratio contains finance information so it’s a **noisier** measure compared to the [[EBITDA Multiple]].
+- The P/E ratio contains finance information so it’s a **noisier** measure compared to the [[Measuring Security Performance]].
 - It’s a better measure for the pure returns you get on the share.
   → EBITDA is a bigger, general rule of thumb, while P/E could be better for a small invester.
 

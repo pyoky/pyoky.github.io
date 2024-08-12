@@ -27,5 +27,5 @@ To devise a DP solution to a problem, you must
 		- [[Knapsack Problem]], [[Path Alignment]]
 	- Iterate for increasing $\text{gap}=j-i$ from $\text{gap}=0..n$
 		- [[Matrix Chain Multiplication]], [[Longest Palindromic Substring]]
-	- Iterate on all notes of a [[tree]], where the data is stored in the tree node itself.
+	- Iterate on all notes of a [[Tree]], where the data is stored in the tree node itself.
 		- [[Vertex Cover and Minimum Independent Set]]

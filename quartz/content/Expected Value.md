@@ -26,6 +26,7 @@ $$
 	- ! $\mathbb{E}(g(x))\neq g(\mathbb{E}(x))$
 	- $\mathbb{E}(X^k)=\sum_{\forall x}x^k \cdot \mathbb{P}(X=x)$
 
+
 thm. **Tail Sum Formula.** when $X$ is a non-negative discrete random variable:
 $$
 \mathbb{E}(X)=\sum_{i=0}^\infty  \mathbb{P}(X\geq i)

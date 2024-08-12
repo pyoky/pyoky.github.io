@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#!TODO auto move Math, CS, etc. to Publishable dir
+#!TODO auto move images to publishable images
+
 obsidian_dir='/Users/pyoky/Library/Mobile Documents/iCloud~md~obsidian/Documents/Slipbox/'
 cd "$obsidian_dir/Publishable"
 

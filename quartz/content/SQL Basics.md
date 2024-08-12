@@ -1,9 +1,11 @@
 ---
-aliases: []
+aliases: 
 tags:
   - Computing/Data-Science
+  - Documentation/Code-Journal
+  - "#Computing/Linguistics/SQL"
 ---
-**## Based on Relational Algebra
+## Based on Relational Algebra
 
 SQL is more readable than [[Relational Algebra]].
 ### SPJ Query
@@ -18,7 +20,7 @@ $$
 
 ```postgreSQL
 SELECT attr1, attr2, ...
-FROM relation1, relation2, ...
+FROM relation1
 WHERE condition
 ```
 

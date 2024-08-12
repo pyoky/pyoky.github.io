@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - Humanities/Marxism
+  - Philosophy/Marxism
 ---
 
 _**Valorization** is the addition of surplus value into capital_.
