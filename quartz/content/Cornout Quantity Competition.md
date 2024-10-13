@@ -1,4 +1,5 @@
 ---
+origins: 
 aliases: []
 tags:
   - Economics/Micro-Economics
@@ -22,7 +23,6 @@ Firms will choose _quantity_ as the strategic variable.
  Cornout Price $p^C$ **converges to competitive prices** $p=MC$ as the number of firms increase. (Take my word for this; it’s proven mathematically but not shown above)
 
 ### Sequential Move: Stackleberg Competition
-
 - **Stackleberg Leader** is Firm 1, **Stackleberg Follower** is Firm 2
 
 ![[スクリーンショット 2022-11-29 15.48.46.png|408]]

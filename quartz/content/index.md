@@ -42,3 +42,4 @@ tags:
 ### Other
 - [[Sociology 110D]]
 - [[International Baccalaureate (IB)]]
+- [[Chinese 101]], [[Chinese 102]]

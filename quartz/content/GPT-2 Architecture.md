@@ -61,7 +61,7 @@ V=\begin{bmatrix}
 \end{bmatrix}
 $$
 3. The cosine similarity of a query-key pair encodes "how well the question is answered"
-    1. each column of the result passes thru a [[Softmax]] function
+    1. each column of the result passes thru a [[Softmax and Sigmoid]] function
 $$
 \text{softmax}\left( \frac{\overbrace{ QK^{T} }^\text{ dot similarity }}{\underbrace{ \sqrt{ d_{k} } }_\text{ nice to compute }} \right)V
 $$

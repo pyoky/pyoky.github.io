@@ -7,7 +7,6 @@ tags:
 Equivalent to [[Finite Automata]]
 
 def. Regular Languages are languages that can be described by either
-
 - Finite Automata
 - Regular Grammar
 - Regular Expressions

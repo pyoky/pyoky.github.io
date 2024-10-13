@@ -12,6 +12,7 @@ def. **Graph**. A Graph is defined as:
 - Variations on:
 	- Directed or Undirected
 	- Connected or Not Connected
+		- In directed graph, strongly connected means following direction; weakly connected means ignoring direction.
 	- Cyclical or Acyclical
 - Common types:
 	- [[Tree]] is a connected undirected acyclical graph

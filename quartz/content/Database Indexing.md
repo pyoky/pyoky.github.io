@@ -3,7 +3,7 @@ aliases: []
 tags:
   - Computing/Data-Science
 ---
-
+> [!warning] Every trip to the disk is a trip to pluto.
 ## Sequential Index
 - Can be dense or sparse
 	- **Primary Index:** Key indices are often sparse, because the rows are ordered using the key index

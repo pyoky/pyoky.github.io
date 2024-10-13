@@ -1,4 +1,5 @@
 ---
+origins: 
 aliases: []
 tags:
   - Computing/Formal-Languages
@@ -16,7 +17,7 @@ $$
 
 > [!info] CFGs can check for syntactically correct programs
 
-- Simple Grammer: a CFG where any pair of $(var,term)$ appear in no more than one rule.
+- Simple Grammar: a CFG where any pair of $(var,term)$ appear in no more than one rule.
 - **Ambiguous Grammar**: there exists a string in the language that has more than one derivation.
 
 def. a **Parse Tree** [=Derivation Tree] shows the derivation steps of a single string from a start symbol according to the rules of a grammar.
@@ -29,6 +30,21 @@ def. a **Parse Tree** [=Derivation Tree] shows the derivation steps of a single 
 def. Leftmost Derivation. Replace the leftmost variable in every step.
 
 def. Rightmost Derivation. Replace the rightmost variable in every step.
+
+### Normal Forms
+
+def. **Chomsky Normal Form.** A CFG is in CNF iff all rules are in the form:
+$$
+\begin{align}
+A & \to BC  & \text{two vars}\\
+A  & \to a  & \text{one terminal}
+\end{align}
+$$
+- thm. _All CFGs can be expressed in CNF_[^1]
+def. **Greibach Normal Form**. A CFG is in GNF iff all rules are in the form:
+$$
+A\to \underbrace{ a }_\text{ terminal }\underbrace{ BCD\dots }_\text{ only vars }
+$$
 
 ---
 
@@ -75,3 +91,5 @@ alg. Given CFG, you can build an **LR-NPDA** in the following steps. This is a b
 
 ---
 [[Context-Free Language Parsing]]
+
+[^1]: [Linz](x-devonthink-item://395CFD91-AFA5-4032-AA77-7ECB9A362B4E?page=194&start=886&length=11&search=THEOREM%206.6)

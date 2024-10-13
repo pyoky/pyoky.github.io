@@ -1,4 +1,5 @@
 ---
+origins: 
 aliases: []
 tags:
   - Math/Statistics
@@ -9,7 +10,6 @@ updated: 2023-09-10T18:53
 **Likelihood:**
 - instead of asking “given parameter $\theta$ what is the probability of r.v. $X=x$”…
 - …ask: “given data about $X$, what is the likelihood of parameter $\theta$ being within an interval?”
-
 This is the best way to evaluate an [[Estimator|estimator]].
 
 ## Likelihood Function
@@ -22,7 +22,6 @@ $$
 $$
 
 where for the liklihood function, the variable is $\theta$ and the parameters are $x_1,…,x_n$.
-
 - The domain of the likelihood function is the parameter space.
 
 > [!info]

@@ -10,11 +10,11 @@ A future is a contract that says “A will sell B a certain amount of resource _
 ![Untitled](Untitled%2020.png)
 
 - Reduces risk for both parties
-  - Farmers have long position on wheat [=worry that wheat price↑]
-  - General Mills have short position on wheat [=worry that wheat price↓]
+    - Farmers have long position on wheat (=worry that wheat price↑)
+    - General Mills have short position on wheat (=worry that wheat price↓)
 - $\#\text{Total Sellers} = \#\text{Total Buyers}$ i.e. \#Short = \#Long positions (you can’t subdivide a contract)
-- Used for liquid [=high trade volume] assets, usually highly demanded commondities like gold, oil.
-- Futures Price Formula.
+    - Used for liquid (=high trade volume) assets, usually highly demanded commondities like gold, oil.
+    - Futures Price Formula.
 
 $$
   F_t=S\cdot\exp\Big[(r+q)\cdot t\Big]

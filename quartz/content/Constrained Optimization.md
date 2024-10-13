@@ -1,4 +1,5 @@
 ---
+origins: 
 uid: f3430adc-0e6d-42c1-9709-561ee650409f
 aliases:
   - Lagrangian Optimization

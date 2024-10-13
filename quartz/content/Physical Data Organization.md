@@ -20,7 +20,6 @@ tags:
 
 ## Storing Many Tuples in One Block
 - Often many tuples will fit in one block. There are multiple schemes to lay them out.
-
 ### N-ary Storage Model (NSM)
 - Data stored from the beginning of the block
 - Index stored at the end of the block

@@ -32,7 +32,7 @@ Then, this allocation is a CEEI.
 thm. **CEEI always exists.**
 (We won't prove.)
 
-thm. CEEI satisfies Scale Invariance, EF, Prop, and [[Pareto Efficiency]]. Let $\vec{x_{1}},\vec{\dots}x_{n}$ be the CEEI allocation.
+thm. *CEEI satisfies Scale Invariance, EF, Prop, and [[Pareto Efficiency]]*. Let $\vec{x_{1}},\vec{\dots}x_{n}$ be the CEEI allocation.
 _Proof of SI._ In the Fischer market process agents will find their demand set. Demand set doesn't change depending on the scale of the utility; only the ordinal preferences.
 _Proof of EF_. By contradiction. Assume $i$ envies $j$ s.t. $\vec{x_{j}} \succ \vec{x_{i}}$. But everybody has the same $1 thus $i$ could have just demanded $\vec{x_{j}}$ instead. Thus there is no envy.
 *Proof of PR*. Since all money is spent by CEEI definition, $\sum_{j} p_{j}q_{j}=n$ where $q_{j}$ is the amount of units of item $j$. Then divide both by $n$ to get $\sum_{j}p_{j} \frac{q_{j}}{n}=1$ which means that the proportional allocation $\left(\frac{q_{1}}{n},\dots \frac{q_{m}}{n} \right)$ is feasible. But all agents demanded some other set $S_{i}$ thus it's at least as good as proportional allocation bundle.

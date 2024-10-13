@@ -1,4 +1,5 @@
 ---
+origins: 
 aliases: []
 tags:
   - Computing/Computer-Architecture
@@ -12,7 +13,7 @@ tags:
 4. Parallelism → thruput increase
 5. [[Pipelining]] → thuput increase
 6. [[Branching (Computer Science)|Prediction]]
-7. Memory Heirarchy
+7. Memory Hierarchy
 8. Redundancy
 
 [[Abstraction]]: Application Software > Systems Software > Hardware.
@@ -23,7 +24,7 @@ tags:
 
 Components of a Computer: **Input/Output, Memory, Datapath, Control.** Datapath & Control are sometimes combined as the CPU. Examples of I/O Devices: LCD displays (with _frame buffers_ as pixels), touchscreens, etc.
 
-Memory is built from **DRAM** (Dynamic Random Access Memory) (↔ Sequential random access memory, which is old technology). Memory Heirarchy: Main Memory (DRAM) > Seconday Memory (magnetic disks, flash memory).
+Memory is built from **DRAM** (Dynamic Random Access Memory) (↔ Sequential random access memory, which is old technology). Memory Hierarchy: Main Memory (DRAM) > Secondary Memory (magnetic disks, flash memory).
 
 **[[Instruction Set]] Architecture** (=architecture) is the information developers need to develop a proper binary machine language program, including I/O, memory layout, etc. **ABI (Application Binary Interface)** is the combination of the instruction set and the OS interface.
 

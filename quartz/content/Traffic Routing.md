@@ -31,6 +31,7 @@ $$
 $$
 ![[Traffic Routing-20240307141504452.png|504]]
 
+
 Thus, each user's goal is to minimize this potential function. Therefore the minimum of the potential function is the pure strategy nash eqilibirum. <span style="float:right;">■</span>
 
 thm. **(existence of PNE).** _Proof outline._ This potential function will have one global minimum, if the cost functions are monotonically increasing (v.v. strictly increasing) and continuous, making $\Phi$ a (v.v. strictly) convex function which has a global minimum (v.v. a single global minimum). This shows that it PNE will always exist for monotonic cost functions. <span style="float:right;">■</span>

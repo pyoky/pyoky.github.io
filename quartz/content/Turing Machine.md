@@ -1,4 +1,5 @@
 ---
+origins: 
 aliases: []
 tags:
   - Computing/Formal-Languages
@@ -9,68 +10,49 @@ A Turing machine:
 - Cannot solve the halting problem.
 - Can be used to prove [[Limits of Math and Computing]].
 
-> [!definition] Turing Machine
-> 
-$$
-> M=(Q,\Sigma,\Gamma,\delta,q_0,B,F)
-> 
-$$
-> where the previously unencountered symbols are:
-> - $Q$: States
-> - $\Sigma$: Input Alphabet
-> - $\Gamma$: Tape Alphabet (superset of $\Sigma$)
-> - $q_{0}$: Start state
-> - $F$: Set of en states
-> - $B$: Blank (also written as $\square$)
-> - $\delta: Q\times \Gamma \rightarrow Q \times \Gamma \times \{L,R\}$
-> 
+def. **Turing Machine** $M$ is a turing machine defined as a tuple:
 
+$$
+M=(Q,\Sigma,\Gamma,\delta,q_0,B,F)
+$$
+where the previously unencountered symbols are:
+- $Q$: States
+- $\Sigma$: Input Alphabet
+- $\Gamma$: Tape Alphabet (superset of $\Sigma$)
+- $q_{0}$: Start state
+- $F$: Set of en states
+- $B$: Blank (also written as $\square$)
+- $\delta: Q\times \Gamma \rightarrow Q \times \Gamma \times \{L,R\}$
 Configuration and transition of a TM is denoted:
-
-$$
-w {\color{red}q}v\vdash w' {\color{red}q'} v'
-$$
-
-$$
-\delta({\color{red}q},v)=({\color{red}q'},v,R)
-$$
-
-→ where the configuration is denoted as $({\color{red}\text{state}},~\text{write symbol},~\text{move left/right})$
-
-In this case the head is reading the first symbol of $v$, i.e. the right-side letter.
-
----
+- _Configuration_: $w {\color{red}q}v\vdash w' {\color{red}q'} v'$
+    - In this case the head is reading the first symbol of $v$, i.e. the right-side letter.
+    - the "$\vdash$" indicates a state transition
+- _Transition function $\delta$_: $\delta({\color{red}q},v)=({\color{red}q'},v,R)$
+    - The configuration is denoted as $({\color{red}\text{state}},~\text{write symbol},~\text{move left/right})$
 
 ### Turing Machines as Language Recognizers/Acceptors
 
+def. **Language of a turing machine.** For turing machine $M$ with language $L$, String $\textcolor{red}{ w } \in L$ if:
 $$
 L(M)=\{{\color{red}w}|q_0 {\color{red} w}\vdash vq_fw \}
 $$
-
-⇒ Then ${\color{red}w}$ is in the language of the TM.
-
 You can also think of it as the turing machine “halting” on the final state.
-
 - If TM halts on a final state, $w$ is accepted
 - If TM halts on a non-final state $w$ is not accepted
 - If TM doesn’t halt, $w$ is not accepted
+### Turing Machines as a Transducer (=Transformation on a language)
 
-### Turing Machines as a Transducer [= Transformation on a language]
-
-def. A function $f(w)$ is Turing-Computable if:
-
+def. **Turing-Computable.** A function $f(w)$ is Turing-Computable if:
 $$
 \forall w,~~q_0w\vdash^*q_ff(w)
 $$
-
 Example of a Turing Machine representing a turing-computable function:
-
 ![Untitled](Untitled%2010.png)
 
-### Turing Machine Building Blocks
+## Turing Machine Building Blocks
 
 1. $M_1\rightarrow M_2$
-2. $M_1\overset{x}\rightarrow M_2$: run if $x$ is the current output ← you can also have mutiple conditionals
+2. $M_1\overset{x}\rightarrow M_2$: run if $x$ is the current output ← you can also have multiple conditionals
 
 You have the building blocks of commonly-used TMs.
 
@@ -96,11 +78,11 @@ Example of using building blocks to simplify a turing machine:
 2. Multitrack TM: One tape, but split into $n$ cells: $\delta: Q\times \Gamma^{\color{red}n} \rightarrow Q \times \Gamma^{\color{red}n} \times \{L,R\}$
    - Diagram
 ![Untitled](Untitled%201%205.png)
-1. Semi-infinite TM: The tape is infinite only in one direction
+3. Semi-infinite TM: The tape is infinite only in one direction
    → Proof by “folding over” the standard TM into multi-track.
-2. Multi-tape TM: $\delta: Q\times \Gamma^n \rightarrow Q \times \Gamma^n \times \{L,R\}^{\color{red}n}$
-3. Off-line TM: Two-tape; one tape is input, the other the read/write tape. $\delta: Q\times \Gamma^{\color{red}2} \rightarrow Q \times \Gamma \times \{L,R\}^{\color{red}2}$
-4. Non-deterministic TM
+4. Multi-tape TM: $\delta: Q\times \Gamma^n \rightarrow Q \times \Gamma^n \times \{L,R\}^{\color{red}n}$
+5. Off-line TM: Two-tape; one tape is input, the other the read/write tape. $\delta: Q\times \Gamma^{\color{red}2} \rightarrow Q \times \Gamma \times \{L,R\}^{\color{red}2}$
+6. Non-deterministic TM
     1. NPDA with 2 stacks
 
 ### Universal Turing Machine

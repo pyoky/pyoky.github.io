@@ -20,6 +20,8 @@ Probability
 - Tower property $\mathbb{E}(X)=\mathbb{E}(\mathbb{E}(X|\mathcal{F}))$
 - Linearity of expectation. You can switch expectation and summation
 - Definition of expectation is an integral (or summation)
+- Two RVs are identical if they have the same CDF.[^1]
+- 
 
 Calculus
 - $\int_{x}\int_{y}  \, dy  \, dx=\int_{y}\int_{x}  \, dx  \, dy$ switch integrals
@@ -33,3 +35,5 @@ $$\underbrace{ \sum_{i=1}^n x_{i} }_\text{ sum }\geq\text{max}(x_{1},\dots,x_{n}
 $$
 
 $\ln(1-x)\leq-x$ always.
+
+[^1]: Why CDF? [statistics - Why is there a preference to use the cumulative distribution function to characterise a random variable instead of the probability density function? - Mathematics Stack Exchange](https://math.stackexchange.com/a/3473850)

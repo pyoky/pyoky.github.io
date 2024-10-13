@@ -1,4 +1,5 @@
 ---
+origins: 
 aliases:
   - Digital Minimalism
 tags:

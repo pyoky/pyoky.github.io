@@ -18,6 +18,11 @@ tags:
 Your competence stems from a strong reliance on rigour as well as naturally developed ambiguous thinking. You need to understand when to use which.
 The above model produces problems when issues that require ambiguous attention arise—the lack of substance or meaning, or an emotional problem, requires both rigorous and ambiguous thinking tools. Both most collaborate to produce a clear solution. A developed, honed set of ambiguous mental tools will undoubtedly produce maturity and flexibility in your thoughts.
 
+> [!warning] Ambiguity may not be not necessarily what you think it is.
+> - It doesn’t have to be “above” rigor. It can be “deeper” than rigor
+> - Ambiguity does not mean emotion. There is ambiguity without emotion, but they’re things you think are immoral/amoral: MBAs, politics, etc.
+
+
 ## Experience and Advice; Wisdom
 
 When choosing which mode of thought—which mental tool—to use, look for advice in past experience of yourself and others. Wisdom selects the right tool for the job. Like how a skilled surgeon understands the function of each tool on his tray, a wise man knows to use the right mental tool for the right occasion, sometimes wielding multiple with skill.

@@ -1,4 +1,5 @@
 ---
+origins: 
 aliases: []
 tags:
   - Courses
@@ -32,7 +33,6 @@ tags:
 - Online Algorithms
     - [[Ski Rental Algorithm]]
     - [[Online Matching]]
-
 
 ---
 - [[CS535 HW1]]

@@ -75,7 +75,7 @@ $$
 v_{i}[x_{i}(v_{i})-x_{i}(b_{i})]\geq \dots \geq b_{i}[x_{i}(v_{i})-x_{i}(b_{i})] \\
 \end{align}
 $$
-Thus $(v_{i}-b_{i})[x_{i}(v_{i})-x_{i}(b_{i})]\geq 0$ <span style="float:right;">■</span>
+Thus $(v_{i}-b_{i})[x_{i}(v_{i})-x_{i}(b_{i})]\geq 0$ <span style="float:right;">∎</span>
 
 _Intuition_. $v_{i}-b_{i}$ and $x_{i}(v_{i})-x_{i}(b_{i})$ have the same signs. Which means $x_{i}$ is monotonically increasing.
 ![[Auction Theory-20240212173754652.png|424]]

@@ -1,4 +1,5 @@
 ---
+uid: a1cca529-c123-4ab2-8086-eeea9e37b967
 aliases:
   - Gaussian Distribution
 tags:
@@ -65,6 +66,68 @@ rmk. **Empirical Rule**: Rule of thumb for calculating probabilities (integrals)
 - ! Generalized version: [[Chebyshev's Inequality]]
 - 1 std. dev. away is $\approx66\%$; 2 std.dev. away is $\approx0.95\%$![[Untitled 26.png|273]]
 
+### Box-Mueller Transform
+Motivation. Computers can easily sample from a uniform distribution, but it cannot randomly generage a normal distribution. The Box-Mueller Transofrm is a method of transforming a uniform unit random variable into a standard normal random variable. (From [[CS 675 HW1#Problem 3]])
+thm. **Box-Mueller Transform.** Let uniform distrubtions $U_{1}\sim \text{Unif}[0,1],U_{2}\sim \text{Unif}[0,1]$. Then let:
+$$
+\begin{align}
+R &= \sqrt{ -2\ln U_{2} } \\
+\Theta &= 2\pi U_{1}
+\end{align}
+$$
+And then let:
+$$
+\begin{align}
+Z_{1} &= R\cos \Theta \\
+Z_{2} &= R\sin \Theta
+\end{align}
+$$
+Then $Z_{1},Z_{2}$ are standard normal distributions.
+*proof.* First, $U_{1},U_{2}$ to $R,\Theta$. Consider that 
+- $U_{1}=\frac{\Theta}{2\pi}$, $\frac{dU_{1}}{d\Theta}=\frac{1}{2\pi}$
+- $U_{2}=\exp\left( -\frac{R^{2}}{2} \right)$, $\frac{dU_{2}}{dR}=R\exp\left( -\frac{R^{2}}{2} \right)$
+Using [[Change of Variable (Probability)]]s we have:
+- $f_{\Theta}(\theta)=\frac{1}{2\pi}$
+- $f_{R}(r)=r \exp\left( -\frac{r^{2}}{2} \right)$
+ Then, from $R,\Theta$ to $Z_{1},Z_{2}$:
+Note that: 
+1. $Z_{1}^{2}+Z_{2}^{2}=R^{2}(\cos ^{2}\Theta+\sin ^{2}\Theta)=R^{2}$ thus $R=\sqrt{ Z_{1}^{2}+Z_{2}^{2} }$
+    - $\frac{dR}{dZ_{1}}=Z_{1}(Z_{1}^{2}+Z_{2}^{2})^{-1/2}=\frac{Z_{1}}{R}$
+    - Symmetrically $\frac{dR}{dZ_{2}}=\frac{Z_{2}}{R}$
+2. $\frac{Z_{2}}{Z_{1}}=\frac{R\sin \Theta}{R\cos \Theta}=\tan \Theta$ thus $\Theta=\arctan\left( \frac{Z_{2}}{Z_{1}} \right)$
+    - $\frac{d\Theta}{dZ_{1}}=\frac{1}{1+\frac{Z_{2}^{2}}{Z_{1}^{2}}}\cdot Z_{2}(-1)Z_{1}^{-2}=-\frac{Z_{2}}{Z_{1}^{2}+Z_{2}^{2}}=-\frac{Z_{2}}{R^{2}}$
+    - Symmetrically $\frac{d\Theta}{dZ_{2}}=\frac{Z_{1}}{Z_{1}^{2}+Z_{2}^{2}}=\frac{Z_{1}}{R^{2}}$
+Now, calculate the jacobian for a multivariate change of variables:
+$$
+\begin{align}
+|J|&=\begin{vmatrix}
+\frac{ \partial r  }{ \partial z_{1} }  & \frac{ \partial r }{ \partial z_{2} } \\
+\frac{ \partial \theta }{ \partial z_{1} } & \frac{ \partial \theta }{ \partial z_{2} }    
+\end{vmatrix} \\
+&=\begin{vmatrix}
+\frac{Z_{1}}{R} & \frac{Z_{2}}{R} \\
+-\frac{Z_{2}}{R^{2}}  & \frac{Z_{1}}{R^{2}}
+\end{vmatrix} \\
+&= \frac{Z_{1}^{2}}{R^{3}}+ \frac{Z_{2}^{2}}{R^{3}} \\
+&=\frac{1}{R}
+\end{align}
+$$
+And thus the join probability being:
+$$
+\begin{align}
+f_{\Theta,R}(\theta,r)&=f_{\Theta}(\theta)\cdot f_{R}(r)\cdot |J|\\
+&=\frac{1}{2\pi}r\exp\left( -\frac{r^{2}}{2} \right)\cdot \frac{{1}}{r} \\
+&= \frac{1}{2\pi}\exp\left(- \frac{z_{1}^{2}+z_{2}^{2}}{2} \right) \\
+&=  \frac{1}{\sqrt{ 2\pi }}\exp\left( -\frac{z_{1}^{2}}{2} \right) \cdot  \frac{1}{\sqrt{ 2\pi }}\exp\left( -\frac{z_{2}^{2}}{2} \right) \\
+&=f_{Z_{1}}(z_{1})\cdot f_{Z_{2}}(z_{2})
+\end{align}
+$$
+
+This show both that:
+1. $f_{Z_{1}},f_{Z_{2}}$ is the standard normal pdf
+2. $Z_{1},Z_{2}$ are independent because the joint pdf is a simple product of each pdf. ∎
+
+
 ## Estimators
 
 let
@@ -85,6 +148,8 @@ $$
 
 ### MLEs
 
+^d3u3hp
+
 $$
 \hat\mu=\frac{1}{n}\sum_{i=1}^nx_i
 $$
@@ -92,7 +157,7 @@ $$
 $$
 \hat \sigma^2=\frac{1}{n}\sum_{i=1}^n(x_i-\bar x)^2
 $$
-
+- ! divisor for variance MLE is not $\frac{1}{n-1}$ as opposed to [[Besset Correction]]
 ### Fisher Information
 - Unknown $\mu$, known $\sigma^2$
 
@@ -107,3 +172,21 @@ I(\sigma^2)=\frac{1}{2\sigma^2}\\[1em]
 
 I_n(\sigma^2)=\frac{n}{2\sigma^2}
 $$
+
+# Multivariate Normal distribution
+
+def. Multivariate Normal Distribution.[^1]
+
+$$
+\underbrace{ \frac{1}{(2\pi)^{\frac{d}{2}}|\Sigma|^{\frac{1}{2}}} }_\text{ scale down }
+e^{-\frac{1}{2}(X-\mu)^T\Sigma^{-1}(X-\mu)}
+$$
+where
+
+The image shows part of a larger equation or expression, as indicated by the curly brace on the right side, but the complete right-hand side is not visible in this image.
+
+
+
+
+
+[^1]:  [Multivariate Normal (Gaussian) Distribution Explained - YouTube](https://www.youtube.com/watch?v=UVvuwv-ne1I)

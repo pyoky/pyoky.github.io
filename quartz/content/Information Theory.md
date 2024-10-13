@@ -34,7 +34,15 @@ H(X) = -\left(0.5\log_{2}(0.5) + 0.5\log_{2}(0.5)\right)=1 \text{ bit}
 $$
 which matches our intution that entropy is the average amount of information transmitted.
 
-def. Cross Entropy. 
+def. **Cross Entropy.** The cross-entropy of the distribution $q$ relative to distribution $p$ is:^bic1ka ^56f391
+$$
+H(p,q)=-\underbrace{ E_{p} }_\text{ expectation }[\log q]
+$$
+
+*Intution*. Cross-entropy is a measure of a "distance" between two distributions.
+*Remark*. Often used in [[Deep Learning]] but it doesn't have anything to do with information theory, but simply that coincidentally they had to calculate the "distance between two distributions."
+
+def. Kullback-Leibler Divergence (KL Divergence). 
 
 [^1]: [Information content - Wikipedia](https://en.wikipedia.org/wiki/Information_content)
 [^2]: [Entropy (information theory) - Wikipedia](https://en.wikipedia.org/wiki/Entropy_(information_theory))

@@ -11,7 +11,7 @@ $$
 \hat{s}^2=\frac{ \sum_{i=1}^n(x_{i}-\bar{x})}{n}
 $$
 
-⇒ Sample variance is [[Bias (Statistics)|biased]].
+⇒ Sample variance is [[Bias (Statistics)|biased]]. (btw, this is [[Normal Distribution#MLEs]])
 Besset Corrected sample variance estimator:
 
 $$

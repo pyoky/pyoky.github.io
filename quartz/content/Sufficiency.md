@@ -1,4 +1,5 @@
 ---
+origins: 
 tags:
   - Math/Statistics
 aliases:
@@ -11,7 +12,7 @@ Recall [[Exponential Family]]
 
 ## Sufficiency
 
-def. let statistic $T=T(\vec X)$; and $X_i$ depends on unknown parameter $\theta$. Then $T$ is a sufficient statistic for $\theta$ if $\mathbb{P}[\vec X=\vec x|T=t]$ does not depend on $\theta$.
+def. let statistic $T=T(\vec X)$; and $X_i$ depends on unknown parameter $\theta$. Then $T$ is a _sufficient_ statistic for $\theta$ if $\mathbb{P}[\vec X=\vec x|T=t]$ does not depend on $\theta$.
 
 > [!info]
 > If the distribution of $X_i$’s depends on unknown parameter $\theta$, but the distribution of $X_i$ given $T=t$ does not depend on $\theta$, it must be the case that all information about $\theta$ is in $T$. Once the value of $T$ is given, then $\theta$ becomes irrelevant in determining the value of $X$.
@@ -21,14 +22,15 @@ def. let statistic $T=T(\vec X)$; and $X_i$ depends on unknown parameter $\theta
 
 thm. **Fischer-Neymann factorization.** $T$ is a sufficient statistic iff:
 
-$$f_{X}(X= x|\theta)=u(X)\cdot v (T(X),\theta)
+$$
+f_{X}(X= x|\theta)=u(X)\cdot v (T(X),\theta)
 $$
 
 i.e. the joint density function can be factored into a a function of $u,v$ where:
 
 - $u(\vec X)$ does _not_ depend on $\theta$
 - $v(T(\vec X),\theta)$ depends on $\theta$, and depend on $\vec X$ only through statistic $T$
-  ⇒ Intuitively, this menas when
+  ⇒ Intuitively, this means when
 
 > [!info]
 > Very convenient for determining if statistic is sufficient or not.
