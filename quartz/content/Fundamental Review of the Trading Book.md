@@ -1,5 +1,0 @@
----
-aliases:
-  - FRTB
-tags:
----

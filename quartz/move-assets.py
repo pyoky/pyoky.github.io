@@ -6,9 +6,9 @@ import shutil
 obsidianDir = (
     "/Users/pyoky/Slipbox/"
 )
-private_dir = obsidianDir + "Private/"
+external_dir = obsidianDir + "External/"
 assets_dir = obsidianDir + "assets"
-new_assets_dir = private_dir + "assets"
+new_assets_dir = external_dir + "assets"
 
 # Make sure the new_assets directory exists
 os.makedirs(new_assets_dir, exist_ok=True)
@@ -16,8 +16,8 @@ os.makedirs(new_assets_dir, exist_ok=True)
 # Compile a regex pattern to find wikilinks to image files
 wikilink_pattern = re.compile(r"\[\[(.*?)\.(jpg|jpeg|png|gif|bmp|pdf)(\|\d{2,3})?\]\]")
 
-# Iterate over all files in the private directory
-for root, dirs, files in os.walk(private_dir):
+# Iterate over all files in the external directory
+for root, dirs, files in os.walk(external_dir):
     for file in files:
         if file.endswith(".md"):
             file_path = os.path.join(root, file)

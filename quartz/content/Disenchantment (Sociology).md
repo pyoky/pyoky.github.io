@@ -1,6 +1,0 @@
----
-aliases:
-  - Deconsecration
-tags:
-  - Sociology
----

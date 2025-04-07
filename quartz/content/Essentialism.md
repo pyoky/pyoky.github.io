@@ -1,6 +1,0 @@
----
-aliases: []
-tags:
-  - Philosophy
-origins:
----
