@@ -10,61 +10,61 @@
     <link>https://pyoky.me/notes/(Article)-Equality-of-What-q</link>
     <guid>https://pyoky.me/notes/(Article)-Equality-of-What-q</guid>
     <description>(DevonThink) Sen,Equality Equity is about asking “what should be equal?” Libertarians: Equality of Rights Utilitarians: Equal Weighting of Utility Progressive Taxation: Equality of Need Satisfaction etc.</description>
-    <pubDate>Wed, 20 Aug 2025 01:35:01 GMT</pubDate>
+    <pubDate>Wed, 20 Aug 2025 01:49:45 GMT</pubDate>
   </item><item>
     <title>(Article) Magic Ink - Information Software and the Graphical Interface</title>
     <link>https://pyoky.me/notes/(Article)-Magic-Ink---Information-Software-and-the-Graphical-Interface</link>
     <guid>https://pyoky.me/notes/(Article)-Magic-Ink---Information-Software-and-the-Graphical-Interface</guid>
     <description>Notes on Magic Ink: Information Software and the Graphical Interface What You See is All You Get (WYSIAYG) UI design is: How information is presented: Graphic Design Personal accounting, Health app visualization How to manipulate and create: Industrial design Photoshop, Illustrator Users mostly want to learn something, not create something.</description>
-    <pubDate>Wed, 20 Aug 2025 01:35:01 GMT</pubDate>
+    <pubDate>Wed, 20 Aug 2025 01:49:45 GMT</pubDate>
   </item><item>
     <title>Godel, Escher, Bach</title>
     <link>https://pyoky.me/notes/(Book)-Godel-Escher-Bach</link>
     <guid>https://pyoky.me/notes/(Book)-Godel-Escher-Bach</guid>
     <description>Winner of the Pulitzer Prize A metaphorical fugue on minds and machines in the spirit of Lewis Carroll Douglas Hofstadter's book is concerned directly with the nature of &quot;maps&quot; or links between formal systems.</description>
-    <pubDate>Wed, 20 Aug 2025 01:35:01 GMT</pubDate>
+    <pubDate>Wed, 20 Aug 2025 01:49:45 GMT</pubDate>
   </item><item>
     <title>The Case for Economic Democracy</title>
     <link>https://pyoky.me/notes/(Book)-The-Case-for-Economic-Democracy</link>
     <guid>https://pyoky.me/notes/(Book)-The-Case-for-Economic-Democracy</guid>
     <description>The idea that the people have a right to shape political decisions through democratic means is widely accepted. The same cannot be said of the decisions that impact on our everyday economic life in the workplace and beyond.</description>
-    <pubDate>Wed, 20 Aug 2025 01:35:01 GMT</pubDate>
+    <pubDate>Wed, 20 Aug 2025 01:49:45 GMT</pubDate>
   </item><item>
     <title>(HowTo) Cost Minimization</title>
     <link>https://pyoky.me/notes/(HowTo)-Cost-Minimization</link>
     <guid>https://pyoky.me/notes/(HowTo)-Cost-Minimization</guid>
     <description>See also Profit Maximization Long Run Cost Minimization § minl,k​ C=wl+rk such that x=f(x) Lagrangian Optimization Optimal when Isoquant is tangent to the isocost Higher isoquant is not always better! it just means you’re producing more Warning Beware when MC is monotonically decreasing.</description>
-    <pubDate>Wed, 20 Aug 2025 01:35:01 GMT</pubDate>
+    <pubDate>Wed, 20 Aug 2025 01:49:45 GMT</pubDate>
   </item><item>
     <title>(Proof) Markov Recurrence by Sum Divergence</title>
     <link>https://pyoky.me/notes/(Proof)-Markov-Recurrence-by-Sum-Divergence</link>
     <guid>https://pyoky.me/notes/(Proof)-Markov-Recurrence-by-Sum-Divergence</guid>
     <description>let the indicators for (1) state being i at step n and (2) number of times process visits i: In​={10​if Xn​=iif Xn​=i​ , Ni​=∀n∑∞​In​ First we have: fi​​=P(n=1⋃∞​{In​=1}∣X0​=i)=P(N≥2∣X0​=i)=P(N≥k∣N≥k−1,X0​=i),∀k≥2​From E[Ni​]=E[∀n∑∞​In​]Strong Markov​​ The last line holds due to the strong markov property of process {Xt​}.</description>
-    <pubDate>Wed, 20 Aug 2025 01:35:01 GMT</pubDate>
+    <pubDate>Wed, 20 Aug 2025 01:49:45 GMT</pubDate>
   </item><item>
     <title>(Youtube) How We Made MuseScore 4 - Music App Design is Challenging!</title>
     <link>https://pyoky.me/notes/(Youtube)-How-We-Made-MuseScore-4---Music-App-Design-is-Challenging!</link>
     <guid>https://pyoky.me/notes/(Youtube)-How-We-Made-MuseScore-4---Music-App-Design-is-Challenging!</guid>
     <description>How We Made MuseScore 4 - Music App Design is Challenging! § .</description>
-    <pubDate>Wed, 20 Aug 2025 01:35:01 GMT</pubDate>
+    <pubDate>Wed, 20 Aug 2025 01:49:45 GMT</pubDate>
   </item><item>
     <title>2024-08-08</title>
     <link>https://pyoky.me/notes/2024-08-08</link>
     <guid>https://pyoky.me/notes/2024-08-08</guid>
     <description>Plans § You need to start recruiting, and first you need to do you Akuna OA. Recruiting will never be a disadvantage, so start this week in any case Bring your laptop to work the next few days, and work at work &amp; in library after work Akuna OA on wednesday.</description>
-    <pubDate>Wed, 20 Aug 2025 01:35:01 GMT</pubDate>
+    <pubDate>Wed, 20 Aug 2025 01:49:45 GMT</pubDate>
   </item><item>
     <title>2024-W29</title>
     <link>https://pyoky.me/notes/2024-W29</link>
     <guid>https://pyoky.me/notes/2024-W29</guid>
     <description> 月 2024-07-15 火 2024-07-16 水 2024-07-17 木 2024-07-18 金 2024-07-19 Work § Issues with Dremio queries taking too long § #Computing/Linguistics/SQL SELECT DISTINCT is a red flag in general, because without an index it really takes long Continue with two things: Understanding data structure of udw_std_base Chat continuation for agent Issues with the agent: Stop word is inefficient because streaming is not implemented SQL quries are slower in python riskapi than in dremio It doesn’t know which columns are important.</description>
-    <pubDate>Wed, 20 Aug 2025 01:35:01 GMT</pubDate>
+    <pubDate>Wed, 20 Aug 2025 01:49:45 GMT</pubDate>
   </item><item>
     <title>Abstraction</title>
     <link>https://pyoky.me/notes/Abstraction</link>
     <guid>https://pyoky.me/notes/Abstraction</guid>
     <description>1.2. 8 Great Ideas from Computer Science § Moore’s law Abstraction Optimize for the Common Case Parallelism → thruput increase Pipelining → thuput increase Prediction Memory Hierarchy Redundancy Abstraction: Application Software &gt; Systems Software &gt; Hardware.</description>
-    <pubDate>Wed, 20 Aug 2025 01:35:01 GMT</pubDate>
+    <pubDate>Wed, 20 Aug 2025 01:49:45 GMT</pubDate>
   </item>
     </channel>
   </rss>
