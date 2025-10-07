@@ -127,17 +127,9 @@ a {
   display: flex;
 }
 .separator.cs {
-  margin-top: 0;
-  margin-bottom: 0;
-  height: 100%;
-  width: 100%;
   background-color: #B4D293;
 }
 .separator.math {
-  margin-top: 0;
-  margin-bottom: 0;
-  height: 100%;
-  width: 100%;
   background-color: #0097DB;
 }
 .separator.graphic-design {
@@ -207,6 +199,13 @@ a {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
+.introduction .nomura-sec:hover {
+  background: linear-gradient(45deg, grey, rgb(242, 6, 6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
 .introduction rt {
   font-weight: normal;
   font-size: 0.7rem;
@@ -242,8 +241,8 @@ a {
 }
 
 .list-element {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .tags {
