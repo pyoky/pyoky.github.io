@@ -196,18 +196,18 @@ a {
 	}
 
 	&.cs {
-		margin-top: 0;
-		margin-bottom: 0;
-		height: 100%;
-		width: 100%;
+		// margin-top: 0;
+		// margin-bottom: 0;
+		// height: 100%;
+		// width: 100%;
 		background-color: $green;
 	}
 
 	&.math {
-		margin-top: 0;
-		margin-bottom: 0;
-		height: 100%;
-		width: 100%;
+		// margin-top: 0;
+		// margin-bottom: 0;
+		// height: 100%;
+		// width: 100%;
 		background-color: $blue;
 	}
 
@@ -286,6 +286,14 @@ a {
 		-moz-background-clip: text;
 		-moz-text-fill-color: transparent;
 	}
+	.nomura-sec:hover {
+		background: linear-gradient(45deg, grey, rgb(242, 6, 6));
+
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-moz-background-clip: text;
+		-moz-text-fill-color: transparent;
+	}
 
 	/* for japanese name display specifics */
 	rt {
@@ -331,8 +339,8 @@ a {
 }
 
 .list-element  {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 .tags {
