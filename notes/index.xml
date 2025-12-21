@@ -6,65 +6,65 @@
       <description>Last 10 notes on PK&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Amia Srinivasan</title>
-    <link>https://pyoky.me/notes/Amia-Srinivasan</link>
-    <guid>https://pyoky.me/notes/Amia-Srinivasan</guid>
+    <title>Optimistic Nihilism</title>
+    <link>https://pyoky.me/notes/Optimistic-Nihilism</link>
+    <guid>https://pyoky.me/notes/Optimistic-Nihilism</guid>
     <description></description>
-    <pubDate>Sun, 07 Dec 2025 02:04:27 GMT</pubDate>
+    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
   </item><item>
-    <title>Analogical Reasoning</title>
-    <link>https://pyoky.me/notes/Analogical-Reasoning</link>
-    <guid>https://pyoky.me/notes/Analogical-Reasoning</guid>
-    <description></description>
-    <pubDate>Sun, 07 Dec 2025 02:04:27 GMT</pubDate>
+    <title>Options (Finance)</title>
+    <link>https://pyoky.me/notes/Options-(Finance)</link>
+    <guid>https://pyoky.me/notes/Options-(Finance)</guid>
+    <description>An option is a contract that gives the holder the right to exercise the option (=buy/sell a stock) at the strike price at or before the strike date. It is a type of Derivative The person who gives out the option contract is the writer.</description>
+    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
   </item><item>
-    <title>Analytic Philosophy</title>
-    <link>https://pyoky.me/notes/Analytic-Philosophy</link>
-    <guid>https://pyoky.me/notes/Analytic-Philosophy</guid>
-    <description></description>
-    <pubDate>Sun, 07 Dec 2025 02:04:27 GMT</pubDate>
+    <title>Order Statistic</title>
+    <link>https://pyoky.me/notes/Order-Statistic</link>
+    <guid>https://pyoky.me/notes/Order-Statistic</guid>
+    <description>Motivation. When you have iid random variables X1​,…,Xn​ with a known pdf, you sometimes want the pdf of the minimum, maximum or k-th smallest/biggest of the realizations.</description>
+    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
   </item><item>
-    <title>Anarcho-Syndicalism</title>
-    <link>https://pyoky.me/notes/Anarcho-Syndicalism</link>
-    <guid>https://pyoky.me/notes/Anarcho-Syndicalism</guid>
-    <description>Noam Chomsky Anarcho-: Decentralization of power Syndicalism: Worker’s union’s ownership of Means of Production A realistic alternative to Marxism .</description>
-    <pubDate>Sun, 07 Dec 2025 02:04:27 GMT</pubDate>
+    <title>Ordinal Allocation</title>
+    <link>https://pyoky.me/notes/Ordinal-Allocation</link>
+    <guid>https://pyoky.me/notes/Ordinal-Allocation</guid>
+    <description>Motivation. We move on from cardinal allocations where the Utility Function is numerically defined, into a situation where there is only an ordinal ranking by the agents.</description>
+    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
   </item><item>
-    <title>Annuity</title>
-    <link>https://pyoky.me/notes/Annuity</link>
-    <guid>https://pyoky.me/notes/Annuity</guid>
-    <description>Annuities are… Money you borrowed: mortgages, etc. ⇒ pay regularly to pay off large amount Money you lent: social security credit, etc. ⇒ give large money, get regular payments later Amortization is the same thing but from a different perspective ⇒ You’re spreading a one-time cost into multiple years.</description>
-    <pubDate>Sun, 07 Dec 2025 02:04:27 GMT</pubDate>
+    <title>Ordinary Least Squares Regression</title>
+    <link>https://pyoky.me/notes/Ordinary-Least-Squares-Regression</link>
+    <guid>https://pyoky.me/notes/Ordinary-Least-Squares-Regression</guid>
+    <description>Motivation. Let’s say that there is a relationship between GDP per capita and life expectancy. Maybe god has declared a perfect formula describing this relationship: GDP Per Capita=200⋅Life Expectancy+1000+Noise While we humans may never truly know the parameters of the formula, 200 and 1000, we can still make a good guess about it.</description>
+    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
   </item><item>
-    <title>Apartheid</title>
-    <link>https://pyoky.me/notes/Apartheid</link>
-    <guid>https://pyoky.me/notes/Apartheid</guid>
-    <description> Nelson Mandela South Africa .</description>
-    <pubDate>Sun, 07 Dec 2025 02:04:27 GMT</pubDate>
+    <title>Overnight Index Swap</title>
+    <link>https://pyoky.me/notes/Overnight-Index-Swap</link>
+    <guid>https://pyoky.me/notes/Overnight-Index-Swap</guid>
+    <description>def. Overnight Index Swap (Is) is a type of Interest rate swaps that isn’t backed by any bond; two parties just decide to swap the two rates: floating leg: Basis Rate, the overnight rates fixed leg: both parties agree, ¶5% 5% of what? Both agree on a notional amount, which is a hypothetical principal amount.</description>
+    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
   </item><item>
-    <title>Apple&#039;s Philosophy</title>
-    <link>https://pyoky.me/notes/Apple's-Philosophy</link>
-    <guid>https://pyoky.me/notes/Apple's-Philosophy</guid>
-    <description> The Cook Doctrine We believe that we are on the face of the earth to make great products and that’s not changing. We are constantly focusing on innovating.</description>
-    <pubDate>Sun, 07 Dec 2025 02:04:27 GMT</pubDate>
+    <title>Parallel Algorithms</title>
+    <link>https://pyoky.me/notes/Parallel-Algorithms</link>
+    <guid>https://pyoky.me/notes/Parallel-Algorithms</guid>
+    <description>Terminology Tp​(n): span; time taken for p-processes with input size n You may choose p=∞ i.e. T∞​(n) to analyze if unlimited parallelism was possible.</description>
+    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
   </item><item>
-    <title>Applications of Discrete Markov Chains</title>
-    <link>https://pyoky.me/notes/Applications-of-Discrete-Markov-Chains</link>
-    <guid>https://pyoky.me/notes/Applications-of-Discrete-Markov-Chains</guid>
-    <description>Gamber’s Ruin § game. Gambler’s Ruin. Gambler starts out with i units. They have probability p of earning one unit, 1−p losing one unit, iid per round.</description>
-    <pubDate>Sun, 07 Dec 2025 02:04:27 GMT</pubDate>
+    <title>Pareto Efficiency</title>
+    <link>https://pyoky.me/notes/Pareto-Efficiency</link>
+    <guid>https://pyoky.me/notes/Pareto-Efficiency</guid>
+    <description>Pareto Efficiency is a state where you cannot make one person better off without making another person worse off. We will define pareto efficiency when there are n divisible items and n agents.</description>
+    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
   </item><item>
-    <title>Approximating Distributions</title>
-    <link>https://pyoky.me/notes/Approximating-Distributions</link>
-    <guid>https://pyoky.me/notes/Approximating-Distributions</guid>
-    <description>thm. A Normal Distribution with μ=np,σ=np(1−p)​ will approximate a Binomial distribution with n trials and success probability p when np&gt;1 P(a≤X≤b)=k=a∑b​P(X=k)≃∫ab​fnormal​(μ=np,σ=np(1−p)​)dx REMARK.</description>
-    <pubDate>Sun, 07 Dec 2025 02:04:27 GMT</pubDate>
+    <title>Path Alignment</title>
+    <link>https://pyoky.me/notes/Path-Alignment</link>
+    <guid>https://pyoky.me/notes/Path-Alignment</guid>
+    <description>Homework.</description>
+    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
   </item><item>
-    <title>Approximation Algorithm</title>
-    <link>https://pyoky.me/notes/Approximation-Algorithm</link>
-    <guid>https://pyoky.me/notes/Approximation-Algorithm</guid>
-    <description>def. Approximation Factor. α(n)-level approximation. For optimization problem π, ALG is a α-level optimization algorithm iff for input I of size n: max[OPT(I)ALG(I)​,ALG(I)OPT(I)​]=α(n) Smaller is better! Constant approximation factor: if approximation factor doesn’t depend on n, ALG is a constant α-level approximation .</description>
-    <pubDate>Sun, 07 Dec 2025 02:04:27 GMT</pubDate>
+    <title>Percieved value—Real value</title>
+    <link>https://pyoky.me/notes/Percieved-value%E2%80%94Real-value</link>
+    <guid>https://pyoky.me/notes/Percieved-value%E2%80%94Real-value</guid>
+    <description>Perceived value—Real Value § (Use-value vs Exchange-value) Discrepancy decreases in the long run. People will notice that you brought value to their lives, but it may take time.</description>
+    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
   </item>
     </channel>
   </rss>
