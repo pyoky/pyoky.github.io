@@ -6,65 +6,65 @@
       <description>Last 10 notes on PK&#039;s Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Optimistic Nihilism</title>
-    <link>https://pyoky.me/notes/Optimistic-Nihilism</link>
-    <guid>https://pyoky.me/notes/Optimistic-Nihilism</guid>
-    <description></description>
-    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
+    <title>&quot;Set&quot; Category</title>
+    <link>https://pyoky.me/notes/%22Set%22-Category</link>
+    <guid>https://pyoky.me/notes/%22Set%22-Category</guid>
+    <description>def. Set is a category where its objects are sets, and morphisms are standard functions. Consider the following objects: Empty set: Void. You can have morphism Absurd::Void→Int.</description>
+    <pubDate>Thu, 22 Jan 2026 19:46:04 GMT</pubDate>
   </item><item>
-    <title>Options (Finance)</title>
-    <link>https://pyoky.me/notes/Options-(Finance)</link>
-    <guid>https://pyoky.me/notes/Options-(Finance)</guid>
-    <description>An option is a contract that gives the holder the right to exercise the option (=buy/sell a stock) at the strike price at or before the strike date. It is a type of Derivative The person who gives out the option contract is the writer.</description>
-    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
+    <title>&quot;Thin&quot; Category</title>
+    <link>https://pyoky.me/notes/%22Thin%22-Category</link>
+    <guid>https://pyoky.me/notes/%22Thin%22-Category</guid>
+    <description>Example. Consider the category where all morphisms are ≤. Not that these objects are numbers, but just that we can compare two elements. This is surprisingly a proper category.</description>
+    <pubDate>Thu, 22 Jan 2026 19:46:04 GMT</pubDate>
   </item><item>
-    <title>Order Statistic</title>
-    <link>https://pyoky.me/notes/Order-Statistic</link>
-    <guid>https://pyoky.me/notes/Order-Statistic</guid>
-    <description>Motivation. When you have iid random variables X1​,…,Xn​ with a known pdf, you sometimes want the pdf of the minimum, maximum or k-th smallest/biggest of the realizations.</description>
-    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
+    <title>(Article) Equality of What?</title>
+    <link>https://pyoky.me/notes/(Article)-Equality-of-What-q</link>
+    <guid>https://pyoky.me/notes/(Article)-Equality-of-What-q</guid>
+    <description>(DevonThink) Sen,Equality Equity is about asking “what should be equal?” Libertarians: Equality of Rights Utilitarians: Equal Weighting of Utility Progressive Taxation: Equality of Need Satisfaction etc.</description>
+    <pubDate>Thu, 22 Jan 2026 19:46:04 GMT</pubDate>
   </item><item>
-    <title>Ordinal Allocation</title>
-    <link>https://pyoky.me/notes/Ordinal-Allocation</link>
-    <guid>https://pyoky.me/notes/Ordinal-Allocation</guid>
-    <description>Motivation. We move on from cardinal allocations where the Utility Function is numerically defined, into a situation where there is only an ordinal ranking by the agents.</description>
-    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
+    <title>(Article) Magic Ink - Information Software and the Graphical Interface</title>
+    <link>https://pyoky.me/notes/(Article)-Magic-Ink---Information-Software-and-the-Graphical-Interface</link>
+    <guid>https://pyoky.me/notes/(Article)-Magic-Ink---Information-Software-and-the-Graphical-Interface</guid>
+    <description>Notes on Magic Ink: Information Software and the Graphical Interface What You See is All You Get (WYSIAYG) UI design is: How information is presented: Graphic Design Personal accounting, Health app visualization How to manipulate and create: Industrial design Photoshop, Illustrator Users mostly want to learn something, not create something.</description>
+    <pubDate>Thu, 22 Jan 2026 19:46:04 GMT</pubDate>
   </item><item>
-    <title>Ordinary Least Squares Regression</title>
-    <link>https://pyoky.me/notes/Ordinary-Least-Squares-Regression</link>
-    <guid>https://pyoky.me/notes/Ordinary-Least-Squares-Regression</guid>
-    <description>Motivation. Let’s say that there is a relationship between GDP per capita and life expectancy. Maybe god has declared a perfect formula describing this relationship: GDP Per Capita=200⋅Life Expectancy+1000+Noise While we humans may never truly know the parameters of the formula, 200 and 1000, we can still make a good guess about it.</description>
-    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
+    <title>(Blueprint) Nomura Traning</title>
+    <link>https://pyoky.me/notes/(Blueprint)-Nomura-Traning</link>
+    <guid>https://pyoky.me/notes/(Blueprint)-Nomura-Traning</guid>
+    <description>Success Criteria § Learn to be a productive software engineer Learn enough quant &amp; finance to understand fully the risk infra of Nomura Info § Finance § Financial Instruments Financial Institutions Credit Rating Role of Investment Banks Lifecycle of a Trade Credits Desk (Including Currency Carry Trade) Prime Client: institutional clients (hedge funds)ns Certificate of deposit Prime client Total return swap credit default swap insurance Money market funds quantitative easing Quantitative Risk Management § Probability Conditional Expectation for Stochastic Calculus Moment (Probability) Stochastic Process Quadratic Variation Stochastic Calculus Portfolio Theory (Risk) Basel Quantitative Risk Measurment Fair Value Accounting Risk-Neutral Assumption Market Risk Probabilistic/Statistical Models But what is a residual? Markov Chain Time Series Auto-Regressive &amp; Moving Average Statistical Inference Using ARMA Auto-Regressive &amp; Conditionally Heteroskedatic Data Engineering § Data Architecture Cloud Architecture Machine Learning § Technologies: Dask, Scikit Learn Cross Validation Hyperparameter Search Strategies Model Evaliation QQ Plot Permutation Feature Importance PDP &amp; ICE Plots Partial Dependence (PDPs) and Individual Conditional Expectation (ICE) Plots | Intuition and Math - YouTube LIME Spline functions Questions: a.</description>
+    <pubDate>Thu, 22 Jan 2026 19:46:04 GMT</pubDate>
   </item><item>
-    <title>Overnight Index Swap</title>
-    <link>https://pyoky.me/notes/Overnight-Index-Swap</link>
-    <guid>https://pyoky.me/notes/Overnight-Index-Swap</guid>
-    <description>def. Overnight Index Swap (Is) is a type of Interest rate swaps that isn’t backed by any bond; two parties just decide to swap the two rates: floating leg: Basis Rate, the overnight rates fixed leg: both parties agree, ¶5% 5% of what? Both agree on a notional amount, which is a hypothetical principal amount.</description>
-    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
+    <title>Godel, Escher, Bach</title>
+    <link>https://pyoky.me/notes/(Book)-Godel-Escher-Bach</link>
+    <guid>https://pyoky.me/notes/(Book)-Godel-Escher-Bach</guid>
+    <description>Winner of the Pulitzer Prize A metaphorical fugue on minds and machines in the spirit of Lewis Carroll Douglas Hofstadter's book is concerned directly with the nature of &quot;maps&quot; or links between formal systems.</description>
+    <pubDate>Thu, 22 Jan 2026 19:46:04 GMT</pubDate>
   </item><item>
-    <title>Parallel Algorithms</title>
-    <link>https://pyoky.me/notes/Parallel-Algorithms</link>
-    <guid>https://pyoky.me/notes/Parallel-Algorithms</guid>
-    <description>Terminology Tp​(n): span; time taken for p-processes with input size n You may choose p=∞ i.e. T∞​(n) to analyze if unlimited parallelism was possible.</description>
-    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
+    <title>The Case for Economic Democracy</title>
+    <link>https://pyoky.me/notes/(Book)-The-Case-for-Economic-Democracy</link>
+    <guid>https://pyoky.me/notes/(Book)-The-Case-for-Economic-Democracy</guid>
+    <description>The idea that the people have a right to shape political decisions through democratic means is widely accepted. The same cannot be said of the decisions that impact on our everyday economic life in the workplace and beyond.</description>
+    <pubDate>Thu, 22 Jan 2026 19:46:04 GMT</pubDate>
   </item><item>
-    <title>Pareto Efficiency</title>
-    <link>https://pyoky.me/notes/Pareto-Efficiency</link>
-    <guid>https://pyoky.me/notes/Pareto-Efficiency</guid>
-    <description>Pareto Efficiency is a state where you cannot make one person better off without making another person worse off. We will define pareto efficiency when there are n divisible items and n agents.</description>
-    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
+    <title>(HowTo) Cost Minimization</title>
+    <link>https://pyoky.me/notes/(HowTo)-Cost-Minimization</link>
+    <guid>https://pyoky.me/notes/(HowTo)-Cost-Minimization</guid>
+    <description>See also Profit Maximization Long Run Cost Minimization § minl,k​ C=wl+rk such that x=f(x) Lagrangian Optimization Optimal when Isoquant is tangent to the isocost Higher isoquant is not always better! it just means you’re producing more Warning Beware when MC is monotonically decreasing.</description>
+    <pubDate>Thu, 22 Jan 2026 19:46:04 GMT</pubDate>
   </item><item>
-    <title>Path Alignment</title>
-    <link>https://pyoky.me/notes/Path-Alignment</link>
-    <guid>https://pyoky.me/notes/Path-Alignment</guid>
-    <description>Homework.</description>
-    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
+    <title>(LLL) Ethereum</title>
+    <link>https://pyoky.me/notes/(LLL)-Ethereum</link>
+    <guid>https://pyoky.me/notes/(LLL)-Ethereum</guid>
+    <description> (Paper) Eigenlayer - The Restaking Collective Layer 2 (Ethereum) Accounts. Two types: Externally Owned Account (EOA): public-private key pair. Your normal account, with address and a balance Contract Account.</description>
+    <pubDate>Thu, 22 Jan 2026 19:46:04 GMT</pubDate>
   </item><item>
-    <title>Percieved value—Real value</title>
-    <link>https://pyoky.me/notes/Percieved-value%E2%80%94Real-value</link>
-    <guid>https://pyoky.me/notes/Percieved-value%E2%80%94Real-value</guid>
-    <description>Perceived value—Real Value § (Use-value vs Exchange-value) Discrepancy decreases in the long run. People will notice that you brought value to their lives, but it may take time.</description>
-    <pubDate>Sun, 21 Dec 2025 23:08:21 GMT</pubDate>
+    <title>(LLL) Nomura Traning</title>
+    <link>https://pyoky.me/notes/(LLL)-Nomura-Traning</link>
+    <guid>https://pyoky.me/notes/(LLL)-Nomura-Traning</guid>
+    <description>Finance § Security (Finance) Fixed Income: Bonds Equity Credit Rating Role of Investment Banks Lifecycle of a Trade Fixed Income Bonds: Govn’t (National/Municipal), Corporate Structured Products Emerging Market Debt Rates Desk Interest Rate Govn’t Bonds Bond futures Interest Rate Derivatives Credits Desk FX Interest Rate Swap (Including Currency Carry Trade) Prime Client: institutional clients (hedge funds)ns Certificate of deposit Forward Rate Agreement Prime client Total return swap credit default swap insurance Money market funds quantitative easing Quantitative Risk Management § Probability Conditional Expectation for Stochastic Calculus Moment (Probability) Stochastic Process Quadratic Variation Stochastic Calculus Portfolio Theory (Risk) Basel Quantitative Risk Measurment Fair Value Accounting Risk-Neutral Assumption Market Risk Probabilistic/Statistical Models But what is a residual? Markov Chain Time Series Auto-Regressive &amp; Moving Average Statistical Inference Using ARMA Auto-Regressive &amp; Conditionally Heteroskedatic Data Engineering § Data Architecture Cloud Architecture Machine Learning § Technologies: Dask, Scikit Learn Cross Validation Hyperparameter Search Strategies Model Evaliation QQ Plot Permutation Feature Importance PDP &amp; ICE Plots Partial Dependence (PDPs) and Individual Conditional Expectation (ICE) Plots | Intuition and Math - YouTube LIME Spline functions Questions: a.</description>
+    <pubDate>Thu, 22 Jan 2026 19:46:04 GMT</pubDate>
   </item>
     </channel>
   </rss>
